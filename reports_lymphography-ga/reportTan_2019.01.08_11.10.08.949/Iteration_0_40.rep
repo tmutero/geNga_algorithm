@@ -1,0 +1,100 @@
+IF (= Lymphatics normal ) THEN (Class = normal); Fitness: 1.0
+IF (AND AND != Extravasates no = Special_forms no != Block_of_affere yes ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_lym bean = Extravasates no OUT Lym_nodes_dimin 0 0.0 = Special_forms no ) THEN (Class = normal); Fitness: 0.0
+IF (NOT = Exclusion_of_no yes ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT = Dislocation_of yes < No_of_nodes_in 4 ) THEN (Class = normal); Fitness: 0.0
+IF (!= Dislocation_of yes ) THEN (Class = normal); Fitness: 0.0
+IF (NOT != Dislocation_of no ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND AND NOT AND >= No_of_nodes_in 4 OUT Lym_nodes_enlar 3 4.0 != Regeneration_of yes = Exclusion_of_no yes ) THEN (Class = normal); Fitness: 0.0
+IF (AND = Bl_of_lymph_c no != Changes_in_lym round ) THEN (Class = normal); Fitness: 0.0
+IF (= Extravasates yes ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT AND NOT != Regeneration_of no = Regeneration_of yes <= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT <= Lym_nodes_enlar 1 >= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT AND NOT AND != Changes_in_node lac_margin = Special_forms chalices != Changes_in_lym round = By_pass no ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND != Changes_in_stru drop_like != Dislocation_of yes >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (IN No_of_nodes_in 6 8.0 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT != Extravasates yes ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Regeneration_of no != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 1 != Extravasates no = Defect_in_node lacunar = Regeneration_of yes ) THEN (Class = normal); Fitness: 0.0
+IF (NOT = Regeneration_of yes ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 2 = Dislocation_of yes < Lym_nodes_enlar 2 = Changes_in_stru drop_like ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND = Bl_of_lymph_c no = Regeneration_of no = Regeneration_of yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT OUT No_of_nodes_in 8 6.0 != Dislocation_of yes < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_dimin 2 != Dislocation_of yes < Lym_nodes_enlar 2 = Regeneration_of no ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT AND AND != Special_forms chalices < Lym_nodes_enlar 1 != Lymphatics displaced != Lymphatics normal ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Exclusion_of_no yes != Regeneration_of no > Lym_nodes_enlar 2 = Dislocation_of no ) THEN (Class = normal); Fitness: 0.0
+IF (<= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Bl_of_lymph_c yes != Dislocation_of yes <= Lym_nodes_enlar 1 ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT AND AND != Special_forms chalices < Lym_nodes_dimin 2 != Lymphatics displaced != Lymphatics normal ) THEN (Class = normal); Fitness: 0.0
+IF (IN No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND < Lym_nodes_enlar 4 > Lym_nodes_enlar 2 != Special_forms chalices ) THEN (Class = normal); Fitness: 0.0
+IF (= Special_forms chalices ) THEN (Class = normal); Fitness: 0.0
+IF (IN No_of_nodes_in 8 6.0 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 4 = Changes_in_stru drop_like > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (= Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (!= Special_forms chalices ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Lymphatics displaced != Regeneration_of no <= Lym_nodes_dimin 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (= Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Lymphatics displaced != Dislocation_of yes >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND NOT = Changes_in_stru drop_like != Changes_in_stru coarse > Lym_nodes_enlar 2 < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Regeneration_of no != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Lymphatics displaced != Regeneration_of no > Lym_nodes_dimin 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND < Lym_nodes_enlar 4 > Lym_nodes_enlar 2 != Special_forms chalices ) THEN (Class = normal); Fitness: 0.0
+IF (NOT >= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND = Block_of_affere yes >= Lym_nodes_enlar 2 = Defect_in_node lacunar = Regeneration_of no ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT OUT No_of_nodes_in 6 2.0 != Dislocation_of yes < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND < Lym_nodes_enlar 4 > Lym_nodes_enlar 2 != Special_forms chalices ) THEN (Class = normal); Fitness: 0.0
+IF (= Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Lymphatics displaced = Lymphatics displaced <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Special_forms chalices != Dislocation_of yes < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT != Bl_of_lymph_c yes != Dislocation_of yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND = Block_of_affere yes != Regeneration_of yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT != Dislocation_of yes != Regeneration_of no <= Lym_nodes_dimin 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Changes_in_stru drop_like = Lymphatics displaced >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (>= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Changes_in_stru drop_like != Extravasates yes >= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (< No_of_nodes_in 3 ) THEN (Class = normal); Fitness: 0.0
+IF (< Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Bl_of_lymph_c yes != Dislocation_of yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Exclusion_of_no yes != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (= Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT < Lym_nodes_enlar 2 = Extravasates yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT >= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT != Regeneration_of no != Dislocation_of yes < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Special_forms chalices != Regeneration_of no > Lym_nodes_dimin 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Changes_in_stru drop_like != Dislocation_of yes >= Lym_nodes_dimin 3 ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 4 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND > Lym_nodes_dimin 2 != Dislocation_of yes < Lym_nodes_enlar 2 = Regeneration_of no ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Lymphatics displaced != Regeneration_of no < Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT IN No_of_nodes_in 8 6.0 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Regeneration_of no != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Changes_in_stru drop_like != Dislocation_of yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Lymphatics displaced = Lymphatics displaced >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (IN No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Changes_in_stru drop_like = Changes_in_stru stripped <= Lym_nodes_enlar 2 != Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT >= Lym_nodes_enlar 2 != Changes_in_stru stripped <= Lym_nodes_enlar 2 != Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND = Block_of_affere yes = Extravasates no = Defect_in_node lacunar = Regeneration_of no ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT <= Lym_nodes_enlar 2 != Exclusion_of_no no >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT < Lym_nodes_enlar 2 = Extravasates yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (OUT No_of_nodes_in 6 2.0 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT != Special_forms chalices != Dislocation_of yes < Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND NOT AND IN Lym_nodes_dimin 3 3.0 <= Lym_nodes_enlar 2 != Lymphatics normal ) THEN (Class = normal); Fitness: 0.0
+IF (>= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND < Lym_nodes_enlar 1 != Extravasates yes <= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT = Changes_in_stru drop_like ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND = Changes_in_stru drop_like = Regeneration_of no != Changes_in_node no ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Changes_in_stru drop_like != Extravasates yes >= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND NOT = Bl_of_lymph_c yes != Dislocation_of yes <= Lym_nodes_enlar 1 ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Exclusion_of_no yes != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (<= Lym_nodes_dimin 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 4 = Changes_in_stru drop_like != Dislocation_of yes = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Regeneration_of no != Regeneration_of no > Lym_nodes_dimin 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT = Lymphatics displaced != Regeneration_of no > Lym_nodes_enlar 2 = Lymphatics displaced ) THEN (Class = normal); Fitness: 0.0
+IF (>= Lym_nodes_enlar 2 ) THEN (Class = normal); Fitness: 0.0
+IF (AND AND = Special_forms chalices = Regeneration_of no != Changes_in_node no ) THEN (Class = normal); Fitness: 0.0

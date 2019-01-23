@@ -1,0 +1,100 @@
+IF (AND NOT < Gammagt 21.879982 < Alkphos 100.896465 ) THEN (Selector = 2); Fitness: 0.4479329334115859
+IF (AND AND < Gammagt 70.169608 IN Drinks 11.988082 2.93062220864803 >= Mcv 79.129058 ) THEN (Selector = 2); Fitness: 0.15076686068702333
+IF (OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.05986137363749087
+IF (NOT < Gammagt 14.085553 ) THEN (Selector = 2); Fitness: 0.03319411831855788
+IF (NOT OUT Gammagt 139.768848 47.49226247667694 ) THEN (Selector = 2); Fitness: 0.01855363379154963
+IF (AND NOT AND NOT <= Alkphos 50.390950 <= Alkphos 50.390950 IN Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND AND AND OUT Alkphos 132.352665 95.79035170824139 <= Gammagt 81.363769 <= Gammagt 81.363769 >= Mcv 90.407717 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND >= Alkphos 41.588929 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND AND AND OUT Sgot 13.804913 5.174146538690324 <= Gammagt 81.363769 <= Gammagt 81.363769 >= Mcv 90.407717 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT <= Gammagt 26.464981 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND < Drinks 9.702632 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND NOT AND IN Alkphos 121.327108 103.50897962060272 > Drinks 2.415448 >= Sgpt 27.527981 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT IN Drinks 11.988082 2.93062220864803 OUT Mcv 78.933767 84.76084449079632 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND <= Drinks 15.222002 > Alkphos 41.588929 > Gammagt 265.637800 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT < Sgot 75.821581 < Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Alkphos 136.142871 28.707063385774354 < Gammagt 286.778109 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND <= Gammagt 70.169608 OUT Mcv 99.418782 72.7151869244831 IN Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND >= Drinks 10.350374 >= Gammagt 79.356744 < Gammagt 35.799049 < Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Alkphos 41.588929 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Sgpt 139.549721 OUT Mcv 99.418782 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT OUT Gammagt 104.139255 47.49226247667694 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 87.414695 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND <= Alkphos 50.390950 IN Gammagt 33.944745 6.53844751140546 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND AND NOT < Drinks 16.662554 < Alkphos 97.765363 >= Gammagt 210.000827 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND < Gammagt 70.169608 OUT Alkphos 136.142871 28.707063385774354 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT <= Drinks 9.702632 < Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Alkphos 50.390950 <= Alkphos 50.390950 OUT Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND <= Alkphos 50.390950 < Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND OUT Mcv 99.418782 72.7151869244831 > Gammagt 70.169608 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND IN Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Alkphos 50.390950 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Alkphos 50.390950 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 70.169608 OUT Alkphos 136.142871 28.707063385774354 >= Mcv 79.129058 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT IN Mcv 99.171074 72.7151869244831 OUT Alkphos 136.142871 28.707063385774354 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND < Alkphos 50.390950 < Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND IN Drinks 12.933585 18.784049330037785 <= Gammagt 70.169608 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT <= Gammagt 70.169608 < Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Gammagt 70.169608 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND < Gammagt 31.052958 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Drinks 15.222002 OUT Mcv 99.418782 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Sgpt 139.549721 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (< Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 31.052958 OUT Drinks 11.988082 2.93062220864803 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND < Sgpt 139.549721 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND IN Mcv 99.418782 72.7151869244831 < Gammagt 70.169608 <= Alkphos 50.390950 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 70.169608 OUT Mcv 99.171074 72.7151869244831 OUT Mcv 80.043445 93.87562617108642 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND IN Mcv 99.418782 72.7151869244831 > Gammagt 70.169608 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Gammagt 70.169608 <= Alkphos 50.390950 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (OUT Alkphos 136.142871 28.707063385774354 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Alkphos 50.390950 OUT Mcv 99.171074 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (< Alkphos 41.588929 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Gammagt 70.169608 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (< Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 70.169608 OUT Mcv 99.171074 72.7151869244831 OUT Mcv 80.043445 93.87562617108642 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Gammagt 70.169608 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT IN Alkphos 136.142871 28.707063385774354 OUT Alkphos 136.142871 28.707063385774354 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND < Sgot 10.001780 > Alkphos 41.588929 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Gammagt 70.169608 <= Alkphos 50.390950 OUT Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND < Sgot 10.001780 > Alkphos 41.588929 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Drinks 15.222002 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND IN Mcv 99.171074 72.7151869244831 > Gammagt 70.169608 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT <= Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT < Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Alkphos 50.390950 OUT Mcv 99.171074 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT <= Gammagt 70.169608 < Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT < Alkphos 89.321880 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND IN Mcv 99.418782 72.7151869244831 < Gammagt 70.169608 <= Alkphos 50.390950 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Drinks 15.222002 OUT Mcv 99.418782 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND < Sgot 10.001780 > Alkphos 41.588929 > Alkphos 41.588929 <= Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND <= Sgpt 139.549721 < Gammagt 70.169608 ) THEN (Selector = 2); Fitness: 0.0
+IF (OUT Mcv 99.171074 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND NOT > Drinks 15.222002 > Gammagt 184.725637 ) THEN (Selector = 2); Fitness: 0.0
+IF (OUT Mcv 99.171074 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 70.169608 OUT Mcv 99.171074 72.7151869244831 OUT Mcv 80.043445 93.87562617108642 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT >= Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT < Alkphos 50.390950 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND NOT > Sgot 79.193421 > Gammagt 184.725637 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Alkphos 50.390950 OUT Mcv 99.171074 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT > Alkphos 50.390950 <= Alkphos 50.390950 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (< Alkphos 41.588929 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Alkphos 50.390950 > Gammagt 31.052958 <= Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND AND < Gammagt 70.169608 OUT Mcv 99.418782 72.7151869244831 OUT Drinks 11.988082 2.93062220864803 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT <= Drinks 15.222002 <= Alkphos 50.390950 IN Alkphos 132.352665 95.79035170824139 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT AND <= Gammagt 70.169608 > Alkphos 41.588929 > Gammagt 265.637800 < Drinks 15.222002 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 IN Alkphos 136.142871 28.707063385774354 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT > Alkphos 50.390950 <= Alkphos 50.390950 IN Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (NOT AND NOT > Sgot 79.193421 > Gammagt 184.725637 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT <= Gammagt 70.169608 >= Sgpt 139.549721 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND OUT Mcv 99.418782 72.7151869244831 < Gammagt 64.188198 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT AND NOT < Alkphos 50.390950 <= Alkphos 50.390950 OUT Mcv 99.418782 72.7151869244831 ) THEN (Selector = 2); Fitness: 0.0
+IF (AND NOT <= Gammagt 70.169608 OUT Alkphos 136.142871 28.707063385774354 ) THEN (Selector = 2); Fitness: 0.0

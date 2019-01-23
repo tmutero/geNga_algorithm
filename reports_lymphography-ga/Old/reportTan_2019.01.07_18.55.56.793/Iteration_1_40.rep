@@ -1,0 +1,100 @@
+IF (AND AND AND = Block_of_affere yes > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.6625215259082377
+IF (AND AND AND AND = Changes_in_node lac_margin != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.017812093469753043
+IF (AND AND AND AND OUT Lym_nodes_enlar 1 1.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 3 != Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.00804168811095244
+IF (AND AND AND AND = Extravasates no > Lym_nodes_enlar 1 <= No_of_nodes_in 5 = Extravasates no OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (NOT AND AND < No_of_nodes_in 4 <= Lym_nodes_dimin 2 != Early_uptake_in no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Early_uptake_in no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (< Lym_nodes_enlar 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Bl_of_lymph_c no > Lym_nodes_enlar 1 <= No_of_nodes_in 5 = Bl_of_lymph_s no OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (< No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (NOT > No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Dislocation_of no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND < Lym_nodes_dimin 3 > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 OUT No_of_nodes_in 1 3.0 OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (<= No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Extravasates no = Dislocation_of no <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Lymphatics displaced = Bl_of_lymph_s no = Early_uptake_in no < Lym_nodes_enlar 1 = Changes_in_node lac_margin ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of no = Dislocation_of no OUT No_of_nodes_in 2 6.0 < Lym_nodes_dimin 1 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (NOT AND NOT AND <= Lym_nodes_dimin 3 = Extravasates no > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Bl_of_lymph_s no != Dislocation_of no OUT No_of_nodes_in 6 6.0 < No_of_nodes_in 5 > Lym_nodes_enlar 4 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Regeneration_of yes > Lym_nodes_enlar 1 = Changes_in_node lac_margin < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Exclusion_of_no no <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Lymphatics normal != Dislocation_of no OUT Lym_nodes_enlar 2 2.0 < Lym_nodes_dimin 3 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Bl_of_lymph_s no = Extravasates no < Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of yes != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 3 = Block_of_affere no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of yes > Lym_nodes_enlar 1 <= No_of_nodes_in 5 = Extravasates no OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Changes_in_stru coarse <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Early_uptake_in no > Lym_nodes_enlar 3 <= No_of_nodes_in 6 OUT No_of_nodes_in 1 3.0 OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse > Lym_nodes_enlar 1 = By_pass yes < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Regeneration_of yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT Lym_nodes_dimin 2 2.0 != Dislocation_of no OUT No_of_nodes_in 6 5.0 < Lym_nodes_dimin 3 != Dislocation_of no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND >= Lym_nodes_enlar 1 > Lym_nodes_enlar 1 IN No_of_nodes_in 6 6.0 >= No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 > Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 = Changes_in_node lac_margin OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Block_of_affere yes != Changes_in_lym oval OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 = Exclusion_of_no yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Changes_in_stru coarse <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Extravasates no = Dislocation_of yes < Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 < Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 = Dislocation_of yes OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Exclusion_of_no yes > Lym_nodes_dimin 3 <= Lym_nodes_enlar 1 > Lym_nodes_dimin 3 OUT No_of_nodes_in 6 6.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Early_uptake_in no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Bl_of_lymph_s no = Changes_in_lym oval OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 = Changes_in_node lac_margin ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 1 != Dislocation_of no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Extravasates no != Dislocation_of no OUT Lym_nodes_dimin 2 2.0 < Lym_nodes_dimin 3 = Block_of_affere no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT Lym_nodes_dimin 2 2.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 1 != Dislocation_of no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Regeneration_of yes > Lym_nodes_enlar 1 = Changes_in_node lac_margin < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (<= No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (<= No_of_nodes_in 2 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Regeneration_of yes > Lym_nodes_enlar 1 = By_pass yes < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Dislocation_of yes >= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Changes_in_stru coarse = Dislocation_of yes < Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Changes_in_stru coarse = Dislocation_of yes <= Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Changes_in_stru coarse <= No_of_nodes_in 5 OUT No_of_nodes_in 4 5.0 = Changes_in_stru coarse OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= No_of_nodes_in 2 != Changes_in_node lac_margin = Dislocation_of yes < Lym_nodes_dimin 3 = Changes_in_node lac_margin ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no >= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Extravasates no != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 3 = Block_of_affere no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Lymphatics normal != Changes_in_stru coarse OUT No_of_nodes_in 6 5.0 < Lym_nodes_dimin 3 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of no != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Bl_of_lymph_s no = Changes_in_lym oval OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Changes_in_stru coarse = Dislocation_of yes <= Lym_nodes_dimin 3 = By_pass yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT Lym_nodes_enlar 1 1.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Regeneration_of yes <= Lym_nodes_enlar 1 = Changes_in_node lac_margin < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Early_uptake_in no > Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT Lym_nodes_dimin 2 2.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 1 != Dislocation_of no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Extravasates no != Dislocation_of no OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 = Changes_in_node lac_margin ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT Lym_nodes_dimin 2 2.0 != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 1 != Changes_in_lym oval ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Extravasates no != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 1 != Regeneration_of yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Regeneration_of yes > Lym_nodes_enlar 1 = By_pass yes < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Extravasates no != Changes_in_lym oval OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 = Changes_in_node lac_margin ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 > Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 = Changes_in_stru coarse OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= No_of_nodes_in 2 = Bl_of_lymph_s no = Dislocation_of yes < Lym_nodes_dimin 3 = Exclusion_of_no yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Exclusion_of_no yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 = Extravasates no OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse <= Lym_nodes_enlar 1 IN No_of_nodes_in 2 6.0 > Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND OUT No_of_nodes_in 6 6.0 <= Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 = Exclusion_of_no yes OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Changes_in_stru coarse = Dislocation_of yes <= Lym_nodes_dimin 3 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no > Lym_nodes_enlar 1 > Lym_nodes_enlar 1 = Changes_in_stru coarse ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Early_uptake_in no >= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Extravasates no != Dislocation_of no OUT No_of_nodes_in 6 6.0 < Lym_nodes_dimin 3 = Block_of_affere no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Extravasates no <= Lym_nodes_enlar 4 OUT Lym_nodes_enlar 1 1.0 > Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of yes > Lym_nodes_enlar 1 != Changes_in_lym oval = Changes_in_stru coarse OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of yes > Lym_nodes_dimin 3 <= Lym_nodes_enlar 1 > Lym_nodes_dimin 3 OUT No_of_nodes_in 6 6.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse > Lym_nodes_enlar 1 OUT No_of_nodes_in 2 6.0 > Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND != Bl_of_lymph_s no = Changes_in_lym oval OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 = By_pass yes ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND = Changes_in_stru coarse <= Lym_nodes_dimin 3 OUT Lym_nodes_enlar 1 1.0 < Lym_nodes_dimin 3 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Exclusion_of_no yes != Changes_in_stru coarse > Lym_nodes_enlar 1 <= Lym_nodes_enlar 1 OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND >= Lym_nodes_enlar 3 = Changes_in_stru coarse = Dislocation_of yes < Lym_nodes_dimin 3 != Changes_in_lym oval ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse <= Lym_nodes_enlar 3 <= Lym_nodes_enlar 1 OUT No_of_nodes_in 1 3.0 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Dislocation_of yes > Lym_nodes_enlar 1 <= No_of_nodes_in 5 = Dislocation_of yes OUT No_of_nodes_in 6 8.0 ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse != Changes_in_stru coarse OUT Lym_nodes_dimin 1 1.0 < Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND < Lym_nodes_dimin 3 != Exclusion_of_no no OUT No_of_nodes_in 5 6.0 < Lym_nodes_enlar 1 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Lymphatics normal != Dislocation_of no OUT No_of_nodes_in 6 5.0 < Lym_nodes_dimin 3 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Bl_of_lymph_c no != Dislocation_of no OUT No_of_nodes_in 6 6.0 <= Lym_nodes_dimin 3 = Extravasates no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND < Lym_nodes_dimin 3 != Exclusion_of_no no OUT No_of_nodes_in 5 6.0 < Lym_nodes_enlar 1 = Bl_of_lymph_s no ) THEN (Class = metastases); Fitness: 0.0
+IF (AND AND AND AND = Changes_in_stru coarse > Lym_nodes_enlar 3 <= No_of_nodes_in 6 OUT No_of_nodes_in 1 3.0 OUT Lym_nodes_dimin 2 2.0 ) THEN (Class = metastases); Fitness: 0.0

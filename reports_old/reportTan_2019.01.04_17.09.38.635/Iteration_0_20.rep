@@ -1,0 +1,100 @@
+IF (AND NOT AND AND IN SepalLength 5.521539 7.43345312057507 < PetalWidth 1.579072 > PetalWidth 1.275671 < PetalWidth 0.769985 ) THEN (Class = Iris-setosa); Fitness: 1.0
+IF (AND NOT AND >= PetalLength 2.356372 OUT SepalLength 5.453816 7.253821227743845 < PetalWidth 0.919488 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND < PetalWidth 0.680577 <= PetalLength 6.801927 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT > PetalLength 6.014768 < PetalLength 2.189560 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT IN SepalLength 5.295310 4.478350075166353 > PetalLength 2.950279 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND <= PetalWidth 0.262612 <= PetalWidth 1.605891 <= PetalLength 6.608785 OUT PetalLength 2.086979 1.4525498408772857 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND OUT PetalLength 5.473575 4.8693594691735385 OUT PetalWidth 1.620588 0.6088922099149064 OUT PetalLength 5.720072 3.789340819682789 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND > SepalWidth 2.630260 < PetalWidth 1.229935 IN SepalLength 5.432984 4.416899409351144 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND OUT PetalLength 6.743008 1.822714100664339 OUT PetalWidth 1.685942 0.5316791238576887 >= PetalLength 4.683583 > PetalLength 4.055661 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND >= PetalLength 3.660533 <= SepalWidth 4.281622 >= SepalWidth 2.680744 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (IN PetalLength 3.888368 5.562485136163731 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 <= PetalWidth 0.412737 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT AND AND NOT >= PetalLength 4.777168 IN SepalLength 5.668457 5.828614810795515 IN SepalLength 7.702855 4.828430107669184 <= PetalWidth 1.423819 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND OUT SepalWidth 3.647212 4.372792501973919 <= PetalLength 1.170313 IN PetalLength 3.105475 4.5487614455719765 < SepalLength 7.629621 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (< SepalLength 4.398053 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT < PetalWidth 0.914337 < PetalLength 2.019813 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT OUT SepalWidth 3.708969 3.1616359904379188 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT <= SepalLength 6.963960 < PetalLength 4.793479 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND > PetalWidth 1.283139 OUT SepalWidth 3.215692 3.401474214173899 <= PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 6.469225 4.606955932418323 <= SepalWidth 4.231353 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND OUT SepalLength 5.295163 6.620380696383394 >= PetalLength 1.170313 IN PetalLength 3.105475 4.5487614455719765 < SepalLength 7.629621 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (>= PetalLength 1.959335 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND OUT SepalLength 5.295163 6.620380696383394 > PetalLength 1.170313 IN PetalLength 3.105475 4.5487614455719765 < SepalLength 7.629621 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (>= SepalWidth 4.085776 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT OUT SepalLength 6.484762 5.955383794053512 <= PetalLength 1.015921 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT SepalWidth 3.708969 3.401474214173899 < PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN SepalWidth 3.708969 3.401474214173899 <= SepalWidth 4.231353 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND >= PetalWidth 1.516067 OUT PetalLength 3.888368 5.562485136163731 IN PetalLength 3.393410 5.562485136163731 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (<= SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT IN PetalLength 3.888368 5.562485136163731 < PetalLength 1.015921 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN SepalWidth 3.305896 3.7406781425171656 <= PetalLength 2.099284 IN PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT SepalWidth 3.305896 3.7406781425171656 <= SepalWidth 4.231353 IN PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 3.888368 5.562485136163731 <= SepalWidth 4.231353 <= SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND AND > SepalWidth 3.064645 IN PetalWidth 0.303396 2.0617402879642297 IN SepalLength 6.484762 5.955383794053512 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (< SepalWidth 4.085776 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT SepalWidth 3.708969 3.401474214173899 < PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < SepalLength 5.772706 OUT SepalWidth 3.305896 3.7406781425171656 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 2.631882 2.7491556535395043 <= SepalLength 5.980307 OUT PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 >= PetalWidth 0.412737 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (IN PetalLength 3.888368 5.562485136163731 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT IN PetalWidth 0.303396 2.0617402879642297 OUT SepalWidth 3.708969 2.98637493780591 <= PetalLength 2.099284 IN SepalWidth 3.708969 3.401474214173899 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT PetalLength 2.270429 4.8236822542317785 <= PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (<= SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND AND > SepalWidth 3.064645 OUT PetalWidth 0.303396 2.0617402879642297 IN SepalLength 6.484762 5.955383794053512 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT PetalLength 3.195704 3.3553307584784533 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT IN PetalLength 3.888368 5.562485136163731 <= SepalWidth 4.231353 <= SepalWidth 2.053765 > SepalWidth 3.655158 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 < PetalWidth 0.412737 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT <= SepalLength 5.772706 OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (IN SepalWidth 3.708969 3.401474214173899 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 <= SepalWidth 4.231353 <= SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT SepalWidth 3.708969 3.401474214173899 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 >= PetalWidth 0.412737 <= SepalWidth 3.064645 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND AND <= SepalWidth 2.053765 IN PetalWidth 0.303396 2.0617402879642297 IN SepalLength 6.484762 5.955383794053512 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < PetalLength 1.015921 OUT SepalWidth 3.305896 3.7406781425171656 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND NOT AND <= PetalWidth 1.283139 < SepalLength 5.249085 < SepalWidth 4.231353 >= PetalWidth 2.443677 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND <= PetalLength 5.413412 >= SepalLength 5.772706 IN PetalLength 5.185127 6.783203387542919 > SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < PetalWidth 1.516067 OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (IN PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT SepalWidth 3.305896 3.7406781425171656 <= PetalWidth 0.412737 OUT PetalLength 3.888368 5.562485136163731 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND NOT AND <= SepalWidth 4.231353 < SepalLength 5.249085 < SepalWidth 4.231353 >= PetalWidth 2.443677 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 3.888368 5.562485136163731 <= PetalWidth 1.283139 <= SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < SepalLength 5.772706 OUT PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND <= PetalLength 5.413412 >= PetalWidth 1.516067 IN PetalLength 5.385770 2.7491556535395043 > SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= SepalWidth 4.085776 IN SepalWidth 3.305896 3.7406781425171656 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND NOT AND <= PetalWidth 1.283139 IN SepalWidth 3.708969 3.401474214173899 < SepalWidth 4.231353 >= PetalWidth 2.443677 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 5.385770 2.7491556535395043 <= SepalWidth 4.231353 IN PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 >= PetalWidth 0.412737 < SepalWidth 4.231353 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND <= SepalWidth 2.053765 >= SepalLength 5.980307 <= SepalWidth 4.085776 < SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT > SepalWidth 3.683920 IN PetalWidth 0.303396 2.0617402879642297 IN SepalLength 6.484762 5.955383794053512 OUT PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT SepalWidth 3.708969 3.401474214173899 <= PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT PetalLength 5.385770 2.7491556535395043 <= PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND AND NOT AND <= PetalWidth 1.283139 IN SepalWidth 3.708969 3.401474214173899 < SepalWidth 4.231353 >= PetalWidth 2.443677 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT IN SepalWidth 3.708969 3.401474214173899 OUT SepalWidth 3.708969 2.98637493780591 < PetalLength 2.099284 IN PetalLength 2.270429 4.8236822542317785 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND < SepalWidth 4.231353 >= SepalLength 5.980307 > SepalWidth 4.085776 < SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT > SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND <= PetalLength 5.413412 >= PetalWidth 1.516067 IN PetalWidth 0.303396 2.0617402879642297 > SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT IN PetalLength 5.185127 6.783203387542919 OUT SepalWidth 3.708969 2.98637493780591 <= PetalLength 2.099284 IN PetalLength 2.270429 4.8236822542317785 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (IN PetalLength 3.888368 5.562485136163731 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND <= SepalWidth 4.231353 >= SepalLength 5.980307 <= SepalWidth 4.085776 < SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT > SepalWidth 2.053765 < PetalLength 1.015921 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND OUT PetalLength 3.195704 3.3553307584784533 > SepalWidth 3.655158 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND IN PetalLength 5.185127 6.783203387542919 OUT SepalWidth 3.708969 3.401474214173899 IN SepalLength 6.484762 5.955383794053512 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT AND AND <= PetalLength 5.413412 >= PetalWidth 1.516067 IN PetalLength 3.888368 5.562485136163731 OUT SepalLength 6.484762 5.955383794053512 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (>= SepalLength 6.963960 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (< PetalLength 1.015921 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND IN PetalLength 5.185127 6.783203387542919 OUT SepalWidth 3.708969 3.401474214173899 IN SepalLength 6.484762 5.955383794053512 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND < SepalWidth 4.231353 >= SepalLength 5.980307 <= SepalWidth 4.085776 <= SepalWidth 4.085776 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < SepalLength 5.772706 OUT SepalWidth 3.305896 3.7406781425171656 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (NOT AND NOT > SepalLength 6.963960 < PetalLength 1.015921 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND NOT < SepalLength 6.651731 OUT PetalWidth 0.303396 2.0617402879642297 IN PetalLength 3.195704 3.3553307584784533 IN PetalLength 5.185127 6.783203387542919 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND NOT < SepalLength 5.772706 OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (OUT PetalLength 5.385770 2.7491556535395043 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND >= PetalWidth 1.283139 OUT SepalWidth 3.708969 3.401474214173899 <= PetalLength 2.099284 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND AND < SepalWidth 4.231353 >= SepalLength 5.980307 <= SepalWidth 4.085776 <= SepalWidth 4.085776 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 3.888368 5.562485136163731 <= SepalWidth 4.231353 <= SepalLength 5.980307 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT OUT PetalLength 3.888368 5.562485136163731 <= PetalWidth 0.412737 <= SepalWidth 2.053765 ) THEN (Class = Iris-setosa); Fitness: 0.0
+IF (AND AND NOT IN SepalWidth 3.305896 3.7406781425171656 <= PetalLength 2.099284 IN PetalLength 5.896301 4.492506632546854 ) THEN (Class = Iris-setosa); Fitness: 0.0

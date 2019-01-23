@@ -1,0 +1,100 @@
+IF (AND NOT < PetalLength 4.512682 >= SepalLength 5.450012 ) THEN (Class = Iris-virginica); Fitness: 0.8856818159370654
+IF (NOT AND NOT IN SepalLength 6.991575 6.805455068056984 < PetalLength 5.008438 ) THEN (Class = Iris-virginica); Fitness: 0.86996337142408
+IF (> PetalWidth 1.369819 ) THEN (Class = Iris-virginica); Fitness: 0.8333333312637277
+IF (NOT <= SepalLength 5.720507 ) THEN (Class = Iris-virginica); Fitness: 0.7377598908103511
+IF (AND NOT < PetalWidth 1.844165 OUT SepalLength 6.254669 5.312640967626418 ) THEN (Class = Iris-virginica); Fitness: 0.6615776119553632
+IF (NOT <= PetalWidth 1.069667 ) THEN (Class = Iris-virginica); Fitness: 0.6310679576957425
+IF (NOT AND AND IN SepalLength 6.841860 4.309728687521743 < PetalLength 3.662189 < PetalLength 5.878700 ) THEN (Class = Iris-virginica); Fitness: 0.6097560940151907
+IF (AND NOT AND AND <= PetalWidth 1.331840 IN SepalWidth 3.971781 2.0349604105792602 <= SepalLength 5.614445 IN PetalLength 3.439335 6.042474651220141 ) THEN (Class = Iris-virginica); Fitness: 0.5936096178756677
+IF (NOT AND NOT >= PetalLength 5.227729 IN SepalWidth 2.411950 3.6200797153765674 ) THEN (Class = Iris-virginica); Fitness: 0.573069234236136
+IF (NOT < PetalWidth 0.670516 ) THEN (Class = Iris-virginica); Fitness: 0.5555555518762565
+IF (>= PetalWidth 0.793103 ) THEN (Class = Iris-virginica); Fitness: 0.5555555518762565
+IF (> PetalLength 2.812275 ) THEN (Class = Iris-virginica); Fitness: 0.5555555518762565
+IF (AND NOT AND OUT SepalLength 7.878944 6.735096396940209 > SepalWidth 3.686635 IN PetalLength 5.898535 3.968706272945951 ) THEN (Class = Iris-virginica); Fitness: 0.5365105900986151
+IF (OUT SepalLength 6.460585 4.6795077822234585 ) THEN (Class = Iris-virginica); Fitness: 0.5220279077649553
+IF (IN PetalLength 6.177323 2.2270175323917876 ) THEN (Class = Iris-virginica); Fitness: 0.5108556805861985
+IF (> SepalLength 5.324779 ) THEN (Class = Iris-virginica); Fitness: 0.5032162288188705
+IF (AND NOT <= PetalLength 2.939912 <= SepalLength 7.337149 ) THEN (Class = Iris-virginica); Fitness: 0.5015432073853512
+IF (NOT <= PetalWidth 0.308824 ) THEN (Class = Iris-virginica); Fitness: 0.46599495850856526
+IF (> PetalLength 5.679573 ) THEN (Class = Iris-virginica); Fitness: 0.4644808785529295
+IF (NOT < SepalLength 5.138037 ) THEN (Class = Iris-virginica); Fitness: 0.44742728954755323
+IF (NOT AND AND OUT PetalLength 6.002638 6.864015696540842 OUT SepalLength 4.784250 4.5367907458264405 OUT SepalWidth 3.311321 2.4969454852340607 ) THEN (Class = Iris-virginica); Fitness: 0.4402129368713158
+IF (AND > PetalWidth 0.615801 > PetalWidth 2.127558 ) THEN (Class = Iris-virginica); Fitness: 0.41666667080587816
+IF (AND NOT > PetalWidth 2.174308 > PetalWidth 0.938446 ) THEN (Class = Iris-virginica); Fitness: 0.41152263283638707
+IF (NOT < PetalWidth 0.219247 ) THEN (Class = Iris-virginica); Fitness: 0.3846153810884826
+IF (AND NOT <= PetalWidth 0.434466 OUT SepalLength 6.864109 4.609286931391528 ) THEN (Class = Iris-virginica); Fitness: 0.36067393437982775
+IF (AND NOT AND NOT IN PetalLength 3.007274 5.99924383811622 < PetalLength 4.755571 OUT SepalWidth 4.137823 2.870572304985004 ) THEN (Class = Iris-virginica); Fitness: 0.3414425970689199
+IF (NOT AND OUT SepalLength 6.820163 7.361299899027781 OUT SepalLength 5.651895 6.129919018554565 ) THEN (Class = Iris-virginica); Fitness: 0.33914728925060994
+IF (NOT IN PetalWidth 2.065011 0.47430418930437523 ) THEN (Class = Iris-virginica); Fitness: 0.3147235909347595
+IF (AND NOT AND OUT SepalLength 4.799473 7.820200315884733 < PetalWidth 1.375094 > SepalWidth 3.006304 ) THEN (Class = Iris-virginica); Fitness: 0.27347127651968817
+IF (NOT < SepalLength 4.911465 ) THEN (Class = Iris-virginica); Fitness: 0.234366674721373
+IF (NOT IN PetalLength 5.912676 1.5651659397318491 ) THEN (Class = Iris-virginica); Fitness: 0.1981023891164514
+IF (AND AND >= SepalWidth 2.953964 < PetalWidth 2.272064 OUT SepalWidth 3.932105 3.936771879608057 ) THEN (Class = Iris-virginica); Fitness: 0.17990667353992065
+IF (AND >= SepalLength 7.331640 < PetalWidth 2.212966 ) THEN (Class = Iris-virginica); Fitness: 0.15151515370448654
+IF (AND AND NOT <= PetalWidth 2.390680 >= SepalLength 5.960200 IN SepalWidth 4.228586 2.7256502759057493 ) THEN (Class = Iris-virginica); Fitness: 0.15151515370448654
+IF (NOT AND <= PetalLength 4.080901 IN SepalLength 5.508378 5.38674868476128 ) THEN (Class = Iris-virginica); Fitness: 0.1482479765550804
+IF (NOT OUT SepalWidth 4.243562 2.474405988197901 ) THEN (Class = Iris-virginica); Fitness: 0.1482479765550804
+IF (NOT IN PetalWidth 1.438514 1.7596038711914461 ) THEN (Class = Iris-virginica); Fitness: 0.14118854921457308
+IF (NOT AND OUT PetalWidth 1.632401 1.1314139367879663 < SepalWidth 3.027298 ) THEN (Class = Iris-virginica); Fitness: 0.12802507978581523
+IF (AND OUT SepalLength 7.591642 6.648054661898886 > PetalLength 6.369356 ) THEN (Class = Iris-virginica); Fitness: 0.12232416084975299
+IF (NOT AND NOT IN PetalLength 4.398366 1.1108876397789247 < SepalLength 6.622821 ) THEN (Class = Iris-virginica); Fitness: 0.12024756809123716
+IF (AND NOT <= PetalLength 1.789271 OUT PetalLength 2.870458 6.3884104466057945 ) THEN (Class = Iris-virginica); Fitness: 0.12013980080261057
+IF (AND AND NOT > SepalWidth 3.281577 > PetalWidth 1.167315 OUT SepalWidth 2.586057 4.399800421887472 ) THEN (Class = Iris-virginica); Fitness: 0.11682644567714164
+IF (NOT AND NOT <= SepalLength 5.740909 OUT SepalLength 6.776030 7.667823350395943 ) THEN (Class = Iris-virginica); Fitness: 0.11292475102303477
+IF (AND AND AND IN SepalWidth 2.688247 4.051323479818899 > PetalLength 1.603043 IN SepalLength 5.384879 5.891144492446452 < SepalLength 6.544799 ) THEN (Class = Iris-virginica); Fitness: 0.10661280053656304
+IF (NOT AND IN PetalLength 6.258105 4.023890574647365 OUT SepalWidth 4.301400 2.8657020771279456 ) THEN (Class = Iris-virginica); Fitness: 0.10010009925201885
+IF (NOT AND NOT OUT SepalWidth 3.313717 4.264461289972569 > PetalLength 1.581628 ) THEN (Class = Iris-virginica); Fitness: 0.09995002379697672
+IF (AND AND NOT AND NOT IN PetalWidth 0.763711 0.6104709783006714 OUT SepalLength 7.431605 6.962949244244799 OUT PetalLength 1.571532 4.160153510222388 OUT SepalWidth 2.961197 3.5415018308108186 ) THEN (Class = Iris-virginica); Fitness: 0.09259259402343113
+IF (NOT OUT SepalLength 7.195746 7.2587614159958225 ) THEN (Class = Iris-virginica); Fitness: 0.09259259402343113
+IF (NOT AND AND AND < PetalLength 2.015046 < SepalLength 4.459067 <= PetalLength 4.495648 OUT SepalWidth 2.788643 2.82606035226563 ) THEN (Class = Iris-virginica); Fitness: 0.04132231345928056
+IF (AND NOT AND NOT <= SepalLength 6.128603 >= PetalLength 1.992918 IN PetalLength 5.284991 5.808344973970908 ) THEN (Class = Iris-virginica); Fitness: 0.03144654139919394
+IF (AND AND <= SepalLength 6.862893 >= SepalLength 5.213336 OUT PetalLength 3.686313 5.951221092188934 ) THEN (Class = Iris-virginica); Fitness: 0.028000345035749382
+IF (NOT >= SepalLength 6.805443 ) THEN (Class = Iris-virginica); Fitness: 0.021507977885090047
+IF (NOT AND AND NOT <= SepalWidth 2.135878 > PetalLength 1.401188 >= SepalLength 5.036183 ) THEN (Class = Iris-virginica); Fitness: 0.021492240423251898
+IF (NOT IN PetalWidth 2.427526 1.476151497173072 ) THEN (Class = Iris-virginica); Fitness: 0.019729703116286523
+IF (AND NOT AND >= SepalWidth 3.894575 <= PetalWidth 0.751674 < PetalLength 4.923714 ) THEN (Class = Iris-virginica); Fitness: 0.014449673864228369
+IF (OUT PetalWidth 0.479397 0.9056399948691484 ) THEN (Class = Iris-virginica); Fitness: 0.013850415308936652
+IF (AND IN SepalLength 6.936135 6.932125441574241 <= PetalWidth 1.652114 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT > PetalWidth 1.021055 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND AND > SepalLength 4.763806 IN SepalLength 7.802163 7.349857313426419 <= SepalLength 4.658115 OUT PetalLength 5.854361 5.773380891931693 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND NOT >= PetalWidth 1.821781 >= PetalLength 6.293169 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND >= SepalLength 6.618479 <= PetalWidth 0.441980 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND NOT >= PetalWidth 0.158451 >= SepalWidth 3.256021 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 5.173659 1.5665571332732822 IN SepalLength 5.139332 5.4667632532742925 <= SepalWidth 3.712573 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND NOT AND >= SepalWidth 3.014504 IN PetalLength 2.294178 1.654899910899379 >= PetalLength 6.771530 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND AND NOT > SepalLength 5.287887 IN PetalLength 1.713957 4.165706165599354 >= PetalLength 6.831368 <= SepalWidth 3.140292 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND >= SepalLength 7.540489 > PetalWidth 1.705369 <= PetalLength 5.976997 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND NOT AND NOT AND NOT <= SepalLength 4.758714 OUT PetalWidth 2.081745 1.9886571936999646 > SepalLength 7.023801 > SepalWidth 4.148077 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (IN PetalLength 1.985152 4.491756102853446 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND NOT AND NOT AND NOT >= PetalLength 4.617296 > SepalWidth 3.335832 IN SepalWidth 2.229131 3.844706286478637 IN SepalWidth 2.846912 2.0958275333089036 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND >= PetalLength 5.593262 >= PetalLength 5.834639 > SepalWidth 3.862416 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND > SepalLength 7.857174 <= PetalWidth 0.432083 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND < SepalWidth 3.364239 IN PetalWidth 2.316135 1.8672653299955868 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (<= PetalWidth 0.184154 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (< PetalLength 6.068441 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND OUT PetalLength 1.484216 4.303627528981448 <= PetalLength 3.111706 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND <= PetalLength 4.588893 > SepalLength 7.037423 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND AND NOT IN SepalWidth 2.301421 4.2002402916485675 < PetalWidth 0.761630 > PetalWidth 0.389098 < SepalLength 7.457924 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT IN PetalLength 4.395604 5.9705009531867415 < SepalWidth 2.059105 > SepalLength 4.493762 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND < PetalWidth 1.783538 <= PetalLength 6.580288 IN PetalWidth 1.931035 1.963130056603844 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND NOT AND AND >= PetalWidth 2.401115 > SepalLength 6.716520 <= SepalWidth 3.180594 >= SepalWidth 4.032882 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT AND <= PetalLength 2.415963 >= SepalLength 6.523114 < PetalWidth 1.154980 OUT PetalWidth 1.970806 1.9987449474347319 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND AND < SepalWidth 3.716842 < SepalLength 7.862793 > SepalWidth 3.488959 <= PetalLength 5.149055 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND > SepalLength 6.197620 < PetalLength 2.653032 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT IN PetalWidth 0.153208 1.633651077453405 > PetalLength 4.316917 < PetalWidth 1.610292 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= SepalLength 6.269302 OUT SepalLength 5.780613 7.831382076768856 > PetalWidth 2.178575 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (<= PetalLength 2.775784 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND <= SepalWidth 4.263397 OUT SepalWidth 4.205507 4.130136242081723 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT <= SepalLength 6.971692 IN SepalWidth 2.121380 3.178695932120215 IN PetalWidth 1.248043 1.0464962688279342 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND IN SepalWidth 4.066649 4.002466029864635 OUT SepalLength 7.042972 7.862534716597221 IN SepalWidth 3.419364 3.632989671632334 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND >= PetalLength 4.434201 >= PetalLength 2.658261 OUT SepalLength 5.146335 5.3455963671214874 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT >= PetalWidth 0.537667 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND > SepalLength 7.872527 <= PetalWidth 1.441954 <= PetalLength 5.009166 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND NOT OUT SepalLength 4.866671 5.005291870274885 >= PetalWidth 1.950950 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND NOT AND NOT > PetalLength 1.466175 < SepalLength 5.757647 > SepalWidth 4.217729 < SepalWidth 3.892513 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND AND IN SepalWidth 3.725168 4.275286485803643 < SepalWidth 3.359734 IN SepalLength 4.355008 5.1033655765574295 IN SepalWidth 2.749754 3.1119624191365136 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT AND AND > SepalLength 7.449402 >= PetalLength 2.632314 > PetalLength 3.112794 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND AND OUT PetalLength 1.714018 2.6532350255960333 >= SepalLength 6.929738 <= PetalLength 5.051319 > SepalLength 4.322965 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (NOT > PetalLength 2.856729 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND IN SepalWidth 2.844417 3.4045459113139165 > PetalWidth 2.350462 IN PetalLength 1.739029 3.985103252402606 ) THEN (Class = Iris-virginica); Fitness: 0.0
+IF (AND AND > PetalWidth 1.404321 > PetalLength 5.932777 <= PetalLength 5.929669 ) THEN (Class = Iris-virginica); Fitness: 0.0

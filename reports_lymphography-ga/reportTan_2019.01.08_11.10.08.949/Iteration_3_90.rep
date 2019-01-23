@@ -1,0 +1,100 @@
+IF (NOT IN Lym_nodes_dimin 3 0.0 ) THEN (Class = fibrosis); Fitness: 1.0
+IF (AND OUT Lym_nodes_dimin 0 2.0 < Lym_nodes_enlar 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT IN Lym_nodes_enlar 4 1.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND NOT != Lymphatics arched != Early_uptake_in yes = By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (!= By_pass no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND AND NOT > Lym_nodes_enlar 3 = Block_of_affere no != Early_uptake_in no = Lymphatics deformed ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND != Exclusion_of_no no <= Lym_nodes_dimin 1 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND != Changes_in_lym oval <= Lym_nodes_enlar 3 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Extravasates no != By_pass yes != Early_uptake_in yes != Changes_in_node lac_central ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND NOT = Defect_in_node lacunar <= Lym_nodes_dimin 3 <= Lym_nodes_enlar 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Defect_in_node lac_central <= No_of_nodes_in 7 = Changes_in_stru diluted != Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Changes_in_stru faint < Lym_nodes_enlar 3 != Regeneration_of no != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND != Changes_in_stru faint < Lym_nodes_dimin 2 < Lym_nodes_enlar 2 OUT Lym_nodes_enlar 4 3.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru diluted != By_pass yes = Changes_in_stru faint = Extravasates no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint != By_pass yes != Changes_in_stru grainy != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Bl_of_lymph_c yes < Lym_nodes_dimin 2 != Changes_in_node lac_margin != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint != By_pass yes = Changes_in_stru faint = Extravasates no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Block_of_affere no < Lym_nodes_enlar 3 != Early_uptake_in yes OUT Lym_nodes_dimin 2 0.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru reticular != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND != Changes_in_stru reticular != Exclusion_of_no no = Lymphatics arched != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND = Extravasates no != Extravasates yes = Bl_of_lymph_s yes = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Extravasates no <= No_of_nodes_in 7 = Lymphatics deformed != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint != By_pass yes = Changes_in_stru faint = Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND OUT Lym_nodes_dimin 2 0.0 != Exclusion_of_no no = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru grainy <= Lym_nodes_dimin 2 != Changes_in_node lac_margin != Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Dislocation_of yes < Lym_nodes_enlar 3 != Changes_in_stru faint != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Changes_in_stru faint = Changes_in_stru faint = Changes_in_node lac_margin ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Exclusion_of_no no = By_pass yes != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint != By_pass yes = Changes_in_stru faint = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Defect_in_node lac_central < Lym_nodes_enlar 3 != Changes_in_stru reticular != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND != Changes_in_stru reticular != Exclusion_of_no no = Lymphatics arched != Changes_in_node lac_margin ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND != Changes_in_stru faint != Dislocation_of yes = Dislocation_of yes <= Lym_nodes_dimin 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Defect_in_node lac_central = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND = Changes_in_node lac_margin < Lym_nodes_dimin 2 < Lym_nodes_enlar 2 OUT Lym_nodes_enlar 4 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Defect_in_node lac_central < Lym_nodes_enlar 3 != Defect_in_node lac_central != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Defect_in_node lac_central < Lym_nodes_enlar 3 != Changes_in_node lac_margin != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND = Exclusion_of_no no != Changes_in_stru faint = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT != Exclusion_of_no no = Exclusion_of_no no = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Exclusion_of_no no >= Lym_nodes_dimin 2 != Lymphatics deformed = Lymphatics deformed ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND <= Lym_nodes_dimin 1 >= Lym_nodes_dimin 2 != Lymphatics deformed = Lymphatics normal ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Dislocation_of yes = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Changes_in_stru grainy OUT Lym_nodes_dimin 2 0.0 = Lymphatics deformed != Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Changes_in_stru faint < Lym_nodes_enlar 3 != Changes_in_node lac_margin != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Lymphatics deformed <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_lym round ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND != Changes_in_stru faint < Lym_nodes_dimin 2 < Lym_nodes_enlar 2 OUT Lym_nodes_enlar 4 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND <= Lym_nodes_dimin 2 >= Lym_nodes_dimin 2 != Changes_in_stru reticular = Bl_of_lymph_s yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND AND NOT < Lym_nodes_enlar 3 = Dislocation_of yes IN No_of_nodes_in 8 8.0 = Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_node lac_margin = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Exclusion_of_no no = Changes_in_stru reticular != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND != Changes_in_stru faint < Lym_nodes_dimin 2 < Lym_nodes_enlar 2 OUT Lym_nodes_enlar 4 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru grainy <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT OUT Lym_nodes_dimin 2 0.0 != Exclusion_of_no no IN No_of_nodes_in 8 4.0 != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Dislocation_of yes <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru grainy != Changes_in_stru stripped ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics deformed >= Lym_nodes_dimin 2 != Lymphatics deformed = Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint <= Lym_nodes_dimin 2 != Exclusion_of_no no != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru reticular != By_pass yes = Changes_in_stru faint = Extravasates no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Defect_in_node lac_central = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND != Changes_in_stru reticular != Exclusion_of_no no != Changes_in_stru grainy != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Lymphatics arched <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != By_pass yes != Changes_in_stru reticular = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru grainy != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Lymphatics deformed != By_pass yes != Changes_in_stru grainy != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru diluted != By_pass yes != Changes_in_stru grainy = Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru faint != By_pass yes = Changes_in_stru faint = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND = Changes_in_stru grainy != Changes_in_node lac_margin = Changes_in_stru grainy != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_stru reticular <= No_of_nodes_in 7 != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT OUT Lym_nodes_dimin 2 0.0 != Changes_in_stru reticular IN No_of_nodes_in 8 4.0 < Lym_nodes_enlar 3 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Dislocation_of yes < No_of_nodes_in 7 != Changes_in_node lac_margin != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_node lac_margin != Changes_in_lym oval = Changes_in_stru grainy != Extravasates no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_lym bean = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND = Lymphatics deformed < Lym_nodes_dimin 2 < Lym_nodes_enlar 2 OUT Lym_nodes_enlar 4 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_node lac_margin != By_pass yes != Changes_in_stru grainy != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND >= Lym_nodes_dimin 1 != Changes_in_node lac_margin = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Changes_in_stru faint = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Changes_in_stru faint = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != By_pass yes = Changes_in_stru faint = Changes_in_node lac_margin ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Defect_in_node lac_central <= No_of_nodes_in 7 = Changes_in_stru diluted != Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Dislocation_of yes <= Lym_nodes_dimin 2 != Changes_in_stru faint != Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Lym_nodes_dimin 2 != Changes_in_node lac_margin != Changes_in_stru grainy OUT Lym_nodes_enlar 1 3.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND OUT Lym_nodes_dimin 2 0.0 != Changes_in_node lac_margin = Changes_in_stru grainy != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics deformed >= Lym_nodes_dimin 2 != Lymphatics deformed = Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Defect_in_node lac_central < Lym_nodes_enlar 3 != Changes_in_node lac_margin != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Changes_in_stru faint = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Exclusion_of_no no <= No_of_nodes_in 7 = Lymphatics deformed != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Changes_in_stru faint = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Lym_nodes_dimin 2 != Changes_in_node lac_margin != Changes_in_stru grainy OUT Lym_nodes_enlar 1 3.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Changes_in_stru diluted != By_pass yes != Changes_in_stru grainy = Changes_in_stru reticular ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no = Exclusion_of_no no = Changes_in_stru faint != Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Exclusion_of_no no != Exclusion_of_no no = Changes_in_stru faint != Bl_of_lymph_s yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND NOT = Changes_in_stru faint < Lym_nodes_enlar 3 != Changes_in_node lac_margin != Changes_in_stru faint ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT = Lymphatics deformed <= Lym_nodes_dimin 2 != By_pass yes != Changes_in_lym round ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND >= Lym_nodes_dimin 1 != Changes_in_node lac_margin = Changes_in_stru grainy != Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0

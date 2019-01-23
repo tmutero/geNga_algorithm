@@ -1,0 +1,100 @@
+IF (AND NOT < Age 49 OUT Ldl 1.042479 2.8871868070786966 ) THEN (Chd = 1); Fitness: 0.5451657701637281
+IF (AND AND AND < Age 49 > Age 25 < Sbp 170 <= Age 49 ) THEN (Chd = 1); Fitness: 0.18595172971398624
+IF (> Age 44 ) THEN (Chd = 1); Fitness: 0.06539393930275492
+IF (AND <= Alcohol 99.455902 > Age 49 ) THEN (Chd = 1); Fitness: 0.02481456645232695
+IF (AND NOT AND <= Age 49 IN Age 63 41.0 OUT Sbp 180 168.0 ) THEN (Chd = 1); Fitness: 0.007698515624505375
+IF (AND NOT AND IN Obesity 27.104540 19.21102832954505 > Obesity 17.283858 OUT Sbp 180 168.0 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Age 44 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND NOT AND <= Alcohol 64.338089 > Ldl 9.876405 < Typea 50 < Ldl 7.906423 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Sbp 112 IN Age 63 41.0 <= Alcohol 53.843320 >= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Obesity 41.161054 > Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND <= Alcohol 137.226639 > Age 25 < Age 49 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND NOT IN Alcohol 12.921799 29.505316420302922 > Age 25 < Alcohol 137.226639 <= Alcohol 53.843320 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Alcohol 99.455902 > Age 44 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND < Alcohol 24.207603 < Sbp 170 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Alcohol 110.524823 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND NOT < Sbp 139 OUT Typea 47 34.0 <= Ldl 7.546466 <= Tobacco 2.969952 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND NOT >= Ldl 13.718843 < Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND > Age 49 > Alcohol 99.455902 >= Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Adiposity 18.310738 <= Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT <= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 <= Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Obesity 16.273750 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Tobacco 5.004680 IN Tobacco 15.030738 31.023553528214325 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Typea 71 > Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND >= Ldl 12.618480 > Age 35 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 >= Sbp 112 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND <= Sbp 179 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 137.226639 < Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Obesity 41.703752 <= Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND NOT >= Adiposity 42.478707 OUT Sbp 174 129.0 >= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND > Age 49 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 99.455902 >= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT > Alcohol 110.524823 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 >= Age 49 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Sbp 170 > Age 44 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Obesity 41.161054 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 > Sbp 112 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 99.455902 >= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Alcohol 137.226639 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND > Sbp 170 < Tobacco 17.188407 <= Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 >= Age 49 <= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Sbp 203 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Obesity 41.161054 >= Obesity 20.795665 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Sbp 170 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND < Sbp 112 IN Obesity 22.400611 18.84233182014057 <= Adiposity 13.426342 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND > Adiposity 42.478707 > Alcohol 99.455902 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND NOT >= Age 49 OUT Sbp 174 129.0 >= Obesity 41.703752 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 137.226639 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Alcohol 137.226639 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Tobacco 17.188407 >= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Tobacco 24.441458 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND NOT <= Sbp 112 > Age 25 < Sbp 112 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 >= Adiposity 17.109679 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND > Tobacco 17.188407 > Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND AND >= Typea 26 IN Ldl 8.721243 9.523823190123405 < Sbp 203 >= Tobacco 1.198835 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 > Sbp 112 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND > Sbp 170 > Sbp 170 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 99.455902 < Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND NOT <= Tobacco 24.441458 >= Sbp 153 > Tobacco 5.004680 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 99.455902 > Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Obesity 41.161054 >= Age 49 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Age 25 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND > Alcohol 99.455902 <= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Tobacco 5.004680 < Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 110.524823 > Age 44 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND NOT >= Adiposity 42.478707 OUT Sbp 174 129.0 >= Obesity 41.703752 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Age 25 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND > Alcohol 137.226639 > Alcohol 137.226639 < Age 49 <= Sbp 179 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Sbp 170 >= Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Alcohol 110.524823 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND > Age 44 < Alcohol 137.226639 > Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT <= Alcohol 110.524823 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Sbp 203 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND <= Alcohol 99.455902 > Age 25 < Sbp 170 <= Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (< Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (> Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Alcohol 110.524823 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Alcohol 137.226639 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND NOT >= Adiposity 42.478707 OUT Sbp 174 129.0 >= Obesity 41.703752 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 < Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND > Sbp 170 < Sbp 170 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0
+IF (NOT AND AND AND >= Alcohol 99.455902 IN Ldl 8.721243 9.523823190123405 < Sbp 112 >= Tobacco 1.198835 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (<= Alcohol 99.455902 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND NOT <= Tobacco 24.441458 >= Sbp 153 >= Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND >= Age 49 > Sbp 170 >= Alcohol 64.338089 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND < Alcohol 99.455902 > Age 49 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND < Sbp 112 IN Obesity 22.400611 18.84233182014057 <= Adiposity 13.426342 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 > Sbp 112 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND AND >= Alcohol 137.226639 > Age 25 <= Age 49 <= Alcohol 137.226639 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND AND > Age 44 < Alcohol 137.226639 > Sbp 112 ) THEN (Chd = 1); Fitness: 0.0
+IF (AND <= Alcohol 137.226639 <= Tobacco 17.188407 ) THEN (Chd = 1); Fitness: 0.0

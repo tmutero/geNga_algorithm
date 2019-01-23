@@ -1,0 +1,100 @@
+IF (NOT <= Thal 5 ) THEN (Class = 2); Fitness: 0.641296688347065
+IF (NOT AND AND OUT Sex 1 1.0 IN ChestPainType 4 1.0 < SerumCholestoral 461 ) THEN (Class = 2); Fitness: 0.16094674521094812
+IF (AND AND AND OUT Age 33 52.0 <= ResElectrocardiographic 1 OUT Slope 3 3.0 OUT FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.009078310687427716
+IF (AND AND OUT ChestPainType 4 2.0 > Slope 1 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.008762705949058786
+IF (NOT AND AND < Oldpeak 25.765841 > ResElectrocardiographic 1 > MaxHeartRate 173 ) THEN (Class = 2); Fitness: 0.0030361913618548748
+IF (AND AND NOT <= RestBloodPressure 116 > Slope 1 OUT FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.001703693609841721
+IF (NOT AND AND OUT Slope 3 3.0 IN ChestPainType 4 1.0 > Sex 0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Slope 2 < Oldpeak 21.373075 < Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND OUT ExerciseInduced 1 0.0 >= RestBloodPressure 116 OUT Slope 3 3.0 > RestBloodPressure 116 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Oldpeak 21.373075 > ResElectrocardiographic 1 > Slope 1 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Slope 2 < Slope 2 < Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND <= Oldpeak 31.447132 OUT MajorVessels 1 1.0 > Age 54 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND OUT ExerciseInduced 1 0.0 IN ChestPainType 4 1.0 > Slope 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT ExerciseInduced 1 0.0 IN ChestPainType 4 1.0 < SerumCholestoral 461 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND AND NOT OUT SerumCholestoral 253 445.0 OUT ChestPainType 2 1.0 OUT RestBloodPressure 134 146.0 <= Sex 1 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT > Slope 2 IN MaxHeartRate 125 182.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND NOT AND OUT ChestPainType 1 3.0 OUT MajorVessels 2 1.0 >= Slope 2 > Slope 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Thal 5 <= MajorVessels 0 >= Oldpeak 21.373075 OUT Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND NOT AND > Slope 1 IN Sex 1 1.0 < Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Oldpeak 21.373075 IN ChestPainType 1 1.0 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= RestBloodPressure 160 IN Sex 1 1.0 > ExerciseInduced 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND >= ExerciseInduced 1 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND IN FastingBloodSugar 1 0.0 >= Slope 1 > Thal 5 > Slope 2 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT AND IN Slope 3 3.0 IN MaxHeartRate 125 182.0 < Oldpeak 21.373075 IN MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Slope 2 > ResElectrocardiographic 1 > MaxHeartRate 173 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Slope 1 IN Sex 1 1.0 > Slope 2 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT AND IN Slope 3 3.0 IN MaxHeartRate 125 182.0 <= ExerciseInduced 1 IN MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT > Oldpeak 21.373075 < Slope 1 IN Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND AND > ExerciseInduced 1 >= ExerciseInduced 1 < Slope 2 >= Sex 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND NOT AND > Slope 1 IN Sex 1 1.0 < RestBloodPressure 197 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Thal 5 <= ChestPainType 4 >= Thal 5 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Slope 2 >= Slope 1 IN FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT >= Age 73 <= ChestPainType 4 >= Slope 2 OUT Oldpeak 8.298012 59.456819513891524 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT AND IN Slope 3 3.0 IN Sex 1 1.0 <= Slope 2 IN MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT <= Oldpeak 21.373075 <= ChestPainType 4 >= Slope 2 IN Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Slope 2 <= ChestPainType 4 >= Thal 5 OUT ChestPainType 4 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Slope 2 > ResElectrocardiographic 1 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT <= Slope 1 < Slope 1 OUT Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < RestBloodPressure 128 <= ChestPainType 4 >= Thal 5 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT >= RestBloodPressure 197 <= ChestPainType 4 >= Oldpeak 48.399372 IN ChestPainType 4 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Oldpeak 21.373075 > ResElectrocardiographic 1 > MaxHeartRate 173 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT > Thal 5 <= ChestPainType 4 >= Slope 1 OUT Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Thal 5 IN ExerciseInduced 1 0.0 < Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND OUT ExerciseInduced 1 0.0 >= Thal 7 OUT Slope 3 3.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Slope 2 IN Sex 1 1.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Oldpeak 31.447132 IN MajorVessels 1 1.0 > Slope 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND IN Slope 3 3.0 > Thal 7 > Slope 1 > Oldpeak 21.373075 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Thal 5 IN Sex 1 1.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND >= ExerciseInduced 1 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Thal 5 <= Slope 1 OUT MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT >= Oldpeak 21.373075 IN ChestPainType 4 1.0 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND AND > Oldpeak 21.373075 >= ExerciseInduced 1 < Slope 2 >= Sex 1 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT >= Thal 7 IN ChestPainType 4 1.0 > Slope 1 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Thal 5 <= ChestPainType 4 >= Thal 5 OUT Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT AND IN Slope 3 3.0 IN MaxHeartRate 125 182.0 <= Slope 2 IN MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Thal 5 IN Sex 1 1.0 < Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= RestBloodPressure 116 IN ExerciseInduced 1 0.0 > ExerciseInduced 1 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Thal 7 IN Sex 1 1.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Slope 2 < Slope 1 IN MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Thal 5 IN Oldpeak 8.298012 59.456819513891524 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Slope 2 IN ExerciseInduced 1 0.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Slope 2 IN FastingBloodSugar 1 0.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT < Slope 2 IN Sex 1 1.0 > Slope 2 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Thal 5 IN Sex 1 1.0 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Thal 7 <= ChestPainType 4 >= Thal 5 OUT FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT < Thal 7 < Slope 1 IN FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND >= Oldpeak 31.447132 IN MajorVessels 1 1.0 > Age 54 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Oldpeak 31.447132 IN FastingBloodSugar 1 0.0 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT <= Thal 7 < Slope 1 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Slope 2 IN FastingBloodSugar 0 1.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Age 54 IN Sex 1 1.0 > Slope 2 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND > Slope 2 IN ExerciseInduced 1 0.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT Slope 3 3.0 > Slope 2 OUT FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Thal 5 IN Sex 1 1.0 <= Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND <= ChestPainType 4 OUT MaxHeartRate 197 100.0 >= FastingBloodSugar 1 > Sex 0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT >= RestBloodPressure 128 <= Oldpeak 54.948376 >= Oldpeak 48.399372 IN ChestPainType 4 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < Thal 5 <= ChestPainType 4 >= Thal 5 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < RestBloodPressure 197 <= ChestPainType 4 >= Slope 1 OUT Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Sex 0 >= Thal 7 OUT ChestPainType 4 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT Slope 3 3.0 IN ChestPainType 4 1.0 >= Oldpeak 54.948376 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND <= Slope 1 OUT MaxHeartRate 197 100.0 >= FastingBloodSugar 1 > Sex 0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND >= ExerciseInduced 1 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT <= Slope 2 IN Sex 1 1.0 > Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND < Slope 2 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT Slope 3 3.0 > Thal 7 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND AND NOT < RestBloodPressure 197 <= ChestPainType 4 >= Thal 5 OUT Slope 3 3.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Slope 2 >= Slope 1 IN Oldpeak 8.298012 59.456819513891524 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT >= Thal 5 >= Slope 1 OUT MajorVessels 0 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Age 54 < Sex 0 >= Age 30 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND < Age 54 < Sex 0 >= Age 30 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT <= Thal 7 >= Slope 1 IN FastingBloodSugar 1 0.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT Slope 3 3.0 IN ChestPainType 4 1.0 < Slope 2 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND OUT MajorVessels 1 1.0 IN ChestPainType 4 1.0 < Thal 7 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND NOT > ExerciseInduced 1 < Slope 1 IN Sex 1 1.0 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND < Slope 2 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND >= ExerciseInduced 1 IN Sex 1 1.0 > ChestPainType 4 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND > Slope 1 IN ExerciseInduced 1 0.0 > Thal 5 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND AND OUT Sex 1 1.0 IN ChestPainType 4 1.0 > SerumCholestoral 461 ) THEN (Class = 2); Fitness: 0.0
+IF (NOT AND NOT AND NOT > Slope 2 OUT Sex 1 1.0 OUT SerumCholestoral 351 271.0 ) THEN (Class = 2); Fitness: 0.0
+IF (AND AND < Age 54 IN FastingBloodSugar 0 1.0 > Slope 2 ) THEN (Class = 2); Fitness: 0.0

@@ -1,0 +1,35 @@
+File name: data/contraceptive/contraceptive-10-1tst.dat
+Runtime (s): 50.83
+Number of different attributes: 9
+Number of rules: 10
+Number of conditions: 37
+Average number of conditions per rule: 3.7
+Accuracy: 0.4595
+Geometric mean: 0.1442
+Cohen's Kappa rate: 0.1056
+AUC: 0.5283
+
+#Percentage of correct predictions per class
+ Class 1: 74.07%
+ Class 2: 0.99%
+ Class 3: 40.91%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (NOT AND AND AND NOT IN Standard-of-living 4 3.0 < Children 5 >= Wife_working 0 < Media_exposure 1 ) THEN (Contraceptive_method = 1)
+ 2 Rule: ELSE IF (AND NOT AND NOT < Standard-of-living 3 > Children 1 OUT Wife_age 21 20.0 ) THEN (Contraceptive_method = 1)
+ 3 Rule: ELSE IF (AND AND >= Children 2 < Wife_age 36 < Children 16 ) THEN (Contraceptive_method = 3)
+ 4 Rule: ELSE IF (NOT AND AND < Media_exposure 1 >= Wife_education 3 >= Standard-of-living 2 ) THEN (Contraceptive_method = 3)
+ 5 Rule: ELSE IF (NOT AND AND AND NOT IN Wife_education 3 2.0 > Wife_age 28 >= Wife_working 0 < Media_exposure 1 ) THEN (Contraceptive_method = 1)
+ 6 Rule: ELSE IF (NOT AND <= Wife_education 3 >= Standard-of-living 1 ) THEN (Contraceptive_method = 3)
+ 7 Rule: ELSE IF (NOT AND NOT >= Wife_education 4 > Husband_occupation 1 ) THEN (Contraceptive_method = 2)
+ 8 Rule: ELSE IF (IN Husband_occupation 4 1.0 ) THEN (Contraceptive_method = 1)
+ 9 Rule: ELSE IF (AND NOT AND AND <= Wife_age 24 >= Husband_education 4 OUT Standard-of-living 4 1.0 >= Wife_age 27 ) THEN (Contraceptive_method = 2)
+ 10 Rule: ELSE (Contraceptive_method = 1)
+
+#Test Classification Confusion Matrix
+			Predicted
+			C0	C1	C2	|
+Actual	C0	140	2	47	|	C0 = 1
+		C1	51	1	49	|	C1 = 2
+		C2	90	1	63	|	C2 = 3

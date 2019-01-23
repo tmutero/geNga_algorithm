@@ -1,0 +1,100 @@
+IF (AND AND AND IN Wife_age 18 39.0 >= Husband_education 3 <= Wife_working 1 > Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.3927641181056933
+IF (NOT AND AND AND NOT < Media_exposure 0 < Children 16 > Standard-of-living 2 >= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.08328638920033339
+IF (AND <= Husband_occupation 3 IN Wife_age 39 28.0 ) THEN (Contraceptive_method = 3); Fitness: 0.05822186830016151
+IF (AND <= Husband_occupation 3 IN Wife_age 39 28.0 ) THEN (Contraceptive_method = 3); Fitness: 0.05822186830016151
+IF (IN Wife_age 27 45.0 ) THEN (Contraceptive_method = 3); Fitness: 0.036266486390731566
+IF (IN Children 13 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.01308011495889822
+IF (NOT AND NOT AND > Children 9 IN Husband_occupation 1 3.0 < Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.003970132948624534
+IF (NOT AND AND AND NOT < Media_exposure 0 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0018189863319963803
+IF (NOT OUT Children 13 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND > Husband_occupation 4 >= Husband_occupation 3 OUT Children 13 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Wife_education 3 < Children 16 > Standard-of-living 2 <= Media_exposure 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND > Standard-of-living 1 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND > Standard-of-living 1 >= Husband_occupation 3 OUT Standard-of-living 3 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND <= Media_exposure 1 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (>= Husband_occupation 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_working 1 < Media_exposure 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND AND NOT >= Wife_education 1 >= Media_exposure 1 >= Wife_working 1 IN Media_exposure 1 0.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_religion 1 OUT Media_exposure 1 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND OUT Children 12 16.0 IN Wife_working 0 0.0 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Wife_religion 0 IN Standard-of-living 3 1.0 <= Wife_working 1 < Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_religion 1 IN Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND IN Husband_occupation 1 3.0 < Wife_working 0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (>= Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND <= Husband_occupation 3 IN Wife_age 39 28.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND < Husband_occupation 2 <= Standard-of-living 2 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND > Standard-of-living 4 >= Husband_occupation 3 IN Wife_age 31 17.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT > Wife_education 4 < Children 16 <= Standard-of-living 2 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND < Husband_occupation 4 < Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT OUT Standard-of-living 3 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND >= Wife_working 1 > Wife_religion 0 > Media_exposure 0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Standard-of-living 3 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND OUT Standard-of-living 3 1.0 <= Wife_age 40 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND IN Children 12 16.0 < Children 16 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND <= Wife_education 2 > Husband_education 2 IN Standard-of-living 3 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_religion 1 IN Media_exposure 1 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND AND NOT < Media_exposure 1 >= Media_exposure 1 >= Wife_working 1 IN Media_exposure 1 0.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT >= Wife_education 1 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Husband_occupation 1 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT OUT Husband_occupation 1 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT OUT Wife_religion 0 0.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (> Media_exposure 0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT > Wife_education 4 < Children 16 <= Standard-of-living 4 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Wife_education 3 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Husband_occupation 1 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (< Media_exposure 0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND >= Wife_working 1 > Wife_religion 0 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_religion 1 IN Children 4 8.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT > Standard-of-living 2 OUT Media_exposure 1 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT > Media_exposure 1 IN Wife_religion 0 0.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND IN Media_exposure 1 0.0 <= Standard-of-living 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Wife_education 4 <= Children 16 <= Standard-of-living 4 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND < Wife_education 3 <= Standard-of-living 2 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND > Wife_religion 1 >= Husband_occupation 3 OUT Children 4 13.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Husband_occupation 1 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Wife_working 0 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT OUT Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Husband_occupation 3 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND >= Wife_working 1 > Wife_religion 0 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND <= Husband_occupation 3 IN Wife_age 39 28.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Wife_education 3 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Wife_education 4 <= Children 16 <= Standard-of-living 2 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Wife_religion 0 IN Standard-of-living 3 1.0 <= Wife_working 1 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT <= Media_exposure 1 < Standard-of-living 1 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (<= Children 9 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT >= Husband_occupation 4 < Wife_education 3 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Wife_religion 1 IN Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Wife_education 3 IN Media_exposure 1 1.0 <= Standard-of-living 2 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND >= Standard-of-living 2 IN Media_exposure 1 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Media_exposure 1 < Children 16 > Wife_religion 1 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Media_exposure 1 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT OUT Wife_education 3 3.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Media_exposure 0 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Wife_education 3 < Standard-of-living 2 <= Standard-of-living 2 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT IN Wife_education 3 3.0 < Children 16 > Standard-of-living 2 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND > Standard-of-living 2 >= Husband_occupation 3 IN Children 4 8.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT > Standard-of-living 2 OUT Wife_age 31 17.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Children 16 IN Standard-of-living 2 1.0 <= Wife_religion 0 > Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT > Wife_religion 0 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND IN Children 12 16.0 < Wife_age 31 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND > Standard-of-living 2 >= Husband_occupation 3 IN Wife_age 31 17.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT >= Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND <= Media_exposure 1 <= Standard-of-living 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND IN Wife_education 3 3.0 < Wife_education 3 > Standard-of-living 4 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND NOT AND AND NOT >= Wife_education 1 >= Media_exposure 1 >= Wife_working 1 IN Media_exposure 1 0.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT IN Wife_working 0 1.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND > Standard-of-living 2 >= Husband_occupation 3 IN Wife_age 31 17.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND > Wife_religion 0 IN Standard-of-living 2 1.0 <= Wife_religion 0 > Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND >= Wife_working 1 > Wife_religion 0 > Media_exposure 0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND IN Children 12 16.0 < Children 9 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND <= Husband_occupation 3 IN Wife_age 39 28.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND < Husband_occupation 2 <= Standard-of-living 2 > Husband_occupation 4 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (IN Wife_age 24 45.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND IN Children 12 16.0 < Children 16 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT > Children 16 < Children 16 > Standard-of-living 2 <= Wife_education 3 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (NOT AND AND AND NOT < Standard-of-living 2 < Children 16 > Standard-of-living 2 <= Wife_education 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND IN Standard-of-living 3 1.0 <= Standard-of-living 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND AND IN Children 12 16.0 < Children 16 IN Husband_occupation 4 3.0 IN Children 5 7.0 ) THEN (Contraceptive_method = 3); Fitness: 0.0
+IF (AND AND >= Wife_working 1 > Wife_religion 0 > Wife_working 1 ) THEN (Contraceptive_method = 3); Fitness: 0.0

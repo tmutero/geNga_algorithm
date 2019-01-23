@@ -1,0 +1,2 @@
+Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
+data/breast-cancer/breast-cancer-wisconsin-test.dat,0.88,0.6921498204207286,0.9065702230259193,0.9054120312615824,3,2,0.6666666666666666,8214,0.681

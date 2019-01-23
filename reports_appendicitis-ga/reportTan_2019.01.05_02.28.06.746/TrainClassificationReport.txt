@@ -1,0 +1,27 @@
+File name: data/appendicitis/appendicitis-10-1tra.dat
+Runtime (s): 1.668
+Number of different attributes: 7
+Number of rules: 4
+Number of conditions: 11
+Average number of conditions per rule: 2.75
+Accuracy: 0.8947
+Geometric mean: 0.8527
+Cohen's Kappa rate: 0.6835
+AUC: 0.8553
+
+#Percentage of correct predictions per class
+ Class 0: 92.11%
+ Class 1: 78.95%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (NOT AND NOT AND NOT > At1 0.207144 < At7 0.351070 < At7 0.913681 ) THEN (Class = 1)
+ 2 Rule: ELSE IF (IN At3 0.229555 0.9820397880307677 ) THEN (Class = 0)
+ 3 Rule: ELSE IF (AND NOT AND OUT At6 0.546330 0.883312120429548 >= At7 0.717066 OUT At4 0.180322 0.36851817489153293 ) THEN (Class = 1)
+ 4 Rule: ELSE (Class = 0)
+
+#Train Classification Confusion Matrix
+			Predicted
+			C0	C1	|
+Actual	C0	70	6	|	C0 = 0
+		C1	4	15	|	C1 = 1

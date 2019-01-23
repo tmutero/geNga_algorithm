@@ -1,0 +1,35 @@
+File name: data/post-operative/post-operative-10-1tst.dat
+Runtime (s): 5.989
+Number of different attributes: 8
+Number of rules: 10
+Number of conditions: 51
+Average number of conditions per rule: 5.1
+Accuracy: 0.5000
+Geometric mean: �
+Cohen's Kappa rate: 0.0398
+AUC: 0.8142
+
+#Percentage of correct predictions per class
+ Class A: 50.00%
+ Class S: 50.00%
+ Class I: 100.00
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (AND AND AND = L-O2 good != L-CORE high != BP-STBL stable = SURF-STBL stable ) THEN (Decision = I)
+ 2 Rule: ELSE IF (AND NOT AND NOT AND = L-SURF high = CORE-STBL stable != L-O2 good = BP-STBL stable ) THEN (Decision = S)
+ 3 Rule: ELSE IF (AND NOT AND NOT AND NOT = L-BP mid != L-BP mid != L-SURF high != COMFORT 05 ) THEN (Decision = A)
+ 4 Rule: ELSE IF (NOT AND NOT AND NOT AND != L-BP low != L-O2 good != BP-STBL stable != L-CORE high ) THEN (Decision = A)
+ 5 Rule: ELSE IF (AND NOT AND = COMFORT 10 != L-SURF mid = BP-STBL stable ) THEN (Decision = S)
+ 6 Rule: ELSE IF (AND NOT AND NOT AND != CORE-STBL stable = COMFORT 10 != L-O2 good = L-BP mid ) THEN (Decision = S)
+ 7 Rule: ELSE IF (AND NOT AND AND = L-BP mid != L-SURF low = COMFORT 05 = L-SURF mid ) THEN (Decision = A)
+ 8 Rule: ELSE IF (NOT AND NOT AND NOT AND != CORE-STBL stable = L-BP mid != L-BP mid != L-O2 excellent ) THEN (Decision = A)
+ 9 Rule: ELSE IF (NOT AND NOT AND = COMFORT 07 = COMFORT 07 != L-BP mid ) THEN (Decision = S)
+ 10 Rule: ELSE (Decision = A)
+
+#Test Classification Confusion Matrix
+			Predicted
+			C0	C1	C2	|
+Actual	C0	19	15	4	|	C0 = A
+		C1	7	7	0	|	C1 = S
+		C2	0	0	0	|	C2 = I

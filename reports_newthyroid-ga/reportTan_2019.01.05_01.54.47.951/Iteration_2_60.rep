@@ -1,0 +1,100 @@
+IF (AND IN thyroxin 7.158949 12.948182677396568 <= TSH_value 36.162704 ) THEN (class = 1); Fitness: 0.792773016508606
+IF (AND NOT AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > thyroxin 4.639588 OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.10909346766343907
+IF (OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.01692869326987784
+IF (AND NOT AND NOT IN T3resin 73 85.0 IN triiodothyronine 8.188330 2.5478773858526957 IN triiodothyronine 1.149325 5.44906854240329 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND <= thyroidstimulating 44.281978 < thyroidstimulating 36.570812 IN thyroxin 7.799787 23.093323558219094 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT > triiodothyronine 6.650506 IN thyroidstimulating 34.389841 12.772424901300806 OUT triiodothyronine 8.188330 2.5478773858526957 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT AND >= thyroidstimulating 2.592496 <= T3resin 103 <= triiodothyronine 0.559443 IN triiodothyronine 1.149325 5.44906854240329 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT AND > thyroidstimulating 36.570812 <= T3resin 103 <= TSH_value 2.132112 IN thyroidstimulating 32.988840 0.2507337251784536 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT <= thyroidstimulating 36.570812 < triiodothyronine 5.112751 <= thyroidstimulating 34.297891 IN T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND IN triiodothyronine 1.149325 5.44906854240329 IN thyroxin 12.757584 24.01129368663764 OUT thyroidstimulating 54.751414 38.81851482237688 OUT thyroxin 18.326741 24.01129368663764 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND <= thyroidstimulating 28.955091 IN triiodothyronine 1.149325 5.44906854240329 OUT thyroidstimulating 54.751414 38.81851482237688 ) THEN (class = 1); Fitness: 0.0
+IF (AND <= thyroidstimulating 36.570812 OUT thyroidstimulating 22.018467 17.51449468113377 ) THEN (class = 1); Fitness: 0.0
+IF (NOT AND AND > TSH_value 21.572156 < T3resin 134 >= triiodothyronine 2.640814 ) THEN (class = 1); Fitness: 0.0
+IF (AND IN thyroidstimulating 6.086518 15.538067094763766 >= T3resin 104 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND >= thyroidstimulating 44.281978 <= thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND <= thyroidstimulating 36.570812 > thyroidstimulating 28.955091 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (NOT AND AND AND NOT < TSH_value 26.580682 IN T3resin 73 124.0 >= T3resin 103 OUT thyroxin 0.651125 24.45114005483937 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 28.955091 < TSH_value 26.580682 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND NOT IN triiodothyronine 3.848938 7.073574084289832 OUT thyroidstimulating 27.609930 37.33918343638568 OUT triiodothyronine 1.149325 5.44906854240329 OUT thyroxin 18.326741 24.01129368663764 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND <= triiodothyronine 1.073764 < thyroxin 18.332617 > TSH_value 26.580682 ) THEN (class = 1); Fitness: 0.0
+IF (AND <= TSH_value 26.580682 > TSH_value 26.580682 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > triiodothyronine 0.681082 < TSH_value 13.789122 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT AND < triiodothyronine 2.619601 <= T3resin 104 OUT TSH_value 50.796476 8.481000225427056 >= thyroidstimulating 21.554072 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 36.570812 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > TSH_value 26.580682 OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.0
+IF (NOT AND AND AND NOT < thyroxin 4.639588 IN T3resin 73 124.0 >= TSH_value 47.732622 OUT thyroxin 0.651125 24.45114005483937 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND OUT thyroxin 18.010858 1.1177500282221424 OUT thyroidstimulating 54.751414 38.81851482237688 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 25.850013 > thyroidstimulating 36.570812 OUT thyroxin 18.326741 24.01129368663764 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > TSH_value 26.580682 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 <= thyroidstimulating 36.570812 >= thyroidstimulating 36.570812 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND AND IN T3resin 73 124.0 >= thyroidstimulating 36.570812 <= thyroxin 2.159364 > thyroxin 4.639588 OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT <= thyroidstimulating 36.570812 IN T3resin 73 124.0 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 >= thyroidstimulating 36.570812 >= thyroidstimulating 28.955091 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > triiodothyronine 0.681082 < TSH_value 13.789122 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT triiodothyronine 3.126544 1.2589495587084432 IN thyroxin 18.326741 24.01129368663764 OUT thyroidstimulating 24.218009 35.5658104629304 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > triiodothyronine 0.681082 > TSH_value 13.789122 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 < T3resin 104 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND OUT thyroxin 18.010858 1.1177500282221424 OUT thyroidstimulating 54.751414 38.81851482237688 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 >= thyroidstimulating 36.570812 >= thyroidstimulating 36.570812 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT >= TSH_value 26.580682 <= TSH_value 24.242231 <= thyroidstimulating 34.297891 OUT thyroidstimulating 10.573088 16.588188749271694 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND AND IN triiodothyronine 8.188330 4.621009131415603 >= thyroidstimulating 36.570812 >= thyroidstimulating 25.850013 > TSH_value 2.132112 > T3resin 73 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT IN thyroxin 18.326741 24.01129368663764 IN triiodothyronine 8.188330 2.5478773858526957 IN thyroxin 18.326741 24.01129368663764 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT triiodothyronine 8.188330 2.5478773858526957 IN T3resin 73 85.0 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > thyroidstimulating 36.570812 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.0
+IF (AND < thyroidstimulating 36.570812 <= TSH_value 26.580682 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT thyroidstimulating 32.988840 0.2507337251784536 IN triiodothyronine 1.149325 5.44906854240329 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT >= TSH_value 26.580682 <= TSH_value 24.242231 <= thyroidstimulating 34.297891 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND NOT > triiodothyronine 5.112751 < TSH_value 51.316035 >= thyroidstimulating 15.141969 OUT triiodothyronine 1.149325 5.44906854240329 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 36.570812 > thyroidstimulating 28.955091 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND OUT thyroxin 18.010858 1.1177500282221424 OUT thyroidstimulating 54.751414 38.81851482237688 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND >= TSH_value 13.789122 <= thyroidstimulating 36.570812 ) THEN (class = 1); Fitness: 0.0
+IF (OUT triiodothyronine 8.188330 2.5478773858526957 ) THEN (class = 1); Fitness: 0.0
+IF (NOT AND AND AND NOT >= TSH_value 26.580682 IN T3resin 73 124.0 >= triiodothyronine 0.678778 OUT thyroxin 0.651125 24.45114005483937 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT triiodothyronine 8.188330 2.5478773858526957 IN thyroxin 18.326741 24.01129368663764 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > TSH_value 26.580682 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND OUT thyroidstimulating 10.573088 16.588188749271694 >= thyroidstimulating 36.570812 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT triiodothyronine 3.126544 1.2589495587084432 IN thyroxin 18.326741 24.01129368663764 OUT thyroidstimulating 24.218009 35.5658104629304 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND NOT > T3resin 132 < thyroxin 12.395286 < T3resin 132 >= triiodothyronine 3.670064 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND >= thyroidstimulating 28.955091 > TSH_value 26.580682 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND OUT thyroxin 18.326741 24.01129368663764 > thyroidstimulating 1.824601 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 36.570812 < thyroidstimulating 28.955091 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 >= T3resin 104 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (NOT AND AND AND NOT < TSH_value 26.580682 IN T3resin 73 124.0 >= TSH_value 47.732622 OUT thyroxin 0.651125 24.45114005483937 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroxin 18.326741 24.01129368663764 >= thyroidstimulating 28.955091 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT thyroidstimulating 32.988840 0.2507337251784536 IN triiodothyronine 1.149325 5.44906854240329 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT AND >= thyroidstimulating 44.281978 <= T3resin 103 <= TSH_value 2.132112 >= thyroidstimulating 10.308285 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT >= TSH_value 26.580682 <= TSH_value 24.242231 <= thyroidstimulating 34.297891 OUT triiodothyronine 8.188330 4.621009131415603 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT TSH_value 28.320222 36.23990087425004 >= thyroidstimulating 36.570812 <= thyroidstimulating 34.297891 OUT thyroxin 9.597809 7.546456332340955 ) THEN (class = 1); Fitness: 0.0
+IF (AND > triiodothyronine 6.650506 <= TSH_value 26.580682 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > TSH_value 47.732622 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 >= thyroidstimulating 36.570812 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND IN thyroidstimulating 34.389841 12.772424901300806 >= thyroidstimulating 36.570812 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT triiodothyronine 8.188330 2.5478773858526957 IN thyroxin 18.326741 24.01129368663764 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT >= thyroidstimulating 36.570812 IN T3resin 73 124.0 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 <= TSH_value 47.732622 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 >= TSH_value 47.732622 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND OUT thyroxin 18.010858 1.1177500282221424 OUT thyroidstimulating 54.751414 38.81851482237688 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND >= TSH_value 26.580682 > TSH_value 26.580682 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND IN thyroidstimulating 10.573088 16.588188749271694 <= thyroidstimulating 36.570812 >= thyroidstimulating 28.955091 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 28.955091 > TSH_value 26.580682 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND IN thyroidstimulating 10.573088 16.588188749271694 OUT TSH_value 11.904294 18.65716037220659 > thyroidstimulating 36.570812 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND OUT thyroxin 2.099781 18.946290526032243 >= thyroidstimulating 36.570812 >= thyroidstimulating 25.850013 > TSH_value 2.132112 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND >= thyroidstimulating 44.281978 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND >= thyroidstimulating 44.281978 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > thyroidstimulating 28.955091 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 28.955091 > TSH_value 26.580682 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND NOT AND >= thyroidstimulating 44.281978 <= triiodothyronine 0.678778 <= TSH_value 2.132112 IN thyroidstimulating 32.988840 0.2507337251784536 ) THEN (class = 1); Fitness: 0.0
+IF (AND NOT AND AND NOT > T3resin 132 < thyroxin 12.395286 < T3resin 132 >= triiodothyronine 3.670064 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 36.570812 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND > thyroidstimulating 36.570812 > triiodothyronine 6.650506 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND AND OUT thyroxin 9.597809 7.546456332340955 > thyroidstimulating 36.570812 > thyroidstimulating 36.570812 > thyroxin 4.639588 OUT thyroidstimulating 10.573088 16.588188749271694 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT <= TSH_value 26.580682 OUT thyroidstimulating 34.389841 12.772424901300806 IN triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND OUT thyroxin 2.099781 18.946290526032243 OUT TSH_value 11.904294 18.65716037220659 > T3resin 104 OUT T3resin 73 85.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND >= TSH_value 13.789122 <= thyroidstimulating 36.570812 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND OUT thyroxin 18.010858 1.1177500282221424 OUT thyroidstimulating 54.751414 38.81851482237688 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND AND NOT > triiodothyronine 5.112751 < TSH_value 51.316035 >= thyroidstimulating 15.141969 OUT triiodothyronine 1.149325 5.44906854240329 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND < thyroidstimulating 36.570812 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND >= thyroidstimulating 44.281978 < thyroidstimulating 36.570812 >= T3resin 75 ) THEN (class = 1); Fitness: 0.0
+IF (AND AND NOT AND NOT <= thyroidstimulating 36.570812 IN T3resin 73 124.0 OUT triiodothyronine 1.149325 5.44906854240329 OUT T3resin 73 124.0 ) THEN (class = 1); Fitness: 0.0

@@ -1,0 +1,100 @@
+IF (NOT IN Lym_nodes_dimin 3 0.0 ) THEN (Class = fibrosis); Fitness: 1.0
+IF (AND OUT Lym_nodes_dimin 0 2.0 < Lym_nodes_enlar 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT IN Lym_nodes_enlar 4 1.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND NOT != Lymphatics arched != Early_uptake_in yes = By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (!= By_pass no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND AND NOT > Lym_nodes_enlar 3 = Block_of_affere no != Early_uptake_in no = Lymphatics deformed ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND != Exclusion_of_no no <= Lym_nodes_dimin 1 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND != Changes_in_lym oval <= Lym_nodes_enlar 3 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT != Extravasates no != By_pass yes != Early_uptake_in yes != Changes_in_node lac_central ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT AND NOT = Defect_in_node lacunar <= Lym_nodes_dimin 3 <= Lym_nodes_enlar 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < No_of_nodes_in 1 = Defect_in_node no != Bl_of_lymph_s yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics normal != Changes_in_lym bean < No_of_nodes_in 1 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND IN Lym_nodes_enlar 4 4.0 OUT Lym_nodes_dimin 1 1.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND IN Lym_nodes_enlar 1 2.0 > Lym_nodes_dimin 2 != Dislocation_of yes = Regeneration_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT IN Lym_nodes_enlar 4 4.0 != Special_forms vesicles <= Lym_nodes_enlar 3 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND > Lym_nodes_enlar 2 < Lym_nodes_dimin 0 = Special_forms vesicles OUT No_of_nodes_in 3 2.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < No_of_nodes_in 1 = Changes_in_lym bean != Dislocation_of yes OUT No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 2 < Lym_nodes_dimin 2 = Special_forms vesicles OUT No_of_nodes_in 3 2.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 2 = Bl_of_lymph_c yes != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 = Special_forms vesicles != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND < No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND <= Lym_nodes_enlar 1 < Lym_nodes_dimin 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Dislocation_of no != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND <= No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Bl_of_lymph_c yes <= Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND = Changes_in_lym bean <= Lym_nodes_dimin 2 != Changes_in_stru diluted > No_of_nodes_in 4 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Dislocation_of no != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 2 = Dislocation_of no != Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND <= No_of_nodes_in 1 < Lym_nodes_dimin 2 = By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > Lym_nodes_enlar 1 < Lym_nodes_enlar 3 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 2 = Changes_in_lym bean != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > Lym_nodes_dimin 2 < Lym_nodes_enlar 3 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND = Dislocation_of no <= Lym_nodes_enlar 1 != Changes_in_stru diluted > No_of_nodes_in 4 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND IN Lym_nodes_enlar 1 2.0 > Lym_nodes_dimin 0 != Exclusion_of_no no = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics normal != Changes_in_lym bean < Lym_nodes_enlar 3 = Dislocation_of yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT = Special_forms chalices != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT = Lymphatics displaced = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND < No_of_nodes_in 1 < Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Special_forms vesicles != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT > No_of_nodes_in 1 != Special_forms vesicles > Lym_nodes_enlar 3 = Early_uptake_in yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Defect_in_node no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Special_forms chalices != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND = Regeneration_of yes = Extravasates yes IN No_of_nodes_in 8 4.0 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND AND NOT IN Lym_nodes_dimin 3 1.0 IN Lym_nodes_dimin 3 2.0 > Lym_nodes_dimin 0 = Defect_in_node lacunar ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Lymphatics arched != Special_forms vesicles IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT > No_of_nodes_in 1 != Changes_in_lym bean > Lym_nodes_enlar 1 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < Lym_nodes_enlar 3 = Special_forms vesicles != Dislocation_of yes OUT No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Dislocation_of no <= Lym_nodes_dimin 2 != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= No_of_nodes_in 1 = Exclusion_of_no no != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 = Dislocation_of yes != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Dislocation_of yes != Changes_in_lym bean < Lym_nodes_enlar 3 = Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Bl_of_lymph_c yes < Lym_nodes_dimin 2 = Lymphatics normal ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > Lym_nodes_enlar 1 < Lym_nodes_enlar 3 = Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 2 = Dislocation_of no != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Special_forms chalices <= Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms vesicles ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT IN Lym_nodes_enlar 4 4.0 != Special_forms chalices > Lym_nodes_enlar 3 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT <= No_of_nodes_in 2 <= Lym_nodes_enlar 1 > Lym_nodes_enlar 3 = By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Lymphatics displaced != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < No_of_nodes_in 1 = Bl_of_lymph_c yes != Dislocation_of yes OUT No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Lymphatics displaced < Lym_nodes_dimin 2 = Special_forms vesicles ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND = Dislocation_of no > No_of_nodes_in 1 = Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 2 = Changes_in_lym bean != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > Lym_nodes_dimin 0 < Lym_nodes_enlar 3 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND IN Lym_nodes_enlar 1 2.0 > Lym_nodes_enlar 1 != Dislocation_of yes = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND IN Lym_nodes_enlar 1 2.0 > Lym_nodes_enlar 3 != Dislocation_of yes = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics normal != Changes_in_lym bean < Lym_nodes_dimin 0 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Lymphatics displaced != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND IN Lym_nodes_enlar 4 4.0 < Lym_nodes_dimin 2 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND < No_of_nodes_in 1 < Lym_nodes_dimin 0 = Special_forms vesicles ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Dislocation_of no != Special_forms vesicles IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > Lym_nodes_enlar 1 < Lym_nodes_enlar 3 = Lymphatics arched ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND < No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms vesicles ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT = Exclusion_of_no no = Lymphatics displaced != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 0 = Changes_in_lym bean != By_pass yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT = Special_forms chalices != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Dislocation_of no <= Lym_nodes_dimin 2 != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND NOT = Special_forms chalices != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT != Special_forms chalices <= Lym_nodes_dimin 2 = Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < No_of_nodes_in 1 = Dislocation_of no != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 = Lymphatics displaced != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT IN Lym_nodes_enlar 4 4.0 != Special_forms vesicles > Lym_nodes_enlar 3 = Exclusion_of_no no ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND < No_of_nodes_in 1 = Special_forms vesicles != Dislocation_of yes OUT No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND NOT > No_of_nodes_in 1 != Special_forms vesicles > Lym_nodes_enlar 3 = Early_uptake_in yes ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND > No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 != Changes_in_lym bean != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT = Exclusion_of_no no = Lymphatics displaced != Changes_in_lym bean ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND IN Lym_nodes_enlar 4 4.0 = Dislocation_of yes != Changes_in_lym bean IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND AND <= Lym_nodes_dimin 2 != Lymphatics displaced != Dislocation_of yes IN No_of_nodes_in 8 4.0 ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND <= No_of_nodes_in 1 < Lym_nodes_dimin 2 = Special_forms chalices ) THEN (Class = fibrosis); Fitness: 0.0
+IF (AND AND NOT AND != Lymphatics normal != Changes_in_lym bean < Lym_nodes_enlar 3 = Dislocation_of no ) THEN (Class = fibrosis); Fitness: 0.0

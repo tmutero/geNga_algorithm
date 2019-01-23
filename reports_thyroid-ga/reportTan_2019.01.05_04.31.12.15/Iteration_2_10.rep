@@ -1,0 +1,100 @@
+IF (AND NOT AND AND <= Lithium 1 OUT Age 0.785259 0.15160367397984872 <= TT4 0.055974 IN FTI 0.103172 0.21683733196510624 ) THEN (Class = 3); Fitness: 0.5784013006060024
+IF (AND >= T3 0.011087 OUT Query_hyperthyroid 0 1.0 ) THEN (Class = 3); Fitness: 0.12682713740750892
+IF (NOT AND AND AND OUT T3 0.057706 0.1118456505683082 OUT On_antithyroid_medication 1 0.0 > Sex 0 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.004639398107567303
+IF (AND < T3 0.011087 OUT Query_hyperthyroid 0 1.0 ) THEN (Class = 3); Fitness: 0.004225512433100862
+IF (AND AND NOT AND OUT Query_hyperthyroid 1 0.0 OUT FTI 0.074160 0.31299856836888573 OUT Query_on_thyroxine 1 0.0 OUT T3 0.133316 0.02181916619225814 ) THEN (Class = 3); Fitness: 0.0015634179750604095
+IF (AND NOT AND >= Sex 0 > Sex 0 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= On_thyroxine 0 <= Sex 0 OUT On_antithyroid_medication 1 1.0 OUT Hypopituitary 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT FTI 0.103172 0.21683733196510624 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND NOT IN Lithium 0 0.0 < TT4 0.013519 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND OUT T4U 0.138971 0.20040600657428265 <= Sex 0 OUT On_antithyroid_medication 1 1.0 OUT Hypopituitary 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (> Query_hyperthyroid 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND IN I131_treatment 0 1.0 < T4U 0.022261 > Age 0.323448 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND NOT IN On_thyroxine 1 1.0 > Age 0.216328 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Sex 0 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND >= Query_hyperthyroid 0 OUT I131_treatment 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= Goitre 1 >= Goitre 1 <= Pregnant 0 < Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND < T4U 0.022261 OUT On_antithyroid_medication 1 0.0 > Hypopituitary 1 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND IN Psych 0 0.0 >= T4U 0.022261 <= Goitre 1 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= On_thyroxine 0 > Query_on_thyroxine 1 IN Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.161579 > Goitre 1 < Pregnant 0 < Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND IN Psych 1 0.0 >= Lithium 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= T4U 0.022261 > Query_on_thyroxine 1 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND IN Psych 1 0.0 >= T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT < T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Query_on_thyroxine 1 OUT On_antithyroid_medication 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND OUT Thyroid_surgery 0 0.0 OUT Sick 1 0.0 <= Lithium 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Pregnant 0 > Query_on_thyroxine 1 OUT Hypopituitary 0 1.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.161579 >= Goitre 1 < Sex 0 >= Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= Hypopituitary 0 OUT T4U 0.137466 0.1663643484072302 > Hypopituitary 1 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < TT4 0.055974 OUT Age 0.785259 0.15160367397984872 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Query_on_thyroxine 1 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > T4U 0.022261 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.161579 >= T4U 0.161579 < Pregnant 0 < Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND OUT Thyroid_surgery 0 0.0 OUT I131_treatment 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Query_hyperthyroid 0 OUT Sick 0 0.0 OUT I131_treatment 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (< Query_on_thyroxine 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND > Sex 0 > On_thyroxine 0 <= I131_treatment 1 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= T4U 0.022261 OUT Sick 0 1.0 <= Sick 0 IN Query_hypothyroid 0 1.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT IN I131_treatment 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (>= Hypopituitary 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= TT4 0.013519 OUT Query_hypothyroid 0 1.0 <= Sick 0 IN Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND IN I131_treatment 1 0.0 > Query_on_thyroxine 1 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT >= Sex 0 < On_antithyroid_medication 1 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.161579 >= Goitre 1 <= Goitre 1 < Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND OUT Sick 0 0.0 >= TT4 0.013519 < Pregnant 0 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Query_on_thyroxine 1 > Query_on_thyroxine 1 > Hypopituitary 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < I131_treatment 1 OUT T3 0.057706 0.1118456505683082 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.022261 OUT Query_hypothyroid 0 1.0 > T4U 0.040696 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND IN Age 0.087818 0.687344396098894 >= T4U 0.022261 <= Goitre 1 IN Hypopituitary 0 1.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND OUT Query_hyperthyroid 1 0.0 OUT Sick 0 0.0 <= TT4 0.525805 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Thyroid_surgery 1 1.0 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Lithium 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND > Sex 0 > On_thyroxine 0 <= I131_treatment 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND <= T3 0.148799 <= Tumor 0 < TT4 0.227837 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Query_on_thyroxine 1 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= Goitre 1 OUT T3 0.057706 0.1118456505683082 < On_thyroxine 0 IN On_antithyroid_medication 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND > Sex 0 > On_antithyroid_medication 0 <= I131_treatment 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= TT4 0.013519 > Query_on_thyroxine 1 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= Query_on_thyroxine 1 OUT Query_hypothyroid 0 1.0 <= Sick 0 IN Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT < T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND NOT AND >= On_antithyroid_medication 0 > Query_on_thyroxine 1 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= Hypopituitary 0 OUT Age 0.785259 0.15160367397984872 > Hypopituitary 1 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT < On_antithyroid_medication 1 >= Query_hyperthyroid 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Query_hypothyroid 0 OUT T4U 0.137466 0.1663643484072302 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT IN I131_treatment 1 0.0 < TT4 0.013519 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.161579 >= Goitre 1 < Pregnant 0 < Hypopituitary 1 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Hypopituitary 0 OUT Lithium 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Hypopituitary 0 OUT T3 0.057706 0.1118456505683082 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND OUT Thyroid_surgery 0 0.0 OUT Sick 0 0.0 OUT I131_treatment 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (IN T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND > Sex 0 > On_thyroxine 0 <= I131_treatment 1 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= Hypopituitary 0 OUT Age 0.785259 0.15160367397984872 > Hypopituitary 1 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Hypopituitary 0 OUT T3 0.057706 0.1118456505683082 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Hypopituitary 0 OUT Lithium 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND IN Psych 1 0.0 >= T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND OUT Sick 0 0.0 >= TT4 0.013519 <= Goitre 1 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND OUT Psych 0 0.0 >= On_thyroxine 0 <= Goitre 1 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (>= T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND AND <= T4U 0.022261 OUT On_antithyroid_medication 1 0.0 <= TT4 0.055974 IN Query_hyperthyroid 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND IN Psych 1 0.0 < T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= FTI 0.400287 >= Goitre 1 < FTI 0.400287 < T4U 0.018434 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 <= Hypopituitary 0 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (AND >= Query_hyperthyroid 0 OUT I131_treatment 1 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (OUT Lithium 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND IN Psych 1 0.0 >= T4U 0.022261 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND OUT Psych 0 0.0 >= T4U 0.022261 <= Goitre 1 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Query_on_thyroxine 1 OUT Hypopituitary 0 1.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= On_antithyroid_medication 0 > Query_on_thyroxine 1 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > Query_on_thyroxine 1 OUT T4U 0.138971 0.20040600657428265 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND OUT T3 0.057706 0.1118456505683082 OUT On_antithyroid_medication 1 0.0 > T4U 0.022261 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0
+IF (AND AND AND OUT Psych 0 0.0 >= Goitre 1 <= Goitre 1 > On_antithyroid_medication 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > T4U 0.022261 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (>= On_thyroxine 0 ) THEN (Class = 3); Fitness: 0.0
+IF (AND < Hypopituitary 0 OUT T3 0.057706 0.1118456505683082 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT < TT4 0.013519 >= FTI 0.400287 ) THEN (Class = 3); Fitness: 0.0
+IF (AND NOT AND >= Sex 0 > T4U 0.022261 OUT Thyroid_surgery 0 0.0 ) THEN (Class = 3); Fitness: 0.0
+IF (NOT AND AND AND >= T4U 0.022261 OUT Thyroid_surgery 0 0.0 > Sick 0 < TT4 0.273885 ) THEN (Class = 3); Fitness: 0.0

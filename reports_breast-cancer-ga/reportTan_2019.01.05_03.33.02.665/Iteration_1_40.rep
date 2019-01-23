@@ -1,0 +1,100 @@
+IF (NOT < UCellShape 2.498621 ) THEN (Class = 4); Fitness: 0.8911765339778436
+IF (> Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.006402048756220127
+IF (AND AND NOT AND >= ClumpThickness 4.013481 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.003977563831382234
+IF (AND < Mitoses 9.201548 <= NormalNucleoli 1.372656 ) THEN (Class = 4); Fitness: 9.918092753648613E-4
+IF (AND AND NOT AND >= MarginalAdhesion 8.917547 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 7.054166531469307E-4
+IF (AND AND NOT AND >= BlandChromatin 8.430537 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 6.818552919531534E-4
+IF (AND NOT AND <= MarginalAdhesion 8.917547 <= NormalNucleoli 3.162591 < Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT > UCellSize 2.494566 <= BlandChromatin 2.116510 ) THEN (Class = 4); Fitness: 0.0
+IF (> ClumpThickness 9.200726 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Mitoses 9.201548 IN UCellShape 1.287142 4.942360848540954 > MarginalAdhesion 3.317834 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (> UCellSize 7.453955 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT OUT EpithelialCellSize 1.478753 7.024767890407729 < Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT IN EpithelialCellSize 1.478753 7.024767890407729 < ClumpThickness 9.200726 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT > ClumpThickness 9.200726 OUT UCellShape 8.895516 5.694542977392846 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND >= ClumpThickness 4.013481 < NormalNucleoli 2.237771 < ClumpThickness 9.200726 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT OUT BareNuclei 6.781237 2.6863095265367454 > NormalNucleoli 6.157815 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= UCellSize 7.453955 > ClumpThickness 3.664957 > UCellShape 4.402628 > UCellSize 2.982376 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND > BlandChromatin 8.430537 < Mitoses 9.201548 IN UCellShape 8.895516 5.694542977392846 >= EpithelialCellSize 3.273572 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 > EpithelialCellSize 8.699862 IN EpithelialCellSize 4.191158 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT IN UCellShape 1.287142 2.0342725019616923 IN UCellShape 9.205037 2.0342725019616923 IN UCellShape 1.287142 2.0342725019616923 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND >= Mitoses 9.201548 < NormalNucleoli 3.162591 <= Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellShape 1.287142 2.0342725019616923 <= Mitoses 9.201548 <= Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellSize 9.977055 7.211701167089755 <= BlandChromatin 8.430537 OUT EpithelialCellSize 4.432442 6.088913150070201 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND > Mitoses 9.201548 <= ClumpThickness 9.200726 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN EpithelialCellSize 1.478753 7.024767890407729 > UCellSize 7.453955 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellShape 1.287142 2.0342725019616923 <= ClumpThickness 9.200726 <= BlandChromatin 6.411375 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND <= Mitoses 9.201548 > MarginalAdhesion 5.615862 IN UCellSize 9.977055 7.211701167089755 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= ClumpThickness 9.200726 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 9.201548 <= NormalNucleoli 1.372656 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= UCellSize 7.453955 > MarginalAdhesion 8.917547 > UCellShape 4.402628 > BareNuclei 5.510253 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN EpithelialCellSize 1.817451 7.024767890407729 > Mitoses 9.201548 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (< ClumpThickness 9.200726 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT IN EpithelialCellSize 1.817451 7.024767890407729 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= MarginalAdhesion 8.917547 IN UCellShape 1.287142 4.942360848540954 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 1.8363959798386933 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN UCellShape 3.864862 2.0213937325333027 <= Mitoses 9.201548 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT < ClumpThickness 9.200726 > EpithelialCellSize 4.522512 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= UCellSize 7.453955 > MarginalAdhesion 8.917547 > UCellShape 4.402628 > BareNuclei 5.510253 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND <= ClumpThickness 9.200726 <= ClumpThickness 9.200726 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND <= ClumpThickness 9.200726 > MarginalAdhesion 5.615862 IN UCellSize 9.977055 7.211701167089755 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.478753 7.024767890407729 > ClumpThickness 3.664957 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN UCellShape 1.287142 4.942360848540954 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND OUT UCellShape 1.287142 2.0342725019616923 IN UCellShape 1.287142 4.942360848540954 > ClumpThickness 3.664957 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND >= Mitoses 9.201548 < NormalNucleoli 3.162591 < Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT > ClumpThickness 9.200726 OUT UCellShape 8.895516 5.694542977392846 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT > ClumpThickness 9.200726 OUT UCellShape 8.895516 5.694542977392846 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 9.201548 <= NormalNucleoli 1.372656 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellSize 9.977055 7.211701167089755 IN UCellShape 1.287142 2.0342725019616923 < MarginalAdhesion 8.917547 < BlandChromatin 3.311361 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND <= ClumpThickness 9.200726 IN UCellShape 9.887516 7.964644439825594 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN UCellShape 3.864862 2.0213937325333027 <= ClumpThickness 6.405782 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellShape 1.287142 2.0342725019616923 <= Mitoses 9.201548 <= Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT > ClumpThickness 9.200726 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT <= EpithelialCellSize 4.522512 < MarginalAdhesion 3.317834 ) THEN (Class = 4); Fitness: 0.0
+IF (<= UCellShape 7.826285 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN EpithelialCellSize 1.478753 7.024767890407729 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT IN EpithelialCellSize 1.817451 7.024767890407729 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellSize 9.977055 7.211701167089755 <= ClumpThickness 4.013481 <= BlandChromatin 6.411375 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 1.8363959798386933 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT > ClumpThickness 9.200726 IN EpithelialCellSize 1.817451 7.024767890407729 <= Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND IN Mitoses 8.952469 6.912896029696747 > ClumpThickness 9.200726 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND >= Mitoses 9.201548 < NormalNucleoli 3.162591 < Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT AND <= ClumpThickness 9.200726 > MarginalAdhesion 5.615862 IN UCellSize 9.977055 7.211701167089755 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= Mitoses 9.201548 > ClumpThickness 3.664957 > UCellShape 4.402628 > ClumpThickness 9.200726 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND OUT UCellShape 1.287142 2.0342725019616923 IN UCellShape 1.287142 4.942360848540954 > ClumpThickness 3.664957 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 9.201548 IN UCellShape 1.287142 2.0342725019616923 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND OUT UCellShape 1.287142 2.0342725019616923 IN UCellShape 1.287142 4.942360848540954 > ClumpThickness 3.664957 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN UCellShape 3.864862 2.0213937325333027 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 9.201548 <= NormalNucleoli 1.372656 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 9.201548 IN UCellShape 1.287142 2.0342725019616923 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT IN EpithelialCellSize 1.817451 7.024767890407729 IN UCellShape 1.287142 2.0342725019616923 OUT EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND > ClumpThickness 9.200726 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellShape 1.287142 2.0342725019616923 < BareNuclei 5.510253 IN UCellShape 8.895516 5.694542977392846 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND >= MarginalAdhesion 8.917547 < NormalNucleoli 3.162591 > Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND >= MarginalAdhesion 8.917547 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (<= EpithelialCellSize 4.410195 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= UCellSize 7.453955 > MarginalAdhesion 8.917547 > UCellShape 4.402628 > BareNuclei 5.510253 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= Mitoses 9.201548 > ClumpThickness 3.664957 > UCellShape 4.402628 > BareNuclei 5.510253 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND <= BlandChromatin 8.430537 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT > ClumpThickness 9.200726 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND <= ClumpThickness 6.405782 IN UCellShape 9.887516 7.964644439825594 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellSize 9.977055 7.211701167089755 IN UCellShape 1.287142 2.0342725019616923 < MarginalAdhesion 8.917547 < BlandChromatin 3.311361 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND IN EpithelialCellSize 1.478753 7.024767890407729 > ClumpThickness 9.200726 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND >= MarginalAdhesion 8.917547 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellShape 1.287142 2.0342725019616923 > BareNuclei 5.510253 IN UCellShape 8.895516 5.694542977392846 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellShape 1.287142 2.0342725019616923 > BareNuclei 5.510253 IN UCellShape 8.895516 5.694542977392846 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND OUT UCellShape 1.287142 2.0342725019616923 IN UCellShape 1.287142 4.942360848540954 > ClumpThickness 3.664957 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND >= UCellSize 7.453955 > MarginalAdhesion 8.917547 > UCellShape 4.402628 > BareNuclei 5.510253 ) THEN (Class = 4); Fitness: 0.0
+IF (NOT AND NOT IN UCellShape 1.287142 4.942360848540954 > Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 1.8363959798386933 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND OUT UCellShape 1.287142 2.0342725019616923 > ClumpThickness 9.200726 IN UCellShape 8.895516 5.694542977392846 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT IN EpithelialCellSize 1.817451 7.024767890407729 IN UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND <= ClumpThickness 9.200726 > ClumpThickness 9.200726 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND NOT OUT UCellShape 1.287142 4.942360848540954 > Mitoses 9.201548 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellShape 1.287142 2.0342725019616923 <= UCellSize 7.453955 <= BlandChromatin 6.411375 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND >= ClumpThickness 4.013481 < NormalNucleoli 3.162591 < Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 7.904625 > UCellSize 2.205754 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND IN UCellSize 9.977055 7.211701167089755 <= BlandChromatin 8.430537 <= BlandChromatin 6.411375 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND AND < ClumpThickness 9.200726 >= Mitoses 9.201548 IN UCellShape 8.895516 5.694542977392846 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0
+IF (AND < Mitoses 7.904625 > UCellSize 2.205754 ) THEN (Class = 4); Fitness: 0.0
+IF (AND AND NOT AND NOT <= Mitoses 9.201548 IN EpithelialCellSize 1.817451 7.024767890407729 OUT UCellShape 1.287142 2.0342725019616923 IN EpithelialCellSize 1.817451 7.024767890407729 ) THEN (Class = 4); Fitness: 0.0

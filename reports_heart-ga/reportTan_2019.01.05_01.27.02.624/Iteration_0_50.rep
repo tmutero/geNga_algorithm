@@ -1,0 +1,100 @@
+IF (AND NOT AND >= Oldpeak 14.253404 OUT ChestPainType 2 4.0 < Thal 4 ) THEN (Class = 1); Fitness: 0.6912403422946387
+IF (< ChestPainType 3 ) THEN (Class = 1); Fitness: 0.08489113005267195
+IF (NOT AND NOT AND < Thal 4 >= Oldpeak 57.000354 >= RestBloodPressure 119 ) THEN (Class = 1); Fitness: 0.04954419389573683
+IF (AND <= Thal 4 <= RestBloodPressure 179 ) THEN (Class = 1); Fitness: 0.02459806296949211
+IF (AND AND >= ResElectrocardiographic 2 >= Sex 0 >= RestBloodPressure 119 ) THEN (Class = 1); Fitness: 0.020350020406299126
+IF (<= Sex 0 ) THEN (Class = 1); Fitness: 0.015466326840347799
+IF (AND <= FastingBloodSugar 0 <= RestBloodPressure 179 ) THEN (Class = 1); Fitness: 0.0088256212083332
+IF (NOT AND NOT < FastingBloodSugar 0 > ChestPainType 3 ) THEN (Class = 1); Fitness: 0.002536461636561011
+IF (NOT AND NOT >= Oldpeak 32.724511 >= MajorVessels 1 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND NOT < Sex 0 < Thal 4 OUT Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND >= ChestPainType 3 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT IN MajorVessels 2 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN MajorVessels 1 3.0 <= MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (AND < MajorVessels 1 <= Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT MajorVessels 2 0.0 OUT Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN ExerciseInduced 0 0.0 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND AND IN Slope 3 3.0 OUT Thal 5 3.0 OUT ResElectrocardiographic 2 1.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 2.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT ResElectrocardiographic 2 1.0 > MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (>= Sex 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT OUT RestBloodPressure 159 161.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 2 0.0 IN Slope 1 1.0 < ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND OUT ExerciseInduced 0 0.0 < ChestPainType 3 IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN Slope 1 1.0 IN Slope 1 1.0 < RestBloodPressure 112 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT MajorVessels 1 3.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN MajorVessels 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT < ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND IN Slope 2 3.0 > Sex 1 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT < Sex 0 > Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN MajorVessels 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN ExerciseInduced 0 0.0 OUT MajorVessels 1 3.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND AND IN Slope 1 1.0 OUT Slope 3 1.0 OUT ResElectrocardiographic 2 1.0 > ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 2 0.0 IN Slope 3 3.0 < FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (< ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN ExerciseInduced 0 0.0 < Sex 0 IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (OUT ResElectrocardiographic 2 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN Slope 1 1.0 OUT Slope 3 1.0 < MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT ChestPainType 3 3.0 OUT MajorVessels 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (< Sex 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND IN MajorVessels 1 3.0 < Slope 1 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN Slope 1 1.0 <= FastingBloodSugar 0 IN MajorVessels 2 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN ExerciseInduced 0 0.0 < Sex 0 IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND < Sex 0 OUT MajorVessels 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT OUT ChestPainType 3 3.0 > ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND <= ChestPainType 3 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND IN Slope 1 1.0 < Slope 1 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN Slope 1 1.0 OUT ResElectrocardiographic 2 1.0 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND IN MajorVessels 1 3.0 >= ChestPainType 3 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND > MaxHeartRate 182 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 2 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (< Sex 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT ChestPainType 3 3.0 OUT MajorVessels 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN ExerciseInduced 0 0.0 OUT Slope 3 1.0 < MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN MajorVessels 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND < MajorVessels 1 < RestBloodPressure 112 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT Slope 2 3.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN MajorVessels 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND AND < MajorVessels 1 < RestBloodPressure 112 OUT Slope 3 1.0 OUT ResElectrocardiographic 2 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND AND IN Slope 1 1.0 OUT FastingBloodSugar 1 0.0 OUT ResElectrocardiographic 2 1.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Slope 3 1.0 < ChestPainType 3 IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT Slope 1 1.0 OUT Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT < ChestPainType 3 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND <= ChestPainType 3 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN Slope 1 1.0 OUT ResElectrocardiographic 2 1.0 >= MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (OUT MajorVessels 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT ChestPainType 3 3.0 < Sex 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN ExerciseInduced 0 0.0 OUT ResElectrocardiographic 2 1.0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND IN Slope 1 1.0 < Slope 1 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (< Sex 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN ExerciseInduced 0 0.0 < Sex 0 IN MajorVessels 1 3.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (IN ExerciseInduced 0 0.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND <= Sex 0 <= RestBloodPressure 112 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND <= ChestPainType 3 < MaxHeartRate 182 ) THEN (Class = 1); Fitness: 0.0
+IF (< Slope 1 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT MajorVessels 1 3.0 > FastingBloodSugar 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND < MajorVessels 1 > Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (AND OUT Slope 1 1.0 OUT Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT < Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND < ResElectrocardiographic 2 >= Sex 0 >= RestBloodPressure 119 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT AND IN MajorVessels 1 3.0 < Slope 1 < Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT < Sex 0 > Thal 4 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND NOT > Sex 0 <= MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (AND <= FastingBloodSugar 0 <= RestBloodPressure 179 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Slope 1 1.0 < Sex 0 IN Slope 1 1.0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT Slope 3 1.0 < MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN MajorVessels 1 3.0 OUT Slope 3 1.0 < MajorVessels 0 ) THEN (Class = 1); Fitness: 0.0

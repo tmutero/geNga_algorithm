@@ -1,0 +1,100 @@
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 28.3
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 28.3
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 28.3
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 28.3
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 28.3
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 30.1
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 31.9
+IF (<= At3 0.221951 ) THEN (Class = 1); Fitness: 31.9
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 32.3
+IF (<= At2 0.362142 ) THEN (Class = 1); Fitness: 32.3
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 32.3
+IF (NOT > At3 0.221951 ) THEN (Class = 1); Fitness: 33.7
+IF (NOT >= At2 0.460754 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.460754 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.460754 ) THEN (Class = 1); Fitness: 34.1
+IF (NOT > At2 0.362142 ) THEN (Class = 1); Fitness: 34.1
+IF (<= At2 0.362142 ) THEN (Class = 1); Fitness: 35.9
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 35.9
+IF (<= At2 0.362142 ) THEN (Class = 1); Fitness: 35.9
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 36.3
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 36.3
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 36.3
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 38.1
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 39.5
+IF (<= At2 0.362142 ) THEN (Class = 1); Fitness: 39.5
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 39.5
+IF (<= At2 0.460754 ) THEN (Class = 1); Fitness: 39.5
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 39.9
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 39.9
+IF (<= At2 0.539215 ) THEN (Class = 1); Fitness: 40.3
+IF (AND <= At2 0.460754 OUT At3 0.448903 0.7802406943727331 ) THEN (Class = 1); Fitness: 41.3
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 41.7
+IF (NOT > At7 0.079408 ) THEN (Class = 1); Fitness: 41.7
+IF (<= At1 0.276309 ) THEN (Class = 1); Fitness: 42.3
+IF (<= At1 0.276309 ) THEN (Class = 1); Fitness: 42.3
+IF (<= At1 0.276309 ) THEN (Class = 1); Fitness: 42.3
+IF (<= At1 0.276309 ) THEN (Class = 1); Fitness: 42.3
+IF (<= At1 0.276309 ) THEN (Class = 1); Fitness: 42.3
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 43.5
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 43.5
+IF (<= At7 0.079408 ) THEN (Class = 1); Fitness: 43.5
+IF (NOT > At1 0.276309 ) THEN (Class = 1); Fitness: 44.1
+IF (NOT > At1 0.276309 ) THEN (Class = 1); Fitness: 44.1
+IF (NOT > At1 0.276309 ) THEN (Class = 1); Fitness: 44.1
+IF (AND NOT > At6 0.281824 <= At2 0.758476 ) THEN (Class = 1); Fitness: 51.400000000000006
+IF (NOT OR <= At7 0.840767 <= At1 0.059367 ) THEN (Class = 1); Fitness: 55.8
+IF (NOT > At7 0.583911 ) THEN (Class = 1); Fitness: 138.1
+IF (NOT > At7 0.583911 ) THEN (Class = 1); Fitness: 138.1
+IF (< At1 0.772767 ) THEN (Class = 1); Fitness: 157.9
+IF (> At1 0.276309 ) THEN (Class = 1); Fitness: 160.3
+IF (NOT <= At1 0.006316 ) THEN (Class = 1); Fitness: 162.1
+IF (> At7 0.079408 ) THEN (Class = 1); Fitness: 166.3
+IF (NOT <= At7 0.079408 ) THEN (Class = 1); Fitness: 168.1
+IF (NOT <= At7 0.079408 ) THEN (Class = 1); Fitness: 168.1
+IF (NOT <= At7 0.079408 ) THEN (Class = 1); Fitness: 168.1
+IF (NOT <= At7 0.079408 ) THEN (Class = 1); Fitness: 168.1
+IF (NOT <= At7 0.079408 ) THEN (Class = 1); Fitness: 168.1
+IF (> At7 0.079408 ) THEN (Class = 1); Fitness: 169.9
+IF (>= At2 0.460754 ) THEN (Class = 1); Fitness: 170.3
+IF (> At7 0.079408 ) THEN (Class = 1); Fitness: 173.5
+IF (> At7 0.079408 ) THEN (Class = 1); Fitness: 173.5
+IF (> At2 0.362142 ) THEN (Class = 1); Fitness: 173.9
+IF (> At3 0.221951 ) THEN (Class = 1); Fitness: 174.3
+IF (>= At2 0.466702 ) THEN (Class = 1); Fitness: 175.5

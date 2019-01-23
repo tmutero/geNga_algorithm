@@ -1,0 +1,2 @@
+Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
+data/post-operative/post-operative-10-1tst.dat,0.5,0.03977272727272727,0.814151747655584,NaN,10,51,5.1,22313,5.989

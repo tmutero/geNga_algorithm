@@ -1,0 +1,2 @@
+Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
+data/bupa/bupa-10-1tra.dat,0.5935483870967742,0.2077079107505071,0.6094017094017095,0.6014228144237643,8,25,3.125,14845,3.68

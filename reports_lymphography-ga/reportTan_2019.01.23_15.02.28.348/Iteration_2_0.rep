@@ -1,0 +1,100 @@
+IF (AND >= No_of_nodes_in 3 > No_of_nodes_in 1 ) THEN (Class = malign_lymph); Fitness: 0.5772051140494274
+IF (> Lym_nodes_enlar 2 ) THEN (Class = malign_lymph); Fitness: 0.531319515236651
+IF (AND NOT AND OUT No_of_nodes_in 3 7.0 OUT No_of_nodes_in 6 2.0 <= Lym_nodes_enlar 4 ) THEN (Class = malign_lymph); Fitness: 0.5192963380935062
+IF (AND AND = By_pass no != Lymphatics deformed != Early_uptake_in no ) THEN (Class = malign_lymph); Fitness: 0.48004354257276227
+IF (AND AND AND <= Lym_nodes_dimin 1 != Lymphatics deformed != Dislocation_of no != Changes_in_node lac_margin ) THEN (Class = malign_lymph); Fitness: 0.474392984338824
+IF (= Early_uptake_in yes ) THEN (Class = malign_lymph); Fitness: 0.46148166074986013
+IF (AND NOT AND <= Lym_nodes_dimin 0 = Bl_of_lymph_c no = Changes_in_lym oval ) THEN (Class = malign_lymph); Fitness: 0.4410719202798168
+IF (AND AND != Special_forms chalices > Lym_nodes_enlar 1 = Regeneration_of no ) THEN (Class = malign_lymph); Fitness: 0.4396101273904233
+IF (AND OUT No_of_nodes_in 4 8.0 = Special_forms vesicles ) THEN (Class = malign_lymph); Fitness: 0.4281076912920588
+IF (AND AND OUT No_of_nodes_in 3 1.0 <= No_of_nodes_in 5 != Block_of_affere yes ) THEN (Class = malign_lymph); Fitness: 0.42319749449568594
+IF (AND AND NOT != Bl_of_lymph_s no != Special_forms chalices <= No_of_nodes_in 8 ) THEN (Class = malign_lymph); Fitness: 0.4107212384025349
+IF (= Changes_in_node lac_central ) THEN (Class = malign_lymph); Fitness: 0.399662974660537
+IF (= Defect_in_node lac_central ) THEN (Class = malign_lymph); Fitness: 0.3704128461331255
+IF (!= Extravasates no ) THEN (Class = malign_lymph); Fitness: 0.3535013836978453
+IF (AND AND >= Lym_nodes_enlar 1 != Extravasates yes != Changes_in_stru coarse ) THEN (Class = malign_lymph); Fitness: 0.30267533590753065
+IF (!= Lymphatics deformed ) THEN (Class = malign_lymph); Fitness: 0.3004807675947551
+IF (AND = Bl_of_lymph_c no != Changes_in_node no ) THEN (Class = malign_lymph); Fitness: 0.2983050821064645
+IF (NOT != By_pass no ) THEN (Class = malign_lymph); Fitness: 0.29723929706067004
+IF (AND NOT AND AND != Dislocation_of no IN Lym_nodes_dimin 3 1.0 = Extravasates yes != By_pass yes ) THEN (Class = malign_lymph); Fitness: 0.29723929706067004
+IF (AND AND NOT = Lymphatics deformed != Extravasates no = Regeneration_of no ) THEN (Class = malign_lymph); Fitness: 0.2964708135274545
+IF (AND AND NOT = Extravasates yes = Bl_of_lymph_s no = Regeneration_of no ) THEN (Class = malign_lymph); Fitness: 0.290001260980207
+IF (AND NOT = Bl_of_lymph_c yes != Defect_in_node no ) THEN (Class = malign_lymph); Fitness: 0.28819058735126835
+IF (AND NOT AND AND != Extravasates yes >= Lym_nodes_enlar 4 != Dislocation_of no = Extravasates no ) THEN (Class = malign_lymph); Fitness: 0.2650027709165521
+IF (NOT AND = By_pass yes = Block_of_affere yes ) THEN (Class = malign_lymph); Fitness: 0.26428819104493295
+IF (AND NOT AND = Block_of_affere no IN Lym_nodes_enlar 2 1.0 = Lymphatics deformed ) THEN (Class = malign_lymph); Fitness: 0.2597402614492815
+IF (NOT AND NOT OUT No_of_nodes_in 1 5.0 <= Lym_nodes_enlar 4 ) THEN (Class = malign_lymph); Fitness: 0.2574542915382969
+IF (AND NOT AND AND < Lym_nodes_enlar 1 >= No_of_nodes_in 2 = Lymphatics normal = Changes_in_lym round ) THEN (Class = malign_lymph); Fitness: 0.24892620154363237
+IF (NOT AND AND NOT AND NOT <= Lym_nodes_enlar 3 != Extravasates no != Lymphatics normal != Exclusion_of_no no ) THEN (Class = malign_lymph); Fitness: 0.2475969738802196
+IF (NOT < No_of_nodes_in 6 ) THEN (Class = malign_lymph); Fitness: 0.23756993442659563
+IF (AND NOT AND IN No_of_nodes_in 1 4.0 != Bl_of_lymph_c yes >= Lym_nodes_enlar 4 ) THEN (Class = malign_lymph); Fitness: 0.212899487195041
+IF (= Defect_in_node lac_margin ) THEN (Class = malign_lymph); Fitness: 0.2090904578893669
+IF (NOT AND NOT = Changes_in_node lac_margin <= No_of_nodes_in 4 ) THEN (Class = malign_lymph); Fitness: 0.1988807915884733
+IF (!= Changes_in_stru diluted ) THEN (Class = malign_lymph); Fitness: 0.19788526179322158
+IF (NOT AND = By_pass no = Lymphatics deformed ) THEN (Class = malign_lymph); Fitness: 0.18329954268866727
+IF (NOT AND NOT AND NOT = Changes_in_node no != Regeneration_of no = Lymphatics displaced ) THEN (Class = malign_lymph); Fitness: 0.15934857545588252
+IF (AND NOT AND NOT != Changes_in_stru grainy = Dislocation_of yes = Dislocation_of no ) THEN (Class = malign_lymph); Fitness: 0.15845960237649842
+IF (NOT != Special_forms chalices ) THEN (Class = malign_lymph); Fitness: 0.1409673465653606
+IF (= Special_forms chalices ) THEN (Class = malign_lymph); Fitness: 0.1409673465653606
+IF (NOT AND NOT AND = Dislocation_of no <= Lym_nodes_enlar 2 = Exclusion_of_no no ) THEN (Class = malign_lymph); Fitness: 0.1325947300040729
+IF (AND NOT AND AND != Changes_in_node no != Bl_of_lymph_c yes != Dislocation_of no IN Lym_nodes_enlar 3 1.0 ) THEN (Class = malign_lymph); Fitness: 0.12436301974064651
+IF (AND < No_of_nodes_in 3 OUT No_of_nodes_in 7 1.0 ) THEN (Class = malign_lymph); Fitness: 0.12346550075804649
+IF (= Exclusion_of_no no ) THEN (Class = malign_lymph); Fitness: 0.12311480582778463
+IF (NOT AND <= Lym_nodes_enlar 2 = Changes_in_stru coarse ) THEN (Class = malign_lymph); Fitness: 0.12189724196409521
+IF (NOT AND = Block_of_affere no IN Lym_nodes_enlar 1 4.0 ) THEN (Class = malign_lymph); Fitness: 0.11633456589367025
+IF (AND AND != Defect_in_node lac_central = Changes_in_lym oval = Block_of_affere yes ) THEN (Class = malign_lymph); Fitness: 0.11427120502131885
+IF (AND NOT AND <= Lym_nodes_enlar 4 = Regeneration_of no > Lym_nodes_enlar 2 ) THEN (Class = malign_lymph); Fitness: 0.11267605804068022
+IF (> No_of_nodes_in 6 ) THEN (Class = malign_lymph); Fitness: 0.11136587129998067
+IF (= Regeneration_of yes ) THEN (Class = malign_lymph); Fitness: 0.10872251208767068
+IF (AND NOT AND AND NOT > Lym_nodes_enlar 4 = Early_uptake_in yes > Lym_nodes_enlar 4 != Regeneration_of no ) THEN (Class = malign_lymph); Fitness: 0.10872251208767068
+IF (NOT AND AND NOT AND = Lymphatics arched != Dislocation_of yes != Exclusion_of_no yes = Dislocation_of yes ) THEN (Class = malign_lymph); Fitness: 0.10015133856866738
+IF (= Bl_of_lymph_c yes ) THEN (Class = malign_lymph); Fitness: 0.09075731092470317
+IF (AND AND NOT = Changes_in_lym round != Block_of_affere no != Changes_in_node lac_central ) THEN (Class = malign_lymph); Fitness: 0.08197793663177091
+IF (AND AND NOT AND > No_of_nodes_in 4 != Early_uptake_in no = Early_uptake_in no < Lym_nodes_dimin 3 ) THEN (Class = malign_lymph); Fitness: 0.0728662201158701
+IF (AND AND IN Lym_nodes_dimin 0 3.0 < Lym_nodes_dimin 3 != Changes_in_stru reticular ) THEN (Class = malign_lymph); Fitness: 0.07040187642649391
+IF (= Early_uptake_in no ) THEN (Class = malign_lymph); Fitness: 0.06975184505779881
+IF (AND AND NOT <= No_of_nodes_in 5 != Bl_of_lymph_c no = Dislocation_of yes ) THEN (Class = malign_lymph); Fitness: 0.05664023545669343
+IF (<= Lym_nodes_dimin 2 ) THEN (Class = malign_lymph); Fitness: 0.053763440102149285
+IF (NOT AND NOT = Regeneration_of no < Lym_nodes_enlar 3 ) THEN (Class = malign_lymph); Fitness: 0.053763440102149285
+IF (NOT AND NOT OUT No_of_nodes_in 3 8.0 = Bl_of_lymph_c no ) THEN (Class = malign_lymph); Fitness: 0.05332902340948563
+IF (NOT AND >= Lym_nodes_enlar 4 != Extravasates yes ) THEN (Class = malign_lymph); Fitness: 0.03386412163876679
+IF (>= No_of_nodes_in 8 ) THEN (Class = malign_lymph); Fitness: 0.0289017345820146
+IF (AND NOT AND AND != Regeneration_of yes <= Lym_nodes_enlar 4 <= Lym_nodes_dimin 3 = Lymphatics displaced ) THEN (Class = malign_lymph); Fitness: 0.0289017345820146
+IF (AND AND = Defect_in_node lacunar > Lym_nodes_dimin 0 >= No_of_nodes_in 8 ) THEN (Class = malign_lymph); Fitness: 0.0289017345820146
+IF (AND = Bl_of_lymph_c no != Regeneration_of no ) THEN (Class = malign_lymph); Fitness: 0.02822764163734663
+IF (= Bl_of_lymph_s yes ) THEN (Class = malign_lymph); Fitness: 0.02822764163734663
+IF (AND = Block_of_affere no = Regeneration_of yes ) THEN (Class = malign_lymph); Fitness: 0.02822764163734663
+IF (AND AND AND = Changes_in_node lac_margin = Changes_in_lym oval = By_pass yes < Lym_nodes_enlar 4 ) THEN (Class = malign_lymph); Fitness: 0.026855594052301743
+IF (AND AND NOT AND != Dislocation_of no = Early_uptake_in yes != Exclusion_of_no yes != Early_uptake_in no ) THEN (Class = malign_lymph); Fitness: 0.026507508015871987
+IF (NOT AND >= Lym_nodes_dimin 3 = Bl_of_lymph_c yes ) THEN (Class = malign_lymph); Fitness: 0.01805054125212659
+IF (AND AND != Defect_in_node no < No_of_nodes_in 1 >= Lym_nodes_dimin 0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND AND = Defect_in_node lac_margin > Lym_nodes_dimin 3 >= Lym_nodes_dimin 2 OUT No_of_nodes_in 6 3.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND > Lym_nodes_dimin 3 != Regeneration_of yes ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND < No_of_nodes_in 1 != Bl_of_lymph_s no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND != Bl_of_lymph_c yes > Lym_nodes_enlar 4 = By_pass no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND NOT IN No_of_nodes_in 4 5.0 > Lym_nodes_dimin 2 > No_of_nodes_in 7 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND NOT AND AND != Bl_of_lymph_s no <= No_of_nodes_in 5 != Exclusion_of_no yes OUT Lym_nodes_dimin 0 0.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND < Lym_nodes_enlar 3 != Bl_of_lymph_s no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND IN Lym_nodes_enlar 3 2.0 >= Lym_nodes_enlar 1 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND AND >= No_of_nodes_in 7 != Regeneration_of yes = Defect_in_node no > Lym_nodes_dimin 0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND < Lym_nodes_dimin 0 OUT Lym_nodes_enlar 2 3.0 = Regeneration_of yes ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT >= Lym_nodes_dimin 0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND NOT != Dislocation_of yes = Changes_in_lym bean = Changes_in_lym oval ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND AND = Bl_of_lymph_s yes OUT Lym_nodes_dimin 2 0.0 != Lymphatics deformed != Bl_of_lymph_s yes ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND NOT AND AND >= No_of_nodes_in 7 = Changes_in_lym oval > Lym_nodes_enlar 4 IN Lym_nodes_dimin 0 0.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND = Defect_in_node no >= Lym_nodes_enlar 3 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND NOT AND != Block_of_affere yes != Changes_in_stru grainy = Changes_in_stru grainy = Changes_in_stru coarse ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND AND != Extravasates no <= Lym_nodes_dimin 0 = Defect_in_node lac_central < Lym_nodes_enlar 1 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND = Changes_in_stru drop_like != Changes_in_lym round IN Lym_nodes_dimin 1 2.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND IN Lym_nodes_dimin 1 3.0 != Exclusion_of_no no != Block_of_affere no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT <= Lym_nodes_dimin 3 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND NOT != By_pass no IN Lym_nodes_dimin 3 2.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND AND NOT = Bl_of_lymph_c yes = Lymphatics deformed != Bl_of_lymph_s yes < Lym_nodes_dimin 1 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND NOT AND AND != Regeneration_of yes = Lymphatics displaced = Regeneration_of yes IN No_of_nodes_in 6 7.0 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND AND = Defect_in_node no != Regeneration_of no = Block_of_affere no != By_pass no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND = Bl_of_lymph_c no = Extravasates yes = Regeneration_of yes ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (NOT AND AND > Lym_nodes_dimin 3 = Dislocation_of yes != Dislocation_of no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND IN Lym_nodes_dimin 2 1.0 >= Lym_nodes_dimin 2 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND <= Lym_nodes_dimin 0 != Regeneration_of yes > Lym_nodes_enlar 4 ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND AND AND NOT <= Lym_nodes_dimin 3 = Lymphatics normal = Exclusion_of_no no != Defect_in_node no ) THEN (Class = malign_lymph); Fitness: 0.0
+IF (AND NOT AND <= Lym_nodes_enlar 4 != Lymphatics normal < Lym_nodes_dimin 1 ) THEN (Class = malign_lymph); Fitness: 0.0

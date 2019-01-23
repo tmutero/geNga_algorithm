@@ -1,0 +1,32 @@
+File name: data/breast/breast-10-1tra.dat
+Runtime (s): 2.773
+Number of different attributes: 9
+Number of rules: 9
+Number of conditions: 29
+Average number of conditions per rule: 3.2222222222222223
+Accuracy: 0.7200
+Geometric mean: 0.6267
+Cohen's Kappa rate: 0.3061
+AUC: 0.6493
+
+#Percentage of correct predictions per class
+ Class no-recurrence-events: 81.92%
+ Class recurrence-events: 47.95%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (AND AND AND != Tumor-size 50-54 = Breast-quad right_up != Breast-quad right_low != Tumor-size 50-54 ) THEN (Class = no-recurrence-events)
+ 2 Rule: ELSE IF (AND AND AND = Menopause ge40 != Age 20-29 != Irradiated yes != Tumor-size 50-54 ) THEN (Class = no-recurrence-events)
+ 3 Rule: ELSE IF (NOT AND NOT != Inv-nodes 0-2 != Deg-malig 3 ) THEN (Class = recurrence-events)
+ 4 Rule: ELSE IF (AND NOT = Deg-malig 3 != Irradiated yes ) THEN (Class = no-recurrence-events)
+ 5 Rule: ELSE IF (AND AND AND NOT = Breast-quad right_up != Breast-quad right_low != Breast left != Breast-quad right_low ) THEN (Class = no-recurrence-events)
+ 6 Rule: ELSE IF (AND AND AND != Tumor-size 45-49 != Menopause premeno = Menopause ge40 != Inv-nodes 18-20 ) THEN (Class = no-recurrence-events)
+ 7 Rule: ELSE IF (NOT != Menopause premeno ) THEN (Class = recurrence-events)
+ 8 Rule: ELSE IF (NOT AND != Breast right = Irradiated no ) THEN (Class = recurrence-events)
+ 9 Rule: ELSE (Class = no-recurrence-events)
+
+#Train Classification Confusion Matrix
+			Predicted
+			C0	C1	|
+Actual	C0	145	32	|	C0 = no-recurrence-events
+		C1	38	35	|	C1 = recurrence-events

@@ -1,0 +1,34 @@
+File name: data/thyroid/thyroid-10-1tra.dat
+Runtime (s): 90.032
+Number of different attributes: 21
+Number of rules: 9
+Number of conditions: 34
+Average number of conditions per rule: 3.7777777777777777
+Accuracy: 0.4284
+Geometric mean: 0.5969
+Cohen's Kappa rate: 0.0748
+AUC: 0.7570
+
+#Percentage of correct predictions per class
+ Class 1: 81.21%
+ Class 2: 64.35%
+ Class 3: 40.70%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (AND AND NOT IN T3 0.151766 0.012727230721476055 OUT T3 0.114227 0.03856089653321905 OUT Tumor 1 0.0 ) THEN (Class = 1)
+ 2 Rule: ELSE IF (AND AND AND >= On_thyroxine 0 >= Hypopituitary 0 <= Thyroid_surgery 1 > On_thyroxine 0 ) THEN (Class = 1)
+ 3 Rule: ELSE IF (AND AND >= On_thyroxine 0 >= Query_on_thyroxine 0 > T4U 0.109553 ) THEN (Class = 2)
+ 4 Rule: ELSE IF (AND NOT AND AND <= Lithium 1 OUT Age 0.785259 0.15160367397984872 <= TT4 0.055974 IN FTI 0.103172 0.21683733196510624 ) THEN (Class = 3)
+ 5 Rule: ELSE IF (AND AND AND NOT > T4U 0.109553 OUT TT4 0.542299 0.09729226572332694 IN TT4 0.036887 0.2092939367068363 <= Pregnant 0 ) THEN (Class = 2)
+ 6 Rule: ELSE IF (AND AND <= Psych 0 >= Age 0.571716 < TSH 0.326912 ) THEN (Class = 2)
+ 7 Rule: ELSE IF (AND AND AND NOT > I131_treatment 0 OUT I131_treatment 0 1.0 <= On_thyroxine 1 < Sex 1 ) THEN (Class = 1)
+ 8 Rule: ELSE IF (AND AND AND NOT > On_thyroxine 1 < FTI 0.579809 IN TT4 0.428398 0.016672173415684242 OUT TSH 0.215105 0.0407323253732984 ) THEN (Class = 3)
+ 9 Rule: ELSE (Class = 1)
+
+#Train Classification Confusion Matrix
+			Predicted
+			C0	C1	C2	|
+Actual	C0	121	28	0	|	C0 = 1
+		C1	55	213	63	|	C1 = 2
+		C2	1464	2094	2442	|	C2 = 3

@@ -1,0 +1,100 @@
+IF (AND NOT AND OUT DiabetesPedigree 1.169379 2.3712531288342285 <= PlasmaGlucose 131.104267 > PlasmaGlucose 17.860949 ) THEN (Class = 1); Fitness: 0.5803734979640063
+IF (> BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.17202118384159618
+IF (AND NOT AND > TricepsSkinFold 15.185101 <= TricepsSkinFold 35.072018 > PlasmaGlucose 17.860949 ) THEN (Class = 1); Fitness: 0.02062422306631458
+IF (AND AND OUT DiabetesPedigree 0.500727 0.6731652102780707 OUT BodyMassIndex 35.221963 51.74076885423992 > BloodPressure 75.322043 ) THEN (Class = 1); Fitness: 0.009680933780923237
+IF (AND NOT > BloodPressure 75.322043 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.007471288881127422
+IF (NOT AND AND >= PlasmaGlucose 87.721009 < TricepsSkinFold 35.072018 OUT BodyMassIndex 32.956489 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0027992261214856416
+IF (NOT AND AND OUT BodyMassIndex 61.400969 51.74076885423992 > TricepsSkinFold 10.699548 OUT BodyMassIndex 61.400969 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 39.215080 51.85604503549419 > PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT > TricepsSkinFold 15.185101 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND OUT DiabetesPedigree 0.500727 0.6731652102780707 < TricepsSkinFold 35.072018 OUT BodyMassIndex 32.956489 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT > TricepsSkinFold 10.699548 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN DiabetesPedigree 0.500727 0.6731652102780707 < BloodPressure 75.322043 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND NOT AND >= SerumInsulin 713.546869 < NoTimesPregnant 15.912595 > Age 22.469861 >= TricepsSkinFold 35.072018 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT AND IN BodyMassIndex 61.400969 51.74076885423992 > DiabetesPedigree 1.203257 < DiabetesPedigree 0.280062 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > PlasmaGlucose 87.721009 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (> BodyMassIndex 65.187606 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND < TricepsSkinFold 10.699548 > TricepsSkinFold 35.072018 >= TricepsSkinFold 10.699548 IN PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND > TricepsSkinFold 15.185101 > TricepsSkinFold 69.768557 OUT BloodPressure 40.938707 42.44926644986078 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND >= DiabetesPedigree 1.203257 >= BloodPressure 75.322043 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND < BodyMassIndex 16.774492 > BodyMassIndex 29.089964 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 < TricepsSkinFold 45.313361 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN NoTimesPregnant 8.281778 6.632294705699313 > TricepsSkinFold 45.313361 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND NOT <= SerumInsulin 70.639338 >= Age 49.145771 > PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > NoTimesPregnant 8.499602 >= BloodPressure 80.012249 >= BodyMassIndex 55.952786 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT PlasmaGlucose 180.245728 40.40321573610888 OUT BodyMassIndex 35.221963 51.74076885423992 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 < PlasmaGlucose 87.721009 OUT DiabetesPedigree 0.500727 0.6731652102780707 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT PlasmaGlucose 180.245728 40.40321573610888 > BodyMassIndex 29.089964 > BodyMassIndex 24.779995 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BloodPressure 55.188225 43.82879737458132 > BodyMassIndex 29.089964 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 <= PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > PlasmaGlucose 87.721009 > BloodPressure 75.322043 IN Age 41.032363 52.790093360822944 OUT BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND < TricepsSkinFold 35.072018 >= Age 49.145771 > PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT > PlasmaGlucose 153.488212 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT DiabetesPedigree 0.500727 0.6731652102780707 OUT BodyMassIndex 35.221963 51.74076885423992 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (> BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > BodyMassIndex 29.089964 > SerumInsulin 518.194600 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 39.215080 51.85604503549419 > TricepsSkinFold 15.185101 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 39.215080 51.85604503549419 > PlasmaGlucose 87.721009 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BloodPressure 55.188225 43.82879737458132 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 39.215080 51.85604503549419 > TricepsSkinFold 45.313361 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT DiabetesPedigree 0.500727 0.6731652102780707 OUT BodyMassIndex 35.221963 51.74076885423992 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 IN BodyMassIndex 61.400969 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > BloodPressure 75.322043 >= Age 49.145771 OUT Age 41.032363 52.790093360822944 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > PlasmaGlucose 87.721009 > TricepsSkinFold 35.072018 IN PlasmaGlucose 180.245728 40.40321573610888 OUT BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > PlasmaGlucose 153.488212 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > BodyMassIndex 29.089964 < SerumInsulin 518.194600 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 35.221963 51.74076885423992 > BodyMassIndex 64.654267 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND <= TricepsSkinFold 10.699548 > TricepsSkinFold 35.072018 >= TricepsSkinFold 10.699548 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 < BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND IN DiabetesPedigree 0.500727 0.6731652102780707 > TricepsSkinFold 45.313361 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN Age 41.032363 52.790093360822944 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 39.215080 51.85604503549419 < BodyMassIndex 29.089964 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 61.400969 51.74076885423992 < Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND < TricepsSkinFold 45.313361 >= BodyMassIndex 64.654267 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > Age 49.145771 < TricepsSkinFold 35.072018 OUT PlasmaGlucose 16.210801 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND < BloodPressure 75.322043 >= Age 49.145771 > PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT DiabetesPedigree 0.500727 0.6731652102780707 > PlasmaGlucose 87.721009 >= Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 39.215080 51.85604503549419 > PlasmaGlucose 153.488212 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 IN BodyMassIndex 61.400969 32.558806794255744 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND < TricepsSkinFold 15.185101 < PlasmaGlucose 11.813984 > NoTimesPregnant 14.034086 OUT BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND < Age 24.169931 IN BodyMassIndex 39.215080 51.85604503549419 >= Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND < TricepsSkinFold 15.185101 OUT BodyMassIndex 39.215080 51.85604503549419 > NoTimesPregnant 14.034086 OUT BodyMassIndex 61.400969 32.558806794255744 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN DiabetesPedigree 0.500727 0.6731652102780707 OUT BodyMassIndex 35.221963 51.74076885423992 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT OUT DiabetesPedigree 0.500727 0.6731652102780707 < DiabetesPedigree 1.203257 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 61.400969 51.74076885423992 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN BodyMassIndex 39.215080 51.85604503549419 > TricepsSkinFold 45.313361 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > TricepsSkinFold 10.699548 > TricepsSkinFold 35.072018 >= TricepsSkinFold 10.699548 OUT Age 41.032363 52.790093360822944 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 <= BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 32.956489 51.74076885423992 > TricepsSkinFold 10.699548 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT > PlasmaGlucose 153.488212 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 61.400969 51.74076885423992 > BloodPressure 75.322043 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 > TricepsSkinFold 35.072018 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN PlasmaGlucose 180.245728 34.44555713710941 > TricepsSkinFold 45.313361 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT >= Age 49.145771 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > BloodPressure 75.322043 > PlasmaGlucose 153.488212 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > PlasmaGlucose 87.721009 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT PlasmaGlucose 180.245728 40.40321573610888 < BodyMassIndex 29.089964 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT PlasmaGlucose 180.245728 40.40321573610888 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN Age 41.032363 52.790093360822944 > TricepsSkinFold 45.313361 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 32.956489 51.74076885423992 > TricepsSkinFold 10.699548 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > BodyMassIndex 29.089964 > TricepsSkinFold 35.072018 IN BodyMassIndex 39.215080 51.85604503549419 OUT BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BloodPressure 55.188225 43.82879737458132 > PlasmaGlucose 87.721009 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 <= BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND > PlasmaGlucose 87.721009 > TricepsSkinFold 35.072018 IN Age 41.032363 52.790093360822944 OUT BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (AND IN PlasmaGlucose 180.245728 40.40321573610888 IN BodyMassIndex 39.215080 51.85604503549419 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN Age 41.032363 52.790093360822944 > SerumInsulin 366.981334 ) THEN (Class = 1); Fitness: 0.0
+IF (AND NOT IN Age 41.032363 52.790093360822944 > BodyMassIndex 29.089964 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT PlasmaGlucose 180.245728 40.40321573610888 > BodyMassIndex 29.089964 > Age 49.145771 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND >= BodyMassIndex 41.299967 > TricepsSkinFold 35.072018 <= TricepsSkinFold 10.699548 OUT BodyMassIndex 61.400969 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND AND OUT BodyMassIndex 39.215080 51.85604503549419 > PlasmaGlucose 17.860949 > BodyMassIndex 29.089964 <= DiabetesPedigree 2.277260 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND < BloodPressure 75.322043 >= Age 49.145771 > PlasmaGlucose 87.721009 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT Age 41.032363 52.790093360822944 > TricepsSkinFold 45.313361 OUT BodyMassIndex 61.400969 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND OUT BodyMassIndex 39.215080 51.85604503549419 > PlasmaGlucose 87.721009 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND > BloodPressure 75.322043 > TricepsSkinFold 69.768557 OUT PlasmaGlucose 16.210801 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (AND AND IN PlasmaGlucose 180.245728 34.44555713710941 > TricepsSkinFold 35.072018 OUT PlasmaGlucose 180.245728 40.40321573610888 ) THEN (Class = 1); Fitness: 0.0
+IF (NOT AND AND > TricepsSkinFold 35.072018 < TricepsSkinFold 35.072018 OUT BodyMassIndex 32.956489 51.74076885423992 ) THEN (Class = 1); Fitness: 0.0

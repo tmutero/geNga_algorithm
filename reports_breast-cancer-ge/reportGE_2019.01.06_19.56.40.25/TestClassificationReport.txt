@@ -1,0 +1,26 @@
+File name: data/breast-cancer/breast-cancer-wisconsin-test.dat
+Runtime (s): 0.681
+Number of different attributes: 9
+Number of rules: 3
+Number of conditions: 2
+Average number of conditions per rule: 0.6666666666666666
+Accuracy: 0.8800
+Geometric mean: 0.9054
+Cohen's Kappa rate: 0.6921
+AUC: 0.9066
+
+#Percentage of correct predictions per class
+ Class 2: 86.08%
+ Class 4: 95.24%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (> UCellShape 2.823931 ) THEN (Class = 4)
+ 2 Rule: ELSE IF (<= UCellShape 2.823931 ) THEN (Class = 2)
+ 3 Rule: ELSE (Class = 2)
+
+#Test Classification Confusion Matrix
+			Predicted
+			C0	C1	|
+Actual	C0	68	11	|	C0 = 2
+		C1	1	20	|	C1 = 4

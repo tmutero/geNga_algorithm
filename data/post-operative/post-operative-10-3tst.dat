@@ -1,0 +1,22 @@
+@relation post-operative
+@attribute L-CORE{mid,high,low}
+@attribute L-SURF{low,high,mid}
+@attribute L-O2{excellent,good}
+@attribute L-BP{mid,high,low}
+@attribute SURF-STBL{stable,unstable}
+@attribute CORE-STBL{stable,unstable,mod-stable}
+@attribute BP-STBL{stable,mod-stable,unstable}
+@attribute COMFORT{15,10,05,07}
+@attribute Decision{A,S,I}
+@inputs L-CORE, L-SURF, L-O2, L-BP, SURF-STBL, CORE-STBL, BP-STBL, COMFORT
+@outputs Decision
+@data
+mid, high, good, mid, stable, stable, stable, 10, S
+high, high, excellent, high, unstable, stable, unstable, 10, A
+mid, low, good, high, unstable, stable, stable, 10, A
+mid, mid, good, high, unstable, stable, stable, 10, A
+high, high, excellent, high, stable, stable, unstable, <null>, A
+mid, low, excellent, high, stable, stable, stable, 10, A
+low, mid, good, mid, stable, stable, unstable, 10, A
+mid, mid, excellent, mid, stable, stable, unstable, 10, A
+mid, mid, excellent, mid, unstable, stable, stable, 15, S

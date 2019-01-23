@@ -1,0 +1,2 @@
+Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
+data/pima-indians/pima-indians-test.dat,0.7623762376237624,0.5235849056603774,0.7781954887218046,0.7755667343294813,7,27,3.857142857142857,14845,6.753

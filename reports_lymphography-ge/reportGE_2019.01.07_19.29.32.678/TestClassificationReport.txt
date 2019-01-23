@@ -1,0 +1,32 @@
+File name: data/lymphography/lymphography-5-1tst.dat
+Runtime (s): 0.348
+Number of different attributes: 18
+Number of rules: 5
+Number of conditions: 4
+Average number of conditions per rule: 0.8
+Accuracy: 0.8000
+Geometric mean: 0.0000
+Cohen's Kappa rate: 0.6471
+AUC: 0.8093
+
+#Percentage of correct predictions per class
+ Class normal: 0.00%
+ Class metastases: 81.25%
+ Class malign_lymph: 91.67%
+ Class fibrosis: 0.00%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (> Lym_nodes_dimin 2 ) THEN (Class = fibrosis)
+ 2 Rule: ELSE IF (= Changes_in_stru grainy ) THEN (Class = normal)
+ 3 Rule: ELSE IF (= Changes_in_node lac_margin ) THEN (Class = metastases)
+ 4 Rule: ELSE IF (!= Changes_in_node lac_margin ) THEN (Class = malign_lymph)
+ 5 Rule: ELSE (Class = normal)
+
+#Test Classification Confusion Matrix
+			Predicted
+			C0	C1	C2	C3	|
+Actual	C0	0	0	1	0	|	C0 = normal
+		C1	1	13	2	0	|	C1 = metastases
+		C2	1	0	11	0	|	C2 = malign_lymph
+		C3	0	0	1	0	|	C3 = fibrosis

@@ -1,0 +1,100 @@
+IF (NOT AND AND AND != COMFORT 05 = L-BP mid != L-SURF high != CORE-STBL mod-stable ) THEN (Decision = A); Fitness: 0.48378751405762654
+IF (AND NOT AND NOT = L-O2 good != L-CORE high != COMFORT 05 ) THEN (Decision = A); Fitness: 0.11094619889960501
+IF (NOT AND AND AND NOT = COMFORT 05 = L-BP mid = CORE-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.012756635197667761
+IF (AND NOT AND AND NOT != L-O2 good != L-BP mid != L-O2 good = SURF-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (= COMFORT 10 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT != L-O2 excellent != L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != L-BP mid = L-BP mid = CORE-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT = BP-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND = L-O2 good != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND = L-O2 excellent != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != COMFORT 05 != SURF-STBL stable = COMFORT 10 ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND NOT AND = CORE-STBL unstable != L-BP low != L-O2 good != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND != L-SURF high = L-SURF high != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND NOT AND = CORE-STBL unstable != L-BP low != L-O2 good != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT AND = SURF-STBL stable != SURF-STBL unstable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT = CORE-STBL mod-stable ) THEN (Decision = A); Fitness: 0.0
+IF (= L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != L-BP mid != CORE-STBL unstable = BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-O2 good != L-BP mid != COMFORT 05 != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND != L-BP high != L-SURF low = CORE-STBL mod-stable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = COMFORT 05 != COMFORT 05 != L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = L-O2 good != L-BP mid = CORE-STBL stable != L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (!= CORE-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND NOT AND != L-O2 good != L-O2 excellent = L-O2 good != BP-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = CORE-STBL unstable = L-BP mid = BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != L-BP mid = L-BP mid = SURF-STBL stable != BP-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND = L-SURF high = L-O2 good != L-BP low = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != BP-STBL stable != L-BP mid != L-BP low = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND != L-CORE low = L-BP low != L-SURF high != BP-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high = COMFORT 05 = L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = L-O2 excellent = L-BP mid = BP-STBL stable = L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND = L-SURF high = L-O2 good != L-BP low = CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != CORE-STBL unstable != L-BP mid != CORE-STBL mod-stable = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = L-CORE low = L-BP mid = BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != CORE-STBL stable != L-BP mid = CORE-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND = L-O2 good = L-SURF high != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != SURF-STBL unstable != CORE-STBL unstable != L-O2 good = CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = BP-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND = L-SURF high = L-O2 good != L-BP low != L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = L-BP mid = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT != L-CORE low != CORE-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != CORE-STBL unstable = BP-STBL stable != CORE-STBL stable != L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT != L-CORE high != SURF-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT = BP-STBL stable = CORE-STBL unstable = CORE-STBL unstable = L-CORE high ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-BP low != L-BP mid != CORE-STBL unstable = BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != COMFORT 05 = BP-STBL stable = CORE-STBL stable != L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != L-SURF high = L-CORE high = CORE-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT = L-BP mid != L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (!= L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != L-CORE high = CORE-STBL unstable = CORE-STBL unstable = L-CORE high ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = CORE-STBL unstable != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != COMFORT 05 != L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != L-BP mid != L-O2 excellent != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND = COMFORT 05 = CORE-STBL unstable != L-BP low = CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND NOT = L-O2 good != L-CORE high != COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-SURF high != L-BP mid != L-BP mid = L-BP mid ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-O2 excellent != L-BP mid != L-BP mid = L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = L-O2 excellent != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-O2 good = BP-STBL mod-stable != L-BP mid = L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != CORE-STBL unstable != L-O2 good = CORE-STBL stable != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-O2 good != L-BP mid != L-CORE high = BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != L-CORE high = CORE-STBL unstable = CORE-STBL unstable = L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND NOT AND = CORE-STBL mod-stable != L-BP low != CORE-STBL stable = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (!= L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != COMFORT 05 = BP-STBL stable = CORE-STBL unstable != L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND = CORE-STBL stable = L-BP low != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = CORE-STBL unstable = L-CORE high = BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-BP mid != COMFORT 05 != BP-STBL stable = L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND = CORE-STBL unstable = L-BP low != CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (= CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND != L-BP mid != L-BP high ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = L-O2 good != L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-CORE high != L-BP mid != L-BP low = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = BP-STBL stable != L-BP mid != L-O2 excellent != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND = CORE-STBL unstable = L-O2 good != L-BP low = CORE-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != L-CORE high = CORE-STBL unstable = CORE-STBL unstable = L-CORE high ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = L-SURF high = L-O2 good = BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = CORE-STBL unstable != L-BP mid != L-O2 good = L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != COMFORT 05 != L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND NOT AND != L-O2 good != L-O2 excellent = L-O2 good != BP-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND NOT = L-SURF high != L-CORE high != L-CORE high ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND AND NOT != CORE-STBL unstable = BP-STBL stable != CORE-STBL unstable != L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (!= CORE-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = BP-STBL stable != SURF-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-SURF low != L-BP mid != L-BP low = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != L-BP mid != L-O2 excellent != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = L-CORE high != CORE-STBL stable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = CORE-STBL unstable = L-BP mid = BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-SURF high != L-BP mid != L-BP mid = L-BP mid ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT = L-CORE high != L-BP mid != L-O2 excellent != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND AND NOT != L-O2 good != L-BP mid != COMFORT 05 != BP-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND NOT = BP-STBL stable != SURF-STBL unstable ) THEN (Decision = A); Fitness: 0.0
+IF (NOT = L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND NOT = L-BP low != L-CORE high != COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = CORE-STBL unstable = L-BP mid = BP-STBL stable = L-O2 good ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT = L-CORE high = L-BP mid != BP-STBL stable = L-O2 excellent ) THEN (Decision = A); Fitness: 0.0
+IF (NOT AND AND AND NOT != COMFORT 05 = BP-STBL stable = CORE-STBL stable != L-SURF high ) THEN (Decision = A); Fitness: 0.0
+IF (AND NOT AND NOT = L-O2 excellent != L-CORE high != L-BP low ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND NOT AND = CORE-STBL mod-stable != L-BP low != L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0
+IF (AND AND NOT AND = CORE-STBL mod-stable != L-BP low != L-O2 good = COMFORT 05 ) THEN (Decision = A); Fitness: 0.0

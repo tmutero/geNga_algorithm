@@ -1,0 +1,100 @@
+IF (NOT AND NOT != Inv-nodes 0-2 != Deg-malig 3 ) THEN (Class = recurrence-events); Fitness: 0.5636855582102162
+IF (AND AND AND != Deg-malig 2 != Tumor-size 15-19 != Tumor-size 15-19 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.06768254949870947
+IF (NOT AND != Menopause premeno != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.05889444722734645
+IF (NOT AND NOT AND AND = Deg-malig 2 = Breast right != Irradiated no = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.04309920719119723
+IF (AND != Menopause premeno != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.032339684757509854
+IF (AND NOT AND NOT != Breast right != Menopause lt40 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.018934892189953485
+IF (AND NOT AND AND != Breast right = Deg-malig 2 = Tumor-size 15-19 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.00864892290571083
+IF (AND NOT AND AND != Menopause premeno = Deg-malig 3 = Tumor-size 15-19 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND NOT = Age 90-99 = Breast left = Breast left ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast-quad right_up = Breast right != Breast right = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Menopause premeno != Menopause lt40 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Deg-malig 3 != Deg-malig 2 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Deg-malig 3 != Deg-malig 1 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast right = Breast right != Breast right = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Tumor-size 15-19 = Age 90-99 != Age 90-99 != Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND AND != Breast right = Deg-malig 3 = Tumor-size 15-19 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Breast-quad right_up = Breast right != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Menopause premeno != Menopause lt40 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast-quad right_up != Tumor-size 15-19 != Tumor-size 0-4 != Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND AND AND != Tumor-size 25-29 != Breast-quad left_up = Breast-quad central = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND = Breast right = Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND != Tumor-size 15-19 != Inv-nodes 33-35 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Menopause premeno != Irradiated yes != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause premeno = Deg-malig 1 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Menopause lt40 != Breast right != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast-quad central = Deg-malig 3 = Tumor-size 15-19 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause premeno != Node-caps yes != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause lt40 = Deg-malig 3 = Inv-nodes 12-14 = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Breast-quad right_up = Menopause lt40 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Deg-malig 2 = Deg-malig 3 = Tumor-size 15-19 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND AND != Breast right = Deg-malig 3 != Tumor-size 20-24 = Deg-malig 1 = Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Tumor-size 15-19 != Tumor-size 15-19 != Menopause lt40 = Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Tumor-size 15-19 != Tumor-size 15-19 != Menopause premeno != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Deg-malig 3 != Inv-nodes 3-5 != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Deg-malig 1 = Tumor-size 15-19 != Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND AND != Breast right = Deg-malig 3 != Tumor-size 20-24 = Deg-malig 2 = Menopause ge40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND AND NOT AND != Deg-malig 2 = Breast-quad central = Node-caps yes != Inv-nodes 24-26 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Deg-malig 2 != Menopause lt40 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause premeno != Tumor-size 15-19 != Node-caps yes != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Node-caps yes != Tumor-size 15-19 != Breast-quad central = Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause lt40 != Tumor-size 15-19 != Node-caps yes != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Tumor-size 15-19 = Node-caps yes = Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND = Node-caps yes != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Deg-malig 3 = Breast right != Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast right = Deg-malig 3 = Menopause ge40 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND != Tumor-size 15-19 = Tumor-size 15-19 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT = Menopause lt40 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Breast-quad right_up = Breast right != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND = Tumor-size 15-19 != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause lt40 = Deg-malig 3 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND = Node-caps yes != Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast-quad right_up != Age 40-49 != Tumor-size 0-4 != Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Tumor-size 15-19 != Breast right != Breast right != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Inv-nodes 9-11 = Tumor-size 15-19 = Age 90-99 != Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Node-caps yes = Deg-malig 3 = Inv-nodes 12-14 != Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Deg-malig 3 != Inv-nodes 3-5 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND = Tumor-size 15-19 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND AND NOT AND != Menopause lt40 = Breast-quad central = Node-caps yes != Inv-nodes 24-26 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause ge40 = Deg-malig 1 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Menopause premeno = Breast right != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Inv-nodes 9-11 = Menopause premeno != Age 90-99 != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Menopause lt40 != Tumor-size 15-19 != Breast-quad central = Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND = Deg-malig 2 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Irradiated no != Tumor-size 15-19 != Breast-quad central = Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND = Deg-malig 2 != Menopause premeno = Menopause lt40 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Irradiated no != Tumor-size 15-19 != Breast-quad central != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause premeno != Tumor-size 15-19 != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast-quad right_up != Tumor-size 15-19 != Breast right != Breast left ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Tumor-size 15-19 = Tumor-size 15-19 != Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause ge40 != Breast right != Tumor-size 0-4 != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND NOT AND AND != Breast right = Deg-malig 3 = Age 40-49 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause premeno != Menopause premeno = Menopause lt40 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Deg-malig 2 != Tumor-size 15-19 != Node-caps yes != Tumor-size 15-19 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause lt40 = Deg-malig 3 = Inv-nodes 12-14 = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND = Breast-quad right_up != Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause premeno != Tumor-size 15-19 != Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (NOT AND AND AND = Inv-nodes 24-26 != Age 90-99 = Breast left != Deg-malig 3 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Node-caps yes = Menopause lt40 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Tumor-size 15-19 = Breast right != Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT = Inv-nodes 27-29 != Deg-malig 3 != Menopause ge40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT = Node-caps yes != Deg-malig 2 != Menopause ge40 = Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND AND != Breast right = Deg-malig 3 = Tumor-size 15-19 != Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Node-caps yes = Deg-malig 3 = Inv-nodes 12-14 = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Breast-quad right_up ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Breast-quad right_up != Tumor-size 15-19 != Breast-quad central = Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause lt40 = Deg-malig 3 = Inv-nodes 12-14 = Irradiated no ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND != Menopause premeno != Menopause premeno = Menopause lt40 != Breast-quad central ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Breast-quad right_up != Tumor-size 15-19 != Menopause premeno != Menopause premeno ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Breast-quad right_up != Tumor-size 15-19 != Breast-quad central = Deg-malig 1 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND != Menopause lt40 = Tumor-size 15-19 = Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND NOT AND NOT != Deg-malig 2 = Breast right != Menopause lt40 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT = Node-caps yes != Deg-malig 2 != Menopause ge40 = Deg-malig 2 ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND = Menopause lt40 = Deg-malig 3 = Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (AND AND AND NOT != Deg-malig 2 != Tumor-size 15-19 != Breast-quad central != Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
+IF (!= Breast right ) THEN (Class = recurrence-events); Fitness: 0.0
