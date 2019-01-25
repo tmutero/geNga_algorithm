@@ -1,4 +1,4 @@
-package net.sf.jclec.problem.classification.algorithm.tan;
+package net.sf.jclec.problem.classification.algorithm.ga;
 
 import net.sf.jclec.problem.classification.blocks.RandomConstantOfContinuousValues;
 import net.sf.jclec.problem.classification.blocks.RandomConstantOfDiscreteValues;

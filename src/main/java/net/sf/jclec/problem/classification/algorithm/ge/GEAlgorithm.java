@@ -30,7 +30,7 @@ import org.apache.commons.lang.builder.EqualsBuilder;
  * 
  */
 
-public class BojarczukAlgorithm extends ClassificationAlgorithm 
+public class GEAlgorithm extends ClassificationAlgorithm 
 {
 	/////////////////////////////////////////////////////////////////
 	// --------------------------------------- Serialization constant
@@ -64,7 +64,7 @@ public class BojarczukAlgorithm extends ClassificationAlgorithm
 	 * Empty (default) constructor
 	 */
 	
-	public BojarczukAlgorithm() 
+	public GEAlgorithm() 
 	{
 		super();
 	}
@@ -294,8 +294,8 @@ public class BojarczukAlgorithm extends ClassificationAlgorithm
 
 	public boolean equals(Object other)
 	{
-		if (other instanceof BojarczukAlgorithm) {
-			BojarczukAlgorithm cother = (BojarczukAlgorithm) other;
+		if (other instanceof GEAlgorithm) {
+			GEAlgorithm cother = (GEAlgorithm) other;
 			EqualsBuilder eb = new EqualsBuilder();
 			// Call super method
 			eb.appendSuper(super.equals(other));

@@ -1,4 +1,4 @@
-package net.sf.jclec.problem.classification.algorithm.tan;
+package net.sf.jclec.problem.classification.algorithm.ga;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,40 +1,46 @@
-package net.sf.jclec.problem.classification.algorithm.falco;
+package net.sf.jclec.problem.classification.algorithm.tan;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import net.sf.jclec.IConfigure;
+import net.sf.jclec.IEvaluator;
 import net.sf.jclec.IIndividual;
 import net.sf.jclec.IMutator;
 import net.sf.jclec.IRecombinator;
 import net.sf.jclec.ISelector;
 import net.sf.jclec.base.FilteredMutator;
 import net.sf.jclec.base.FilteredRecombinator;
+import net.sf.jclec.fitness.SimpleValueFitness;
 import net.sf.jclec.problem.classification.base.ClassificationAlgorithm;
 import net.sf.jclec.problem.classification.base.Rule;
 import net.sf.jclec.problem.classification.crisprule.CrispRuleBase;
 import net.sf.jclec.problem.classification.syntaxtree.SyntaxTreeRuleIndividual;
+import net.sf.jclec.problem.util.dataset.instance.IInstance;
 
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationRuntimeException;
 import org.apache.commons.lang.builder.EqualsBuilder;
 
 /**
- * Classifier algorithm for Falco et al. 2002 - Discovering interesting classification rules with genetic programming<p/>
+ * Classifier Algorithm for Tan et al. 2002 - Mining multiple comprehensible classification rules using genetic programming<p/>
  * 
- * The Falco et al. algorithm performs reproduction, recombination and mutation.
+ * The Tan et al. algorithm performs reproduction, recombination and mutation, keeping an elite population.
  * Its execution is repeated as many times as the number of data classes.
  * At each execution, a population of rules is evolved for a particular data class.
- * When evolution is finished, the best individual is included in the classification rule base (one rule per class).
+ * When evolution is finished, the elite population is included in the classification rule base (more than one rule per class).
+ * 
+ * The algorithm performs token competition within the elite population in order to keep non-redundant individuals that cover complementary instances.
  * 
  * The configure() method set ups the algorithm according to the parameters from the configuration file.
  * The doSelection() method selects the parents from the current population via tournament selection.
  * The doGeneration() method applies the reproduction, recombination and mutation operators and evaluates the fitness of the offspring.
- * The doUpdate() method selects the best individuals from the current population and the offspring for the next generation.
+ * The doUpdate() method preforms the token competition and selects the best individuals from the current population and the offspring for the next generation.
  * The doControl() method defines the stop criterion that is the maximum number of generations, and controls the execution for each data class.
+ * 
  */
 
-public class FalcoAlgorithm extends ClassificationAlgorithm 
+public class GAAlgorithm extends ClassificationAlgorithm 
 {
 	// ///////////////////////////////////////////////////////////////
 	// --------------------------------------- Serialization constant
@@ -47,7 +53,7 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	// ///////////////////////////////////////////////////////////////
 	// --------------------------------------------------- Properties
 	// ///////////////////////////////////////////////////////////////
-	
+
 	/** Parents selector */
 
 	protected ISelector parentsSelector;
@@ -62,8 +68,16 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 
 	/** Copy probability */
 
-	double copyProb;
+	private double copyProb;
 	
+	/** Elitist probability */
+	
+	private double elitistProb;
+	
+	/** Support threshold */
+	
+	private double support;
+
 	// ///////////////////////////////////////////////////////////////
 	// ------------------------------------------------- Constructors
 	// ///////////////////////////////////////////////////////////////
@@ -72,7 +86,7 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	 * Empty (default) constructor
 	 */
 
-	public FalcoAlgorithm() {
+	public GAAlgorithm() {
 		super();
 	}
 
@@ -81,21 +95,21 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	// ///////////////////////////////////////////////////////////////
 	
 	/**
-	 * Get the parents selector
+	 * Access to parents selector
 	 * 
-	 * @return parents selector
+	 * @return Actual parents selector
 	 */
 	
 	public ISelector getParentsSelector() {
 		return parentsSelector;
 	}
-	
+
 	/**
 	 * Set the parents selector
 	 * 
 	 * @param parentsSelector the parents selector
 	 */
-
+	
 	public void setParentsSelector(ISelector parentsSelector) {
 		// Set parents selector
 		this.parentsSelector = parentsSelector;
@@ -129,7 +143,7 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	/**
 	 * Access to individuals mutator.
 	 * 
-	 * @return Individuals mutator
+	 * @return the mutator
 	 */
 
 	public FilteredMutator getMutator() {
@@ -139,7 +153,7 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	/**
 	 * Set individuals mutator.
 	 * 
-	 * @param mutator the individuals mutator
+	 * @param mutator the mutator
 	 */
 
 	public void setMutator(IMutator mutator) {
@@ -148,7 +162,7 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		
 		this.mutator.setDecorated(mutator);
 	}
-
+	
 	/**
 	 * Access to "copyProb" property.
 	 * 
@@ -169,6 +183,66 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		this.copyProb = copyProb;
 	}
 	
+	/**
+	 * Access to "elitist" property.
+	 * 
+	 * @return Current elitist probability
+	 */
+
+	public double getElitistProb() {
+		return elitistProb;
+	}
+	
+	/**
+	 * Set the "elitist" property.
+	 * 
+	 * @param elitistProb the elitist probability
+	 */
+
+	public void setElitistProb(double elitistProb) {
+		this.elitistProb = elitistProb;
+	}
+
+	/**
+	 * Set the "support" property.
+	 * 
+	 * @param support the support
+	 */
+
+	public void setSupport(double support) {
+		this.support = support;
+	}
+	
+	/**
+	 * Access to "support" property.
+	 * 
+	 * @return Current support
+	 */
+
+	public double getSupport() {
+		return this.support;
+	}
+	
+	/**
+	 * Set the recombinator probability
+	 * 
+	 * @param recProb recombination probability
+	 */	
+	private void setRecombinationProb(double recProb) 
+	{
+		((FilteredRecombinator) this.recombinator).setRecProb(recProb);
+	}	
+	
+	/**
+	 * Set the mutator probability.
+	 * 
+	 * @param mutProb mutation probability
+	 */
+	private void setMutationProb(double mutProb) 
+	{
+		((FilteredMutator) this.mutator).setMutProb(mutProb);
+	}	
+	
 	// ///////////////////////////////////////////////////////////////
 	// ---------------------------- Implementing IConfigure interface
 	// ///////////////////////////////////////////////////////////////
@@ -176,14 +250,15 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	/**
 	 * Configuration method.
 	 * 
-	 * @param settings the configuration settings
+	 * @param settings Configuration settings
 	 */
 
 	public void configure(Configuration settings)
 	{
-		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.falco.FalcoSyntaxTreeSpecies");
-		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.falco.FalcoEvaluator");
-		settings.addProperty("evaluator.alpha", settings.getDouble("alpha",0.9));
+		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanSyntaxTreeSpecies");
+		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanEvaluator");
+		settings.addProperty("evaluator.w1", settings.getDouble("w1",0.7));
+		settings.addProperty("evaluator.w2", settings.getDouble("w2",0.8));
 		settings.addProperty("provider[@type]", "net.sf.jclec.syntaxtree.SyntaxTreeCreator");
 		settings.addProperty("parents-selector[@type]", "net.sf.jclec.selector.TournamentSelector");
 		
@@ -193,49 +268,57 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		
 		settings.addProperty("mutator[@type]", "net.sf.jclec.syntaxtree.SyntaxTreeMutator");
 		settings.addProperty("mutator[@mut-prob]", settings.getDouble("mutation-prob",0.1));
-		settings.addProperty("mutator.base-op[@type]", "net.sf.jclec.problem.classification.algorithm.falco.FalcoMutator");
+		settings.addProperty("mutator.base-op[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanMutator");
 		
 		// Call super.configure() method
 		super.configure(settings);
 		
-		classifier = new CrispRuleBase();
+		classifier = new TanClassifier();
 		
 		// Establishes the metadata for the species
-		((FalcoSyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
+		((TanSyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
 		
-		((FalcoEvaluator) evaluator).setDataset(getTrainSet());
-		
-		// Parents selector
-		setParentsSelectorSettings(settings);
-		
-		// Recombinator 
-		setRecombinatorSettings(settings);
-		
-		// Mutator
-		setMutatorSettings(settings);
-		
+		// Establishes the training set for evaluating
+		((TanEvaluator) evaluator).setDataset(getTrainSet());
+
 		//Get max-tree-depth
 		int maxDerivSize = settings.getInt("max-deriv-size");
-		((FalcoSyntaxTreeSpecies) species).setGrammar();
-		((FalcoSyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
-
+		((TanSyntaxTreeSpecies) species).setGrammar();
+		((TanSyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
+		
+		// Parents selector
+		SetParentsSelectorSettings(settings);
+		
+		// Recombinator 
+		SetRecombinatorSettings(settings);
+		
+		// Mutator 
+		SetMutatorSettings(settings);
+		
 		// Set copy probability
 		double copyProb = settings.getDouble("copy-prob",0.1);
 		setCopyProb(copyProb);
+		
+		// Set elitism probability
+		double elitProb = settings.getDouble("elitist-prob",0.1);
+		setElitistProb(elitProb);
+		
+		// Set support
+		double support = settings.getDouble("support",0.1);
+		setSupport(support);
 	}
 	
-	////////////////////////////////////////////////////////////////
-	// --------------------------------------------- Private methods
-	////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////
+	//----------------------------------------------- Private methods
+	/////////////////////////////////////////////////////////////////
 	
 	/**
 	 * Set the mutator settings
 	 * 
-	 * @param settings the configuration settings
+	 * @param settings Configuration settings
 	 */
-	
 	@SuppressWarnings("unchecked")
-	private void setMutatorSettings(Configuration settings) {
+	private void SetMutatorSettings(Configuration settings) {
 		try {
 			// Mutator classname
 			String mutatorClassname = 
@@ -266,16 +349,16 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		}
 		// Mutation probability 
 		double mutProb = settings.getDouble("mutator[@mut-prob]",0.05);
-		setMutationProb(mutProb);		
+		setMutationProb(mutProb);
 	}
 
 	/**
 	 * Set the recombinator settings
 	 * 
-	 * @param settings the configuration settings
+	 * @param settings Configuration settings
 	 */
 	@SuppressWarnings("unchecked")
-	private void setRecombinatorSettings(Configuration settings) {
+	private void SetRecombinatorSettings(Configuration settings) {
 		try {
 			// Recombinator classname
 			String recombinatorClassname = 
@@ -306,16 +389,16 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		}
 		// Recombination probability 
 		double recProb = settings.getDouble("recombinator[@rec-prob]",0.7);
-		setRecombinationProb(recProb);		
+		setRecombinationProb(recProb);
 	}
 
 	/**
-	 * Set the parents selector settings
+	 * Set the parent selector settings
 	 * 
-	 * @param settings the configuration settings
+	 * @param settings Configuration settings
 	 */
 	@SuppressWarnings("unchecked")
-	private void setParentsSelectorSettings(Configuration settings) {
+	private void SetParentsSelectorSettings(Configuration settings) {
 		try {
 			// Selector classname
 			String parentsSelectorClassname = 
@@ -349,34 +432,92 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	}
 
 	/**
-	 * Set the recombinator probability
+	 * Performs the token competition between two populations.
 	 * 
-	 * @param recProb the recombination probability
+	 * @param newpop the offspring
+	 * @param epop the external population
+	 * @param evaluator the evaluator
+	 * @return new external population with the best individuals
 	 */
-	
-	private void setRecombinationProb(double recProb) 
+	private List<IIndividual> doTokenCompetition(List<IIndividual> newpop, List<IIndividual> epop, IEvaluator evaluator) 
 	{
-		((FilteredRecombinator) this.recombinator).setRecProb(recProb);
-	}	
-	
-	/**
-	 * Set the mutator probability
-	 * 
-	 * @param mutProb the mutation probability
-	 */
-	
-	private void setMutationProb(double mutProb) 
-	{
-		((FilteredMutator) this.mutator).setMutProb(mutProb);
-	}	
+		int coversCount, nPatternsCovered;
+
+		List<IIndividual> unitepopulation = new ArrayList<IIndividual>();
+
+		unitepopulation.addAll(newpop);
+		unitepopulation.addAll(epop);
+		
+		eset.clear();
+		
+		int bsetSize = bset.size();
+		
+		if (unitepopulation.size() > bsetSize) 
+			unitepopulation = bettersSelector.select(unitepopulation, bsetSize);
+		else
+			unitepopulation = bettersSelector.select(unitepopulation);
+		
+		ArrayList<IInstance> instances = getTrainSet().getInstances();
+		int numInstances = instances.size();
+		
+		boolean[] patternsCovered = new boolean[numInstances];
+		
+		int uniteSize = unitepopulation.size();
+		// For each individual from the population
+		for (int i = 0; i < uniteSize; i++)
+		{
+			// Individual conversion
+			Rule rule = (Rule) ((SyntaxTreeRuleIndividual) unitepopulation.get(i)).getPhenotype();
+
+			// Number of times that the patterns is covered
+			coversCount = 0;
+			// Number of patterns covered
+			nPatternsCovered = 0;
+			
+			for(int j=0; j<numInstances; j++)
+			{
+				IInstance instance = instances.get(j);
+				
+				if(instance.getValue(getTrainSet().getMetadata().getClassIndex()) == execution) 
+				{
+					if((Boolean) rule.covers(instance))
+					{
+						coversCount++;
+					
+						if(!patternsCovered[j])
+						{
+							patternsCovered[j] = true;
+							nPatternsCovered++;
+						}
+					}
+				}
+			}
+			
+			// The fitness is modified based on the token competition
+			if (nPatternsCovered != 0) 
+			{
+				double fitness = ((SimpleValueFitness) unitepopulation.get(i).getFitness()).getValue();
+				fitness = fitness * ((double) nPatternsCovered / coversCount);
+				
+				unitepopulation.get(i).setFitness(new SimpleValueFitness(fitness));
+				
+				if (((double) nPatternsCovered / coversCount) >= getSupport()) 					
+					eset.add(unitepopulation.get(i).copy());
+			} 
+			else
+				unitepopulation.get(i).setFitness(new SimpleValueFitness(0.0));
+		}
+		
+		return eset;
+	}
 	
 	// ///////////////////////////////////////////////////////////////
 	// ------------------------- Overwriting java.lang.Object methods
 	// ///////////////////////////////////////////////////////////////
 
 	public boolean equals(Object other) {
-		if (other instanceof FalcoAlgorithm) {
-			FalcoAlgorithm cother = (FalcoAlgorithm) other;
+		if (other instanceof GAAlgorithm) {
+			GAAlgorithm cother = (GAAlgorithm) other;
 			EqualsBuilder eb = new EqualsBuilder();
 			// Call super method
 			eb.appendSuper(super.equals(other));
@@ -398,13 +539,26 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	// ///////////////////////////////////////////////////////////////
 
 	@Override
-	protected void doSelection() {
-		pset = parentsSelector.select(bset, populationSize);
+	protected void doSelection() 
+	{
+		int elitistPopulationSize = (int) Math.round(populationSize * elitistProb);
+		List<IIndividual> bsetAux = new ArrayList<IIndividual>();
+		cset = new ArrayList<IIndividual>();
+		
+		List<IIndividual> bsetBest = bettersSelector.select(bset);
+
+		for (int i = 0; i < elitistPopulationSize; i++)
+			cset.add(bsetBest.get(i));
+		
+		for (int i = elitistPopulationSize; i < populationSize; i++)
+			bsetAux.add(bsetBest.get(i)); 
+
+		pset = parentsSelector.select(bsetAux);
 	}
 
 	@Override
-	protected void doGeneration() {
-		
+	protected void doGeneration() 
+	{
 		// Recombine parents
 		rset = recombinator.recombine(pset);	
 		// Add non-recombined inds
@@ -414,15 +568,15 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		mset = mutator.mutate(rset);
 		// Add non-mutated inds
 		mset.addAll(mutator.getSterile());
-
+		
 		evaluator.evaluate(mset);
 		
-		cset = mset;
-		
-		// Do the copy
-		for (IIndividual ind : bset) 
-			if (randgen.coin(copyProb)) 
+		// Reproduction
+		for (IIndividual ind : bset)
+			if (randgen.coin(copyProb))
 				cset.add(ind.copy());
+		
+		cset.addAll(mset);
 	}
 
 	@Override
@@ -430,21 +584,20 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 	}
 
 	@Override
-	protected void doUpdate() {
-
-		// Select the best individuals
-		if (cset.size() > populationSize) 
-			bset = bettersSelector.select(cset, populationSize);
-		else
-			bset = bettersSelector.select(cset);
+	protected void doUpdate()
+	{
+		// Do token competition
+		eset = doTokenCompetition(cset, eset, evaluator);
+		
+		bset = bettersSelector.select(cset, populationSize);
 
 		// Clears parents and offsprings
 		cset = pset = rset = null;
 	}
 
-	protected void doControl() {
-		
-		// Sets the rule consequent to the current execution
+	protected void doControl() 
+	{
+		// Set the rule consequent to the current execution
 		for(IIndividual ind : bset)
 			((SyntaxTreeRuleIndividual) ind).getPhenotype().setConsequent(execution);
 		
@@ -453,39 +606,30 @@ public class FalcoAlgorithm extends ClassificationAlgorithm
 		{
 			execution++;
 			
-			// Select the best classifier for this class
-			Rule rule = (Rule) ((SyntaxTreeRuleIndividual) bset.get(0)).getPhenotype();
-			rule.setFitness(bset.get(0).getFitness());
-			
-			CrispRuleBase classifier = (CrispRuleBase) this.classifier;
-			
-			boolean added = false;
-			
-			// Add the rule according to it fitness			
-			if(classifier.getClassificationRules() != null)
-			for(int i = 0; i < classifier.getClassificationRules().size(); i++)
+			for(IIndividual ind : eset)
 			{
-				if(getEvaluator().getComparator().compare(classifier.getClassificationRule(i).getFitness(),rule.getFitness()) <= 0)
-				{
-					(classifier).addClassificationRule(i, rule);
-					added = true;
-					break;
-				}
+				Rule rule = (Rule) ((SyntaxTreeRuleIndividual) ind).getPhenotype();
+				rule.setConsequent(execution - 1);
+				
+				((CrispRuleBase) classifier).addClassificationRule(rule);				
 			}
-			
-			if(!added)
-				classifier.addClassificationRule(rule);
 			
 			// If all classes have been covered then finish
 			if (execution == getTrainSet().getMetadata().numberOfClasses()) 
 			{
 				state = FINISHED;
+				
+				// Sort the rules of the classifier 
+				((TanClassifier) classifier).sortClassifier(getTrainSet());
+				
 				return;
 			}
-			else 
+			else
 			{
 				// Execute the algorithm with other class
-				((FalcoEvaluator) evaluator).setClassifiedClass(execution);
+				((TanEvaluator) evaluator).setClassifiedClass(execution);
+
+				eset.clear();
 				generation = 0;
 				doInit();
 			}
