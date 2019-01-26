@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/heart/heart-10dobscv-1tst.dat,0.8518518518518519,0.6949152542372882,0.8416666666666667,0.8366600265340756,5,22,4.4,14845,3.03

@@ -16,7 +16,7 @@ import net.sf.jclec.problem.util.dataset.instance.IInstance;
  * 
  */
 
-public class TanClassifier extends CrispRuleBase 
+public class GAClassifier extends CrispRuleBase 
 {
 	/////////////////////////////////////////////////////////////////
 	// --------------------------------------- Serialization constant
@@ -34,7 +34,7 @@ public class TanClassifier extends CrispRuleBase
 	 * Default (empty) constructor
 	 */
 	
-	public TanClassifier()
+	public GAClassifier()
 	{
 		super();
 	}

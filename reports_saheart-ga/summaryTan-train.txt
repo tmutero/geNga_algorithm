@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/saheart/saheart-10-1tra.dat,0.6843373493975904,0.3389389462420506,0.6785695981959821,0.678307803297854,7,32,4.571428571428571,14845,3.886

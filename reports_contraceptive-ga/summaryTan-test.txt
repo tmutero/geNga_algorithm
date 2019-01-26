@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/contraceptive/contraceptive-10-1tst.dat,0.4594594594594595,0.1055675398910498,0.5283248449458577,0.14422976484983338,10,37,3.7,22313,50.83

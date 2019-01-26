@@ -1,4 +1,4 @@
-package net.sf.jclec.problem.classification.algorithm.bojarczuk;
+package net.sf.jclec.problem.classification.algorithm.ge;
 
 import java.util.Comparator;
 
@@ -24,7 +24,7 @@ import net.sf.jclec.problem.util.dataset.metadata.IMetadata;
  * 
  */
 
-public class BojarczukEvaluator extends AbstractParallelEvaluator
+public class GEEvaluator extends AbstractParallelEvaluator
 {
 	/////////////////////////////////////////////////////////////////
 	// --------------------------------------- Serialization constant
@@ -62,7 +62,7 @@ public class BojarczukEvaluator extends AbstractParallelEvaluator
 	 * Empty constructor.
 	 */
 	
-	public BojarczukEvaluator() 
+	public GEEvaluator()
 	{
 		super();
 	}

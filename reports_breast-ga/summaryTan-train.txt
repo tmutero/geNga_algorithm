@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/breast/breast-10-1tra.dat,0.72,0.30605123324609407,0.6493305471712716,0.6267148133860768,9,29,3.2222222222222223,14845,2.773

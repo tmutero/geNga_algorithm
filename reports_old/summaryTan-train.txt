@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/iris/iris-10-1tra.dat,0.9629629629629629,0.9444444444444444,0.9814814814814815,0.9622114086268012,4,8,2.0,22313,2.315

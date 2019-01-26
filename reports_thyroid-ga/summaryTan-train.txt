@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/thyroid/thyroid-10-1tra.dat,0.4283950617283951,0.0748264812047725,0.7570245978998491,0.5969185017726165,9,34,3.7777777777777777,22313,90.032

@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/newthyroid/newthyroid-10-1tra.dat,0.9481865284974094,0.8913410651953609,0.9750036687983007,0.9496367496712325,6,21,3.5,22313,3.187

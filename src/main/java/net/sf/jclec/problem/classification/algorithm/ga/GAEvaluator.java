@@ -25,7 +25,7 @@ import org.apache.commons.configuration.Configuration;
  * 
  */
 
-public class TanEvaluator extends AbstractParallelEvaluator implements IConfigure
+public class GAEvaluator extends AbstractParallelEvaluator implements IConfigure
 {
 	/////////////////////////////////////////////////////////////////
 	//--------------------------------------- Serialization constant
@@ -67,7 +67,7 @@ public class TanEvaluator extends AbstractParallelEvaluator implements IConfigur
 	 * Empty constructor.
 	 */
 
-	public TanEvaluator() {
+	public GAEvaluator() {
 		super();
 	}
 

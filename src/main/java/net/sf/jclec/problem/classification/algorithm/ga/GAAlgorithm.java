@@ -1,4 +1,4 @@
-package net.sf.jclec.problem.classification.algorithm.tan;
+package net.sf.jclec.problem.classification.algorithm.ga;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,9 +23,6 @@ import org.apache.commons.configuration.ConfigurationRuntimeException;
 import org.apache.commons.lang.builder.EqualsBuilder;
 
 /**
- * Classifier Algorithm for Tan et al. 2002 - Mining multiple comprehensible classification rules using genetic programming<p/>
- * 
- * The Tan et al. algorithm performs reproduction, recombination and mutation, keeping an elite population.
  * Its execution is repeated as many times as the number of data classes.
  * At each execution, a population of rules is evolved for a particular data class.
  * When evolution is finished, the elite population is included in the classification rule base (more than one rule per class).
@@ -255,8 +252,8 @@ public class GAAlgorithm extends ClassificationAlgorithm
 
 	public void configure(Configuration settings)
 	{
-		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanSyntaxTreeSpecies");
-		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanEvaluator");
+		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.ga.GASyntaxTreeSpecies");
+		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.ga.GAEvaluator");
 		settings.addProperty("evaluator.w1", settings.getDouble("w1",0.7));
 		settings.addProperty("evaluator.w2", settings.getDouble("w2",0.8));
 		settings.addProperty("provider[@type]", "net.sf.jclec.syntaxtree.SyntaxTreeCreator");
@@ -268,23 +265,23 @@ public class GAAlgorithm extends ClassificationAlgorithm
 		
 		settings.addProperty("mutator[@type]", "net.sf.jclec.syntaxtree.SyntaxTreeMutator");
 		settings.addProperty("mutator[@mut-prob]", settings.getDouble("mutation-prob",0.1));
-		settings.addProperty("mutator.base-op[@type]", "net.sf.jclec.problem.classification.algorithm.tan.TanMutator");
+		settings.addProperty("mutator.base-op[@type]", "net.sf.jclec.problem.classification.algorithm.ga.GAMutator");
 		
 		// Call super.configure() method
 		super.configure(settings);
 		
-		classifier = new TanClassifier();
+		classifier = new GAClassifier();
 		
 		// Establishes the metadata for the species
-		((TanSyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
+		((GASyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
 		
 		// Establishes the training set for evaluating
-		((TanEvaluator) evaluator).setDataset(getTrainSet());
+		((GAEvaluator) evaluator).setDataset(getTrainSet());
 
 		//Get max-tree-depth
 		int maxDerivSize = settings.getInt("max-deriv-size");
-		((TanSyntaxTreeSpecies) species).setGrammar();
-		((TanSyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
+		((GASyntaxTreeSpecies) species).setGrammar();
+		((GASyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
 		
 		// Parents selector
 		SetParentsSelectorSettings(settings);
@@ -620,14 +617,14 @@ public class GAAlgorithm extends ClassificationAlgorithm
 				state = FINISHED;
 				
 				// Sort the rules of the classifier 
-				((TanClassifier) classifier).sortClassifier(getTrainSet());
+				((GAClassifier) classifier).sortClassifier(getTrainSet());
 				
 				return;
 			}
 			else
 			{
 				// Execute the algorithm with other class
-				((TanEvaluator) evaluator).setClassifiedClass(execution);
+				((GAEvaluator) evaluator).setClassifiedClass(execution);
 
 				eset.clear();
 				generation = 0;

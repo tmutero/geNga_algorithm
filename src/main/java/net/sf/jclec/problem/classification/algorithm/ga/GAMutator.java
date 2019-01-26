@@ -19,7 +19,7 @@ import net.sf.jclec.util.random.IRandGen;
  * 
  */
 
-public class TanMutator implements IMutateSyntaxTree
+public class GAMutator implements IMutateSyntaxTree
 {
 	/////////////////////////////////////////////////////////////////
 	// --------------------------------------- Serialization constant
@@ -37,7 +37,7 @@ public class TanMutator implements IMutateSyntaxTree
 	 * Empty constructor
 	 */
 	
-	public TanMutator() 
+	public GAMutator() 
 	{
 		super();
 	}

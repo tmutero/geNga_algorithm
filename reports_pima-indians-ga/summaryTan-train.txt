@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/pima-indians/pima-indians-train.dat,0.7211394302848576,0.41420503909643785,0.718192219679634,0.7181294309621133,7,27,3.857142857142857,14845,6.753

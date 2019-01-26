@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/appendicitis/appendicitis-10-1tra.dat,0.8947368421052632,0.6575342465753424,0.8157894736842104,0.8051083442514924,3,2,0.6666666666666666,16526,0.759

@@ -1,0 +1,24 @@
+File name: data/bupa/bupa-10-1tra.dat
+Runtime (s): 46.867
+Accuracy: 0.5935
+
+#Percentage of correct predictions per class
+ Class 1: 70.77%
+ Class 2: 51.11%
+#End percentage of correct predictions per class
+
+#Classifier
+ 1 Rule: IF (AND NOT AND AND OUT Sgot 59.284880 26.2877230849249 OUT Sgpt 84.660512 20.627832702487837 OUT Sgot 66.600938 41.40326154501266 <= Sgot 24.309795 ) THEN (Selector = 1)
+ 2 Rule: ELSE IF (AND AND NOT AND > Sgot 29.538547 OUT Sgot 66.600938 41.40326154501266 OUT Mcv 73.237656 90.04993291303549 OUT Sgot 66.600938 41.40326154501266 ) THEN (Selector = 1)
+ 3 Rule: ELSE IF (OUT Mcv 99.171074 89.94972629769488 ) THEN (Selector = 2)
+ 4 Rule: ELSE IF (>= Gammagt 21.879982 ) THEN (Selector = 2)
+ 5 Rule: ELSE IF (NOT AND AND NOT AND IN Sgot 66.600938 41.40326154501266 > Gammagt 263.796681 OUT Sgpt 25.500072 20.627832702487837 IN Mcv 73.237656 90.04993291303549 ) THEN (Selector = 1)
+ 6 Rule: ELSE IF (AND AND OUT Drinks 10.005145 15.497597645556807 OUT Drinks 5.880566 17.675350641173473 OUT Gammagt 278.729995 288.67780866307845 ) THEN (Selector = 2)
+ 7 Rule: ELSE IF (AND AND AND <= Sgot 29.538547 OUT Sgot 66.600938 41.40326154501266 <= Sgot 29.538547 < Gammagt 62.868908 ) THEN (Selector = 1)
+ 8 Rule: ELSE (Selector = 1)
+
+#Train Classification Confusion Matrix
+			Predicted
+			C0	C1	|
+Actual	C0	92	38	||	C0 = 1
+		C1	88	92	||	C1 = 2

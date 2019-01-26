@@ -1,4 +1,4 @@
-package net.sf.jclec.problem.classification.algorithm.bojarczuk;
+package net.sf.jclec.problem.classification.algorithm.ge;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -251,8 +251,8 @@ public class GEAlgorithm extends ClassificationAlgorithm
 
 	public void configure(Configuration settings)
 	{
-		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.bojarczuk.BojarczukSyntaxTreeSpecies");
-		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.bojarczuk.BojarczukEvaluator");
+		settings.addProperty("species[@type]", "net.sf.jclec.problem.classification.algorithm.ge.GESyntaxTreeSpecies");
+		settings.addProperty("evaluator[@type]", "net.sf.jclec.problem.classification.algorithm.ge.GEEvaluator");
 		settings.addProperty("provider[@type]", "net.sf.jclec.syntaxtree.SyntaxTreeCreator");
 		settings.addProperty("parents-selector[@type]", "net.sf.jclec.selector.TournamentSelector");
 		
@@ -266,16 +266,16 @@ public class GEAlgorithm extends ClassificationAlgorithm
 		classifier = new CrispRuleBase();
 		
 		// Establishes the metadata for the species
-		((BojarczukSyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
+		((GESyntaxTreeSpecies) species).setMetadata(getTrainSet().getMetadata());
 		
 		//Get max-tree-depth
 		int maxDerivSize = settings.getInt("max-deriv-size");
-		((BojarczukSyntaxTreeSpecies) species).setGrammar();
-		((BojarczukSyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
+		((GESyntaxTreeSpecies) species).setGrammar();
+		((GESyntaxTreeSpecies) species).setMaxDerivSize(maxDerivSize);
 		
 		// Establishes the training set for evaluating
-		((BojarczukEvaluator) evaluator).setDataset(getTrainSet());
-		((BojarczukEvaluator) evaluator).setMaxDerivSize(maxDerivSize);
+		((GEEvaluator) evaluator).setDataset(getTrainSet());
+		((GEEvaluator) evaluator).setMaxDerivSize(maxDerivSize);
 		
 		// Parents selector
 		setParentsSelectorSetting(settings);
