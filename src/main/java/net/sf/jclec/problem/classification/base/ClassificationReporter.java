@@ -68,6 +68,10 @@ public abstract class ClassificationReporter implements IAlgorithmListener, ICon
 	/** Report directory */
 	
 	protected File reportDirectory;
+
+	/** Calculate memory Usage */
+
+	protected  long beforeUsedMem, afterUsedMem;
 	
 	/////////////////////////////////////////////////////////////////
 	// ------------------------------------------------- Constructors
@@ -159,6 +163,7 @@ public abstract class ClassificationReporter implements IAlgorithmListener, ICon
 	public void algorithmStarted(AlgorithmEvent event) 
 	{
 		initTime = System.currentTimeMillis();
+		beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
 		
 		Date now = new Date(); // java.util.Date, NOT java.sql.Date or java.sql.Timestamp!
 		String date = new SimpleDateFormat("yyyy.MM.dd'_'HH.mm.ss.SS").format(now);
@@ -175,6 +180,7 @@ public abstract class ClassificationReporter implements IAlgorithmListener, ICon
 	public void algorithmFinished(AlgorithmEvent event) 
 	{
 		endTime = System.currentTimeMillis();
+		afterUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
 		doDataReport((ClassificationAlgorithm) event.getAlgorithm());
 		doClassificationReport((ClassificationAlgorithm) event.getAlgorithm());
 	}
@@ -369,131 +375,7 @@ public abstract class ClassificationReporter implements IAlgorithmListener, ICon
 		}
     }
     
-    /**
-	 * This method computes the area under the curve
-	 * 
-	 * @param confusionMatrix the confusion matrix
-	 * @return the AUC value
-	 */
-    protected double AUC(int[][] confusionMatrix)
-	{
-		if(confusionMatrix.length == 2)
-		{
-			return AUC(confusionMatrix,0,1);
-		}
-		else
-		{
-			/** Multi-class AUC **/
-			double auc = 0.0;
-			
-			for(int i = 0; i < confusionMatrix.length; i++)
-				for(int j = 0; j < confusionMatrix.length; j++)
-					if(i != j)
-						auc += AUC(confusionMatrix,i,j);
-			
-			auc = auc / (double) (confusionMatrix.length * (confusionMatrix.length-1));
-			
-			return auc;
-		}
-	}
-    
-    /**
-	 * This method computes the area under the curve for two classes
-	 * 
-	 * @param confusionMatrix the confusion matrix
-	 * @param Class1 the class index of the first class
-	 * @param Class2 the class index of the second class
-	 * @return the AUC value
-	 */
-    protected double AUC(int[][] confusionMatrix, int Class1, int Class2)
-	{
-		double auc = 0.0;
-		
-		int tp = confusionMatrix[Class1][Class1];
-		int fp = confusionMatrix[Class2][Class1];
-		int tn = confusionMatrix[Class2][Class2];
-		int fn = confusionMatrix[Class1][Class2];
-		
-		double tpRate = 1.0, fpRate = 0.0;
-		
-		if(tp + fn != 0)
-			tpRate = tp / (double) (tp + fn);
-		
-		if(fp + tn != 0)
-			fpRate = fp / (double) (fp + tn);
-		
-		auc = (1.0 + tpRate - fpRate) / 2.0;
-		
-		return auc;
-	}
-    
-    /**
-	 * This method computes the cohen's kappa rate
-	 * 
-	 * @param confusionMatrix the confusion matrix
-	 * @return the kappa value
-	 */
-    protected double Kappa(int[][] confusionMatrix)
-	{
-		int correctedClassified = 0;
-		int numberInstancesTotal = 0;
-		int[] numberInstances = new int[confusionMatrix.length];
-		int[] predictedInstances = new int[confusionMatrix.length];
-		
-		for(int i = 0; i < confusionMatrix.length; i++)
-		{
-			correctedClassified += confusionMatrix[i][i];
-			
-			for(int j = 0; j < confusionMatrix.length; j++)
-			{
-				numberInstances[i] += confusionMatrix[i][j];
-				predictedInstances[j] += confusionMatrix[i][j];
-			}
-			
-			numberInstancesTotal += numberInstances[i];
-		}
-		
-		double mul = 0;
-		
-		for(int i = 0; i < confusionMatrix.length; i++)
-			mul += numberInstances[i] * predictedInstances[i];
-		
-		if(numberInstancesTotal*numberInstancesTotal - mul  != 0)
-			return ((numberInstancesTotal * correctedClassified) - mul) / (double) ((numberInstancesTotal*numberInstancesTotal) - mul);
-		else
-			return 1.0;
-	}
-    
-    /**
-	 * This method computes the geometric mean
-	 * 
-	 * @param confusionMatrix the confusion matrix
-	 * @return the geometric mean
-	 */
-    protected double GeoMean(int[][] confusionMatrix)
-	{
-    	int[] numberInstances = new int[confusionMatrix.length];
-		
-		for(int i = 0; i < confusionMatrix.length; i++)
-		{
-			for(int j = 0; j < confusionMatrix.length; j++)
-			{
-				numberInstances[i] += confusionMatrix[i][j];
-			}
-		}
-		
-		double gm = 1.0;
-		
-		for(int i = 0; i < confusionMatrix.length; i++)
-			gm *= confusionMatrix[i][i] / (double) numberInstances[i];
-		
-		return Math.pow(gm, 1.0 / (double) confusionMatrix.length);
-	}
-	
-	/**
-	 * Make a classifier report in train and test
-	 * 
-	 * @param Algorithm
-	 */
-    protected abstract void doClassificationReport(ClassificationAlgorithm algorithm);
+
+
+     protected abstract void doClassificationReport(ClassificationAlgorithm algorithm);
 }

@@ -9,15 +9,6 @@ import net.sf.jclec.syntaxtree.SyntaxTreeSchema;
 import net.sf.jclec.syntaxtree.TerminalNode;
 import net.sf.jclec.util.random.IRandGen;
 
-/**
- * Mutator for Tan et al. 2002 - Mining multiple comprehensible classification rules using genetic programming<p/>
- * 
- * The mutator selects a random node from the parent tree. Depending on whether the selected node is a terminal or non-terminal 
- * symbol the following actions are performed: 
- *    non-terminal symbol: the subtree under the selected non-terminal symbol is destroyed and a complete new branch is generated.
- *    terminal symbol: the terminal symbol is changed to another compatible symbol (see selectOtherTerminalNode() method). 
- * 
- */
 
 public class GAMutator implements IMutateSyntaxTree
 {

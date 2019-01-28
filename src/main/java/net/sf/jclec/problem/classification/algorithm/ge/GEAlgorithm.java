@@ -17,18 +17,6 @@ import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationRuntimeException;
 import org.apache.commons.lang.builder.EqualsBuilder;
 
-/**
- * Classifier algorithm for Bojarczuk et al. 2004 - A constrained-syntax genetic programming system for discovering classification rules: application to medical data sets<p/>
- * 
- * The Bojarczuk et al. algorithm performs mutation and reproduction to evolve rules whose consequent is evaluated for each of the data classes.
- * 
- * The configure() method set ups the algorithm according to the parameters from the configuration file.
- * The doSelection() method selects the parents from the current population via tournament selection.
- * The doGeneration() method applies the recombination operator and evaluates the fitness of the offspring.
- * The doUpdate() method applies reproduction and selects the best individuals for the next generation.
- * The doControl() method defines the stop criterion that is the maximum number of generations.
- * 
- */
 
 public class GEAlgorithm extends ClassificationAlgorithm 
 {

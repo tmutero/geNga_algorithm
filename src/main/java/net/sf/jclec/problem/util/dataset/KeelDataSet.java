@@ -265,7 +265,6 @@ public class KeelDataSet extends FileDataset {
 	private void obtainMetadata(String fileName)
 	{
 		File file = new File(fileName);
-		
 		metadata = new ClassificationMetadata();
 		
 		try {

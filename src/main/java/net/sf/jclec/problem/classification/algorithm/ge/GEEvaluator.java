@@ -14,15 +14,6 @@ import net.sf.jclec.problem.util.dataset.instance.IInstance;
 import net.sf.jclec.problem.util.dataset.attribute.CategoricalAttribute;
 import net.sf.jclec.problem.util.dataset.metadata.IMetadata;
 
-/**
- * Evaluator for Bojarczuk et al. 2004 - A constrained-syntax genetic programming system for discovering classification rules: application to medical data sets<p/>
- * 
- * The fitness function evaluates the confusion matrix for each of the data classes.
- * The predicted class whose sensitivity and specificity is maximal is selected as the consequent of the rule.
- * Finally, the fitness is weighted as regards of the length of the rule (number of nodes). 
- * Therefore, the evolutionary process is biased to evolve accurate, simple and more comprehensible rules.
- * 
- */
 
 public class GEEvaluator extends AbstractParallelEvaluator
 {

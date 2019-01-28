@@ -23,7 +23,7 @@ import net.sf.jclec.problem.util.dataset.metadata.IMetadata;
  * Extends the ClassificationReporter with the implementation of the doClassificationReport() method.
  * It defines the reports of the train/test datasets after the classifier has been learned.
  * It shows the complete rule-base as the classifier and the performance statistics of the classification of the datasets.
- * Namely, accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time.
+ * Namely, accuracy, number of evaluations, execution time.
  *
  *
  *
@@ -102,14 +102,6 @@ public class RuleBaseReporter extends ClassificationReporter
 			}
 		}
 
-		double kappaRateTrain = Kappa(confusionMatrixTrain);
-		double kappaRateTest = Kappa(confusionMatrixTest);
-
-		double aucTrain = AUC(confusionMatrixTrain);
-		double aucTest = AUC(confusionMatrixTest);
-
-		double mediaGeoTrain = GeoMean(confusionMatrixTrain);
-		double mediaGeoTest = GeoMean(confusionMatrixTest);
 
 		DecimalFormat df = new DecimalFormat("0.00");
 		DecimalFormat df4 = new DecimalFormat("0.0000");
@@ -136,8 +128,8 @@ public class RuleBaseReporter extends ClassificationReporter
 			// Train data
 			trainFile.write("File name: " + ((FileDataset) algorithm.getTrainSet()).getFileName());
 			trainFile.write(("\nRuntime (s): " + (((double)(endTime-initTime)) / 1000.0)));
-			//	trainFile.write("\nNumber of different attributes: " + (metadata.numberOfAttributes()-1));
-			//	trainFile.write("\nNumber of rules: " + (classificationRules.size()+1));
+			trainFile.write("\nMemory Usage(bytes): " + (afterUsedMem-beforeUsedMem));
+			trainFile.write("\nNumber of rules: " + (classificationRules.size()+1));
 			//trainFile.write("\nNumber of conditions: "+ conditions);
 			//trainFile.write("\nAverage number of conditions per rule: " + (double)conditions/((double)classificationRules.size()+1.0));
 			trainFile.write("\nAccuracy: " + df4.format((correctedClassifiedTrain /  (double) algorithm.getTrainSet().getInstances().size())));
@@ -152,8 +144,9 @@ public class RuleBaseReporter extends ClassificationReporter
 			// Test data
 			testFile.write("File name: " + ((FileDataset) algorithm.getTestSet()).getFileName());
 			testFile.write(("\nRuntime (s): " + (((double)(endTime-initTime)) / 1000.0)));
+			trainFile.write("\nMemory Usage(bytes): " + (afterUsedMem-beforeUsedMem));
 			//	testFile.write("\nNumber of different attributes: " + (metadata.numberOfAttributes()-1));
-			//	testFile.write("\nNumber of rules: " + (classificationRules.size()+1));
+			testFile.write("\nNumber of rules: " + (classificationRules.size()+1));
 			//	testFile.write("\nNumber of conditions: "+ conditions);
 			//	testFile.write("\nAverage number of conditions per rule: " + (double)conditions/((double)classificationRules.size()+1.0));
 			testFile.write("\nAccuracy: " + df4.format((correctedClassifiedTest /  (double) algorithm.getTestSet().getInstances().size())));
@@ -191,7 +184,7 @@ public class RuleBaseReporter extends ClassificationReporter
 			else
 			{
 				bwTrain = new BufferedWriter (new FileWriter(nameFileTrain));
-				bwTrain.write("Dataset, Accuracy, execution time\n");			}
+				bwTrain.write("Dataset  							|| Accuracy || Execution time(s) || Memory Usage (bytes)\n");			}
 
 			// If the global report for test exist
 			if(fileTest.exists())
@@ -203,13 +196,14 @@ public class RuleBaseReporter extends ClassificationReporter
 			{
 				bwTest = new BufferedWriter (new FileWriter(nameFileTest));
 
-				bwTest.write("Dataset, Accuracy, execution time\n");
+				bwTest.write("Dataset  								|| Accuracy || Execution time(s) || Memory Usage (bytes)\n");
+
 			}
 
 			//Write the train dataset name
-			bwTrain.write(((FileDataset) algorithm.getTrainSet()).getFileName() + ",");
+			bwTrain.write(((FileDataset) algorithm.getTrainSet()).getFileName() + "||");
 			//Write the test dataset name
-			bwTest.write(((FileDataset) algorithm.getTestSet()).getFileName() + ",");
+			bwTest.write(((FileDataset) algorithm.getTestSet()).getFileName() + "||");
 			//Write the percentage of correct predictions
 			bwTrain.write(((correctedClassifiedTrain /  (double) algorithm.getTrainSet().getInstances().size())) + ",");
 
@@ -235,12 +229,8 @@ public class RuleBaseReporter extends ClassificationReporter
 
 			trainFile.write("\n#End percentage of correct predictions per class");
 
-			//	bwTrain.write(mediaGeoTrain + ",");
-			//	bwTrain.write((classificationRules.size()+1) + ",");
-			//	bwTrain.write(conditions + ",");
-			//	bwTrain.write((double)conditions/((double)classificationRules.size()+1.0)+",");
-			//	bwTrain.write(algorithm.getEvaluator().getNumberOfEvaluations()+",");
-			bwTrain.write((((double)(endTime-initTime)) / 1000.0) + "");
+
+			 bwTrain.write((((double)(endTime-initTime)) / 1000.0) + "");
 
 			trainFile.write("\n\n#Classifier\n");
 

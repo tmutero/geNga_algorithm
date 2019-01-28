@@ -22,20 +22,6 @@ import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationRuntimeException;
 import org.apache.commons.lang.builder.EqualsBuilder;
 
-/**
- * Its execution is repeated as many times as the number of data classes.
- * At each execution, a population of rules is evolved for a particular data class.
- * When evolution is finished, the elite population is included in the classification rule base (more than one rule per class).
- * 
- * The algorithm performs token competition within the elite population in order to keep non-redundant individuals that cover complementary instances.
- * 
- * The configure() method set ups the algorithm according to the parameters from the configuration file.
- * The doSelection() method selects the parents from the current population via tournament selection.
- * The doGeneration() method applies the reproduction, recombination and mutation operators and evaluates the fitness of the offspring.
- * The doUpdate() method preforms the token competition and selects the best individuals from the current population and the offspring for the next generation.
- * The doControl() method defines the stop criterion that is the maximum number of generations, and controls the execution for each data class.
- * 
- */
 
 public class GAAlgorithm extends ClassificationAlgorithm 
 {
