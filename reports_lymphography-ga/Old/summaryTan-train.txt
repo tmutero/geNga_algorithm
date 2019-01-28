@@ -1,2 +1,0 @@
-Dataset, Accuracy, Cohen's Kappa rate, AUC, geometric mean, number of rules, number of conditions, average number of conditions, number of evaluations, execution time
-data/lymphography/lymphography-5-1tra.dat,0.864406779661017,0.7374860956618465,0.9730682605682605,0.9149475286155841,9,29,3.2222222222222223,29750,2.666

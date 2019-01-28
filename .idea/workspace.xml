@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2119a8d2-8d07-4f06-8880-a3d625e2ea3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heart/GE.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-g.7z" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ga/summaryTan-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ga/summaryTan-train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_0.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_10.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_20.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_30.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_40.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_50.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_60.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_70.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_80.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/Iteration_0_90.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/TestClassificationReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/TestDataReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/TrainClassificationReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.46.00.882/TrainDataReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_0.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_10.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_20.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_30.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_40.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_50.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_60.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_70.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_80.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/Iteration_0_90.rep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/TestClassificationReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/TestDataReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/TrainClassificationReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.25_15.47.08.636/TrainDataReport.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/IClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/IClassifierIndividual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/bojarczuk/BojarczukAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/bojarczuk/BojarczukEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/bojarczuk/BojarczukSyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/bojarczuk/BojarczukSyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/bojarczuk/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/FalcoAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/FalcoEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/FalcoMutator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/FalcoSyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/FalcoSyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/falco/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GAAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GAClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GAEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GAMutator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GASyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/GASyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanMutator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanSyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ga/TanSyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ge/GEAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ge/GEEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ge/GESyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/ge/GESyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/GAAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanEvaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanMutator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanSyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/TanSyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/algorithm/tan/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/base/ClassificationAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/base/ClassificationReporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/base/Rule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/base/RuleBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/base/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/And.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/AttributeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/ConstantValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Equal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Greater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/GreaterOrEqual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/In.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Less.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/LessOrEqual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Not.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/NotEqual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Or.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/Out.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/RandomConstantOfContinuousValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/RandomConstantOfDiscreteValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/Is.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/Maximum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/MembershipFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/Minimum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/TriangularMembershipFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/fuzzy/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/blocks/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/crisprule/CrispRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/crisprule/CrispRuleBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/crisprule/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/exprtree/ExprTreeRuleIndividual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/exprtree/ExprTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/exprtree/ExprTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/exprtree/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/fuzzyrule/FuzzyRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/fuzzyrule/FuzzyRuleBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/fuzzyrule/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/listener/RuleBaseReporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/listener/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/multiexprtree/MultiExprTreeRuleIndividual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/multiexprtree/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/multisyntaxtree/MultiSyntaxTreeRuleIndividual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/multisyntaxtree/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/syntaxtree/SyntaxTreeRuleIndividual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/syntaxtree/SyntaxTreeSchema.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/syntaxtree/SyntaxTreeSpecies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/syntaxtree/SyntaxTreeSpecies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/classification/syntaxtree/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/AbstractDataset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/ArffDataSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/FileDataset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/IDataset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/KeelDataSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/AbstractAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/AttributeType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/CategoricalAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/IAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/IntegerAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/NumericalAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/attribute/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/instance/IInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/instance/Instance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/instance/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/metadata/ClassificationMetadata.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/metadata/IMetadata.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/metadata/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/sf/jclec/problem/util/dataset/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appendicitis/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/appendicitis/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appendicitis/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appendicitis/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/appendicitis/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast-cancer/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/breast-cancer/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast-cancer/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast-cancer/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/breast-cancer/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/breast/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breast/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/breast/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bupa/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/bupa/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bupa/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bupa/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/bupa/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contraceptive/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/contraceptive/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contraceptive/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contraceptive/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/contraceptive/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ga-ge-classification.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ga-ge-classification.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart/Bojarczuk.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heart/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/heart/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jclec4-classification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jclec4-classification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lymphography/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/lymphography/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lymphography/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lymphography/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/lymphography/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newthyroid/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/newthyroid/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newthyroid/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newthyroid/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/newthyroid/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pima-indians/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/pima-indians/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pima-indians/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pima-indians/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/pima-indians/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-operative/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/post-operative/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-operative/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-operative/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/post-operative/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/reportTan_2019.01.05_02.28.06.746/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/reportFalco_2019.01.05_05.00.08.96/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/summaryFalco-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_appendicitis-ge/summaryFalco-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/reportTan_2019.01.05_03.33.02.665/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/reportGE_2019.01.06_19.56.40.25/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/summaryGE-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-cancer-ge/summaryGE-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/reportTan_2019.01.05_03.48.04.460/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_breast-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/Iteration_1_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/Iteration_1_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.05_01.44.02.787/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/reportTan_2019.01.25_15.49.17.761/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/summaryTan-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/summaryTan-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_bupa-ga/summaryTan-train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_bupa-ga/summaryTan-train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/reportTan_2019.01.05_04.19.42.181/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_contraceptive-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/reportTan_2019.01.05_01.27.02.624/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_heart-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_1_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_1_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_2_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_2_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/Iteration_3_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/Iteration_3_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/reportTan_2019.01.07_18.55.56.793/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/Old/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_1_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_1_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_2_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_2_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/Iteration_3_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/Iteration_3_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.24_08.33.10.77/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.07_20.04.28.316/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.22.29.179/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_1_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_1_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_2_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_2_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/Iteration_3_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/Iteration_3_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.09.14.122/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.29.06.95/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_1_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_1_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_2_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_2_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/Iteration_3_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/Iteration_3_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.08_11.10.08.949/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.25_14.48.43.34/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/Iteration_3_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.17_13.07.01.872/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/Iteration_3_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ga/reportTan_2019.01.23_15.02.28.348/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_0.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_0.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_10.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_10.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_20.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_20.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_30.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_30.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_40.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_40.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_50.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_50.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_60.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_60.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_70.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_70.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_80.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_80.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/Iteration_0_90.rep" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/Iteration_0_90.rep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/TestClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TestClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/TestDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TestDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/TrainClassificationReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TrainClassificationReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.07_19.29.32.678/TrainDataReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TrainDataReport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/summaryGE-test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/summaryGE-test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_lymphography-ge/summaryGE-train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports_lymphography-ge/summaryGE-train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/reportTan_2019.01.05_01.54.47.951/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_newthyroid-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/reportTan_2019.01.04_17.09.38.635/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_old/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/reportTan_2019.01.04_18.26.02.415/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_pima-indians-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/reportTan_2019.01.05_03.03.51.562/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_post-operative-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/reportTan_2019.01.05_03.58.34.61/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_saheart-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_0_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_1_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_0.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_10.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_20.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_30.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_40.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_50.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_60.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_70.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_80.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/Iteration_2_90.rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/TestClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/TestDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/TrainClassificationReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/reportTan_2019.01.05_04.31.12.15/TrainDataReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/summaryTan-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_thyroid-ga/summaryTan-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saheart/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/saheart/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saheart/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saheart/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/saheart/GA.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAMutator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAMutator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GESyntaxTreeSpecies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GESyntaxTreeSpecies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/listener/RuleBaseReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/listener/RuleBaseReporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thyroid/Bojarczuk.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/thyroid/GE.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thyroid/Falco.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thyroid/Tan.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/thyroid/GA.cfg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/ClassificationAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/ClassificationReporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="217" column="37" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/RuleBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/fuzzy/MembershipFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/AttributeValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/Equal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/ConstantValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/Greater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/In.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TanAlgorithm</find>
+      <find>tan</find>
+      <find>tan.</find>
+      <find>TanClassifier</find>
+      <find>TanC</find>
+      <find>TanEvaluator</find>
+      <find>TanMutator</find>
+      <find>TanSyntaxTreeSpecies</find>
+      <find>GASyntaxTreeSpecies</find>
+      <find>Tan</find>
+      <find>BojarczukAlgorithm</find>
+      <find>et.sf.jclec.problem.classification.algorithm.ga.GAAlgorithm</find>
+      <find>net.sf.jclec.problem.classification.algorithm.tan.TanAlgorithm</find>
+      <find>net.sf.jclec.problem.classification.algorithm.bojarczuk.BojarczukAlgorithm</find>
+      <find>getConfusionMatrix</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>GAAlgorithm</replace>
+      <replace>GAEvaluator</replace>
+      <replace>GAMutator</replace>
+      <replace>GASyntaxTreeSpecies</replace>
+      <replace>GAClassifier</replace>
+      <replace>GEAlgorithm</replace>
+      <replace>net.sf.jclec.problem.classification.algorithm.ga.GAAlgorithm</replace>
+      <replace>net.sf.jclec.problem.classification.algorithm.ge.GEAlgorithm</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/listener/RuleBaseReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/tan/TanAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/tan/GAAlgorithm.java" />
+        <option value="$PROJECT_DIR$/lymphography/GA.cfg" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAMutator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/TanSyntaxTreeSpecies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/bojarczuk/BojarczukAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/bojarczuk/GEAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEAlgorithm.java" />
+        <option value="$PROJECT_DIR$/lymphography/GE.cfg" />
+        <option value="$PROJECT_DIR$/heart/Bojarczuk.cfg" />
+        <option value="$PROJECT_DIR$/bupa/Tan.cfg" />
+        <option value="$PROJECT_DIR$/heart/Tan.cfg" />
+        <option value="$PROJECT_DIR$/contraceptive/Tan.cfg" />
+        <option value="$PROJECT_DIR$/breast-cancer/Tan.cfg" />
+        <option value="$PROJECT_DIR$/breast/Tan.cfg" />
+        <option value="$PROJECT_DIR$/appendicitis/Tan.cfg" />
+        <option value="$PROJECT_DIR$/newthyroid/GA.cfg" />
+        <option value="$PROJECT_DIR$/pima-indians/GA.cfg" />
+        <option value="$PROJECT_DIR$/saheart/Tan.cfg" />
+        <option value="$PROJECT_DIR$/thyroid/Tan.cfg" />
+        <option value="$PROJECT_DIR$/post-operative/Tan.cfg" />
+        <option value="$PROJECT_DIR$/contraceptive/GE.cfg" />
+        <option value="$PROJECT_DIR$/bupa/GE.cfg" />
+        <option value="$PROJECT_DIR$/breast-cancer/GE.cfg" />
+        <option value="$PROJECT_DIR$/breast/GE.cfg" />
+        <option value="$PROJECT_DIR$/appendicitis/GE.cfg" />
+        <option value="$PROJECT_DIR$/thyroid/GE.cfg" />
+        <option value="$PROJECT_DIR$/saheart/GE.cfg" />
+        <option value="$PROJECT_DIR$/post-operative/GE.cfg" />
+        <option value="$PROJECT_DIR$/pima-indians/GE.cfg" />
+        <option value="$PROJECT_DIR$/newthyroid/GE.cfg" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1346" />
+    <option name="height" value="686" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="saheart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="fuzzy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="classification" type="462c0819:PsiDirectoryNode" />
+              <item name="crisprule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jclec4-classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga-ge-classification" type="462c0819:PsiDirectoryNode" />
+              <item name="thyroid" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548499358790" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2119a8d2-8d07-4f06-8880-a3d625e2ea3c" name="Default Changelist" comment="" />
+      <created>1547723127015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547723127015</updated>
+      <workItem from="1547723136164" duration="148000" />
+      <workItem from="1547898078308" duration="323000" />
+      <workItem from="1548059457074" duration="596000" />
+      <workItem from="1548248495125" duration="2979000" />
+      <workItem from="1548262105272" duration="716000" />
+      <workItem from="1548310684954" duration="2167000" />
+      <workItem from="1548418012965" duration="3744000" />
+      <workItem from="1548428610051" duration="92000" />
+      <workItem from="1548428990142" duration="587000" />
+      <workItem from="1548496903266" duration="1596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12948000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="686" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28863636" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32181817" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/reports_lymphography-ge/summaryGE-test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TestClassificationReport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TestDataReport.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TrainClassificationReport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports_lymphography-ge/reportGE_2019.01.24_08.24.58.670/TrainDataReport.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAMutator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GASyntaxTreeSpecies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ga/GAAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3345">
+          <caret line="269" column="40" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/algorithm/ge/GEAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="253" column="99" selection-start-line="253" selection-start-column="99" selection-end-line="253" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lymphography/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breast-cancer/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breast/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appendicitis/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newthyroid/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pima-indians/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saheart/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thyroid/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-operative/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraceptive/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bupa/GA.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraceptive/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bupa/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appendicitis/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breast/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breast-cancer/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thyroid/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saheart/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-operative/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pima-indians/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newthyroid/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lymphography/GE.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/crisprule/CrispRuleBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/crisprule/CrispRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/Less.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/LessOrEqual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/IClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/RandomConstantOfDiscreteValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/ClassificationAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/ClassificationReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="217" column="37" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/base/RuleBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/fuzzy/MembershipFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/AttributeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/Equal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/ConstantValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/Greater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sf/jclec/problem/classification/blocks/In.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

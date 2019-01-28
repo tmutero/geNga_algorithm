@@ -1,5 +1,0 @@
-Dataset, Accuracy, execution time
-data/lymphography/lymphography-5-1tst.dat,0.8333333333333334,47.254
-data/lymphography/lymphography-5-1tst.dat,0.8333333333333334,60.95
-data/lymphography/lymphography-5-1tst.dat,0.8333333333333334,55.993
-data/lymphography/lymphography-5-1tst.dat,0.8333333333333334,59.556
